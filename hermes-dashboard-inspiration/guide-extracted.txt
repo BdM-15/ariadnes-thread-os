@@ -1,0 +1,1875 @@
+6/29/26, 1:17 PM    How to Build a PREMIUM Hermes Agent Mission Control Dashboard | Komputer Mechanic
+
+                  K Komputer Mechanic                                             All Tutorials
+
+Home Tutorials PREMIUM Hermes Mission Control Dashboard
+
+-- HERMES // AGENTOS SERIES
+
+How to Build a
+PREMIUM
+Hermes Agent
+Mission Control
+Dashboard
+
+From zero to a four-agent Hermes crew bound to dedicated Discord channels,
+an Orchestrator on Telegram, and a glassmorphism mission-control dashboard
+rendering it all live.
+
+18K BUILDERS VIEWED                                      4K RESOURCES DOWNLOADED
+
+Share             Download all prompts                   Download bundle
+
+Deploy this for me                                       See dashboard preview
+
+                  USAGE & LICENSE
+
+                  Use the prompts and downloadable templates on this page in your own personal and
+                  commercial projects. What's not allowed: reselling, repackaging, redistributing, or
+                  republishing this material -- on YouTube, Gumroad, paid courses, newsletters, or anywhere
+
+https://komputermechanic.com/tutorials/hermes-dashboard                                                      1/44
+6/29/26, 1:17 PM  How to Build a PREMIUM Hermes Agent Mission Control Dashboard | Komputer Mechanic
+
+                  else. Send people to komputermechanic.com instead. Violations get reported and taken
+
+                        down.                                                              All Tutorials
+
+                  K Komputer Mechanic
+
+                                                                    TUTORIAL SPONSOR
+
+                                   Sodales AI
+
+                                                    Proudly supporting this tutorial.
+
+-- WATCH THE FULL TUTORIAL
+
+             How to Build a PREMIUM Hermes Agent Mission Control Dashbo
+
+                   Komputer Mechanic
+
+                                                         Watch on
+
+-- WHAT YOU'LL BUILD
+
+Dashboard Preview
+
+Five live screens from the finished Hermes Mission Control build. Click any image to view
+full size.
+
+https://komputermechanic.com/tutorials/hermes-dashboard                                                   2/44
+6/29/26, 1:17 PM  How to Build a PREMIUM Hermes Agent Mission Control Dashboard | Komputer Mechanic
+
+                  K Komputer Mechanic                    All Tutorials
+
+Overview                                                 Agents -- The Collective
+
+Live ops console -- current directive, VPS health,       Per-agent 7-day activity, response counts, model
+throughput sparkline, and activity feed.                 assignment, and task distribution.
+
+Task Board                                               Schedule
+
+Kanban execution view -- Pending · In Progress · Done    Cron calendar grouped by cadence with the next-7-
+with cron job counters.                                  days timeline.
+
+Content Library
+
+Agent-generated markdown documents, filtered by
+agent with full preview.
+
+// Contents
+
+https://komputermechanic.com/tutorials/hermes-dashboard                                                     3/44
+6/29/26, 1:17 PM  How to Build a PREMIUM Hermes Agent Mission Control Dashboard | Komputer Mechanic
+
+PART 01 / 15 -- FOUNDATION -- THE ORCHESTRATOR ON TELEGRAM
+
+01 KaDuetfhiKnoeorittmhyepOurtcehersMtraetcorh'saidneinctity and  02 Install permanent operating rules
+                                                                                                                  All Tutorials
+
+PART 02 / 15 -- BUILDING THE CREW -- FOUR PERSISTENT AGENTS
+
+03 Plan the four-agent setup                                      04 Create the four persistent agents
+05 Set up memory and isolated workspaces
+
+PART 03 / 15 -- ROUTING, COLLABORATION, AND PIPELINES
+
+06 Set up the routing table and slash                             07 Give every agent shared team awareness
+        commands                                                  09 Test the full pipeline
+
+08 Set up the full content pipeline
+
+PART 04 / 15 -- DISCORD INTEGRATION -- CHANNELS AND BINDINGS
+
+10 Wire Hermes to your Discord server                             11 Verify bot permissions
+12 Create the agent channels                                      13 Bind each agent to their channel
+
+PART 05 / 15 -- ACTIVITY LOGGING -- EVERY AGENT ACTION RECORDED
+
+14 Build the agent logging system                                 15 Roll out logging to all agents
+                                                                  17 Set up monthly log retention
+16 Logging reinforcement (send to each
+        agent)
+
+PART 06 / 15 -- MISSION CONTROL -- DATA SOURCES & BACKEND
+
+18 Explore the data sources                                       19 Server and data layer
+
+PART 07 / 15 -- DESIGN SHELL -- THE EMPTY VISUAL SKELETON
+
+20 Build the dashboard skeleton
+
+PART 08 / 15 -- BACKUP PROTOCOL AND VERSION DISPLAY
+
+21 Backup protocol and version badge
+
+PART 09 / 15 -- OVERVIEW TAB -- THE LIVE OPS CONSOLE
+
+22 Build the Overview tab
+
+PART 10 / 15 -- AGENTS TAB -- THE COLLECTIVE VIEW
+
+23 Build the Agents tab
+
+PART 11 / 15 -- AGENT STATISTICS -- AT-A-GLANCE HEALTH READ
+
+24 Add the Agent Statistics section
+
+PART 12 / 15 -- TASKS TAB -- YOUR PERSONAL OPERATOR BOARD
+
+https://komputermechanic.com/tutorials/hermes-dashboard                                                                          4/44
+6/29/26, 1:17 PM        How to Build a PREMIUM Hermes Agent Mission Control Dashboard | Komputer Mechanic
+
+25 Build the Tasks tab
+
+P A R TK1 3 K/om 1 5p--utSeCrHME DeUcLhEaTnAicB -- C R O N J O B S I N P L A I N E N G L I S H  All Tutorials
+
+26 Build the Schedule tab
+
+PART 14 / 15 -- CONTENT TAB AND DOCUMENT STORAGE PROTOCOL
+
+27 Content tab -- backend endpoints + full               28 Agent document storage protocol
+        UI
+
+PART 15 / 15 -- SEAMLESS ACCESS FROM ANY DEVICE
+
+29 SSH keys -- set them up once, never type 30 Create a one-click desktop launcher
+        a password again
+
+31 Option B -- Tailscale for phone & laptop
+        access
+
+WHAT YOU'LL NEED
+
+Prerequisites
+
+     A VPS server -- Contabo or RackNerd both work great for this build
+     Hermes installed and running on the VPS
+     A Discord server where you have admin rights
+     A Telegram account (for the Orchestrator agent)
+     Basic comfort with SSH and command-line tools
+     About 90­120 minutes of focused setup time
+
+     Note: If you use our Contabo or RackNerd referral links, it doesn't cost you anything extra -- but it
+     helps us keep making tutorials like this one.
+
+https://komputermechanic.com/tutorials/hermes-dashboard                                                        5/44
+6/29/26, 1:17 PM  How to Build a PREMIUM Hermes Agent Mission Control Dashboard | Komputer Mechanic
+
+    K YouKoowmnputhteisr Mtuetcohraianlic-- Prompts + Template                      All Tutorials
+
+Re-download anytime. Your receipt email also has a personal magic link.
+
+                  Download prompts (.md)                 Download template (.html)
+
+PART 01 / 15
+
+Foundation -- the
+Orchestrator on
+Telegram
+
+Before any specialist agents exist, you set up Orchestrator -- the top-level coordinator that
+lives on Telegram, knows you're the owner, and governs the whole system. These first prompts
+give it identity and lock in permanent operating rules.
+
+ PROMPT 1 Define the Orchestrator's identity and authority
+
+      // WHAT THIS DOES
+
+    The constitutional prompt. You declare yourself as owner, name Orchestrator as the cross-platform
+    coordinator running on Telegram, and introduce the four specialists (Scout, Scribe, Reach, Dev) by
+    responsibility. Orchestrator now has a mental model of the full system before any of those agents
+    are actually built.
+
+Your name is Orchestrator. You are the overall system-wide                                           Copy
+coordinator for my multi-agent setup across platforms, and you
+operate from Telegram as the top-level control and coordination
+layer for the system. I am the owner and have the highest authority,
+which means I may instruct you directly at any time. My name is
+[YOUR NAME], and that identity should be used when introducing or
+describing the owner to other agents.
+
+https://komputermechanic.com/tutorials/hermes-dashboard                                                    6/44
+6/29/26, 1:17 PM  How to Build a PREMIUM Hermes Agent Mission Control Dashboard | Komputer Mechanic
+
+Your role is to oversee the full agent system, maintain high-level
+
+structure, coordinate cross-platform operations, define                    All Tutorials
+
+respoKnsibKiolimtipeust,erreMsoelcvheacnoicnflicts, and support long-term
+
+stability. You will be working with four other agents -- Scout,
+
+Scribe, Reach, and Dev -- who handle research, writing, marketing,
+
+and technical aspects respectively within that Discord structure.
+
+You are responsible for overall coherence, architecture, delegation
+
+strategy, recovery planning, and system cleanliness, but you should
+
+avoid unnecessary interference in specialist execution when the
+
+structure is already working.
+
+Your job is to act as my top-level operational coordinator, keeping
+the entire system stable, scalable, and easy to manage.
+
+PROMPT 2 Install permanent operating rules
+
+   // WHAT THIS DOES
+
+  Four rule categories -- progress reporting, approval, communication style, and delegation discipline
+  -- become permanent guardrails. Expect short responses, labeled options, explicit plans before
+  action, and zero fabricated results. Ending with 'Confirm all rules are saved' forces a readback so you
+  know the ruleset was actually accepted.
+
+          These are your permanent operating rules. Follow them in every                             Copy
+          interaction.
+                                                                                                                      7/44
+          PROGRESS
+          On any task with more than one step, send a short status line before
+          starting each step.
+          Format: [Agent]: Step X of Y -- [what you're doing now]
+          If you're waiting on a sub-agent, say so: [Main]: Waiting on
+          Scribe...
+          Never go silent for more than 60 seconds on an active task. Send:
+          [Agent]: Still working -- [what's taking time]
+
+          APPROVAL
+          Always show me your plan before you act on it.
+
+          COMMUNICATION
+
+https://komputermechanic.com/tutorials/hermes-dashboard
+6/29/26, 1:17 PM  How to Build a PREMIUM Hermes Agent Mission Control Dashboard | Komputer Mechanic
+
+Keep responses short and clear -- no padding, no filler.
+
+When giving options, always label them: 1, 2, 3 or A, B, C.                   All Tutorials
+
+Lead KwithKothme pduetceirsiMonecIhaneneicd to make, not background context.
+
+Never open with "Great question," "Certainly," or "Absolutely."
+
+DELEGATION
+In one line, tell me which sub-agent you're delegating to and why.
+Pass structured briefs to sub-agents, never raw conversation.
+If a sub-agent fails or goes silent, tell me immediately.
+Never fabricate a result. If something failed, say so.
+
+Confirm all rules are saved.
+
+PART 02 / 15
+
+Building the crew -- four
+persistent agents
+
+With Orchestrator in place, you spin up the four specialists: Scout (research), Scribe (writing),
+Reach (marketing), and Dev (engineering). Each is persistent -- its own workspace, isolated
+memory, dedicated system prompt and operating rules.
+
+ PROMPT 3 Plan the four-agent setup
+
+      // WHAT THIS DOES
+
+    A confirmation step before the real creation prompt. You announce the four agents you're about to
+    spin up (Scout, Scribe, Reach, Dev), confirm each will be a permanent persistent agent with its own
+    SOUL.md / IDENTITY.md / USER.md / AGENTS.md, and that each will later be bound to its own
+    dedicated Discord channel. Forces Orchestrator to acknowledge the plan before anything is built.
+
+          We are about to create four additional independent persistent agents                       Copy
+          to support your workflow on AgentOS: Scout (research), Scribe
+                                                                                                                      8/44
+https://komputermechanic.com/tutorials/hermes-dashboard
+6/29/26, 1:17 PM  How to Build a PREMIUM Hermes Agent Mission Control Dashboard | Komputer Mechanic
+
+(content), Reach (marketing), and Dev (development).
+
+TheseKwilKlonmotpubteerteMmpeocrhaarynicagents but permanent ones, each with itsAll Tutorials
+
+own isolated workspace and memory -- including files like SOUL.md,
+IDENTITY.md, USER.md, and AGENTS.md.
+
+Later, each agent will be assigned to its own dedicated Discord
+channel, following the one-channel-per-agent structure.
+
+You, Orchestrator, will remain the system-wide coordinator. I ([YOUR
+NAME]) remain the owner with final authority.
+
+Please confirm that you understand the plan and the roles of the 4
+new agents before we begin the setup.
+
+PROMPT 4 Create the four persistent agents
+
+   // WHAT THIS DOES
+
+  This is the real creation step. Each agent gets a name, a full system prompt, and special rules. The
+  prompt is explicit that these are persistent -- not throwaway helpers -- with stable identity, memory
+  continuity, dedicated binding, and isolated workspaces (SOUL.md, IDENTITY.md, USER.md,
+  AGENTS.md). Each one is a narrow specialist with well-defined output rules (Scribe always asks for
+  the SEO keyword, Dev always breaks work into steps, etc.).
+
+          Create the following as 4 persistent agents, not temporary sub-                            Copy
+          agents. Each one should be its own long-lived agent with its own
+          stable identity, memory continuity, dedicated binding, and isolated                                         9/44
+          workspace (SOUL.md, IDENTITY.md, USER.md, AGENTS.md). Do not create
+          them as transient helper agents for a single task.
+
+          Agent name: Scout
+          System prompt: You are Scout, a deep research specialist for
+          AgentOS. Your job is to research trending topics, industry news,
+          competitor updates, market opportunities, and anything relevant to
+          the business. Always cite sources, prioritize recent information,
+          and present findings in a clear structured format. Never guess --
+          only report what you can verify.
+          Special rules: Always search the web before responding. Provide a
+
+https://komputermechanic.com/tutorials/hermes-dashboard
+6/29/26, 1:17 PM  How to Build a PREMIUM Hermes Agent Mission Control Dashboard | Komputer Mechanic
+
+minimum of 5 results per research task. Cite all sources with links.
+
+AgentKnamKeo: mScpruitbeer Mechanic                                  All Tutorials
+
+System prompt: You are Scribe, a professional content writer for
+
+AgentOS. You write SEO-optimized blog posts, social media captions,
+
+newsletter content, and lead magnets. Your tone is warm,
+
+informative, empowering, and authentic. Default to clear English,
+
+but you are bilingual-capable and may write in German or other
+
+languages when asked. Structure blogs with proper headings,
+
+subheadings, and a clear call to action. Minimum blog length is 800
+
+words unless specified otherwise.
+
+Special rules: Always ask for the target keyword before writing a
+
+blog. Never publish without a meta description and SEO title.
+
+Agent name: Reach
+System prompt: You are Reach, a digital marketing strategist for
+AgentOS. Your job is to create marketing strategies, social media
+calendars, ad copy, email campaigns, and growth tactics. You focus
+on organic growth first, then paid strategies. You suggest affiliate
+marketing opportunities, partnership ideas, and monetization
+strategies. Always prioritize community trust over aggressive
+selling.
+Special rules: Always provide a 30/60/90 day action plan when asked
+for strategy. Suggest at least 3 monetization ideas per strategy
+request.
+
+Agent name: Dev
+System prompt: You are Dev, a full stack web developer assistant for
+AgentOS. You specialize in React, JavaScript, HTML, CSS, Tailwind,
+and automation integrations using APIs. You write clean, efficient,
+well-commented code. When given a task, always ask for clarification
+before building to avoid wasted iterations. Suggest the most cost-
+effective technical solutions. Prefer free alternatives first.
+Special rules: Always break tasks into small steps before coding.
+Ask for confirmation at each major step. Only suggest paid tools
+when the free option is clearly insufficient.
+
+PROMPT 5 Set up memory and isolated workspaces
+
+               // WHAT THIS DOES                                                                     10/44
+https://komputermechanic.com/tutorials/hermes-dashboard
+6/29/26, 1:17 PM  How to Build a PREMIUM Hermes Agent Mission Control Dashboard | Komputer Mechanic
+
+The agents exist -- now they get proper long-term memory scoped to their role. Scout's research
+
+sources never contaminate Scribe's tone guidelines, and the role-boundaries rule stops agents from
+
+silentKly doiKngom woprkuotuetrsiM deethcehiraenxpicertise.  All Tutorials
+
+For each of the 4 agents -- Scout, Scribe, Reach, and Dev -- set up                                  Copy
+the following:
+
+DEDICATED MEMORY -- each agent's memory file stores only context
+relevant to their role:
+Scout stores: research topics, sources, past findings, preferred
+news outlets
+Scribe stores: writing style preferences, past blog topics, tone
+guidelines, target keywords
+Reach stores: marketing goals, past strategies, monetization ideas,
+campaign history, brand voice, past posts, hashtag performance,
+posting schedules
+Dev stores: tech stack details, past code decisions, preferred
+libraries, project structure
+
+UNIQUE IDENTITY -- each agent maintains their persona consistently
+across all sessions. Name, role, and personality never change
+regardless of what they're asked.
+
+ISOLATED WORKSPACE -- each agent has its own dedicated workspace
+folder. Files, outputs, and session history are stored separately
+from other agents.
+
+ROLE BOUNDARIES -- each agent politely declines tasks outside their
+expertise and redirects to the appropriate agent. For example, if
+you ask Scribe to write code, she says "That's Dev's department" and
+stops there.
+
+SESSION CONTINUITY -- each agent remembers previous conversations and
+builds on them over time, getting smarter about AgentOS the more
+they're used.
+
+Confirm once all 4 agents are updated with these settings.
+
+https://komputermechanic.com/tutorials/hermes-dashboard                                                    11/44
+6/29/26, 1:17 PM      How to Build a PREMIUM Hermes Agent Mission Control Dashboard | Komputer Mechanic
+        PART 03 / 15
+
+RoK uKomtpiunter Mgec,hacnic ollaborationAll T,utorials
+and pipelines
+
+Now you build the operational interface and wire the agents together. A natural-language
+routing table, slash commands, shared team awareness, and finally a full supervised content
+pipeline that hands work off cleanly from one agent to the next.
+
+ PROMPT 6 Set up the routing table and slash commands
+
+      // WHAT THIS DOES
+
+    This is where you go from manually managing agents to dispatching work with natural language. The
+    routing table means you don't have to remember who handles what -- you just describe the task.
+    The slash commands are for when you want to be explicit and fast.
+
+Set up the router cheat sheet so I can use natural language commands                                     Copy
+to dispatch tasks to the right agent automatically. Also set up
+quick command shortcuts for all 4 agents.
+
+Return:
+1. A ROUTING TABLE showing example natural-language phrases mapped
+to each agent (3­5 examples per agent) covering Scout, Scribe,
+Reach, and Dev.
+
+2. SLASH-COMMAND SHORTCUTS -- /scout, /scribe, /reach, /dev -- with
+the exact syntax.
+
+3. FALLBACK BEHAVIOR -- what happens when the router is unsure which
+agent a task belongs to (ask me to clarify, or route to Orchestrator
+for a decision).
+
+Confirm once the router and shortcuts are set up.
+
+https://komputermechanic.com/tutorials/hermes-dashboard                                                        12/44
+6/29/26, 1:17 PM                           How to Build a PREMIUM Hermes Agent Mission Control Dashboard | Komputer Mechanic
+
+        PROMPT 7  Give every agent shared team awareness
+
+K Komputer Mechanic                                      All Tutorials
+
+// WHAT THIS DOES
+
+Each agent now knows the full team structure. This is what stops a task from getting silently
+absorbed by the wrong agent or flatly refused with no redirect. Instead of 'I can't do that,' agents say
+'That's Scribe's area -- routing it there now.' Clean handoffs, no dead ends.
+
+Shared team awareness: make sure every agent has this and                                                                     Copy
+understands it.
+
+Team structure:
+[YOUR NAME] -- owner. May directly instruct any agent at any time.
+Orchestrator -- overall system-wide coordinator and top-level control
+layer, Telegram.
+Scout -- research, trend intelligence, and sourcing.
+Scribe -- writing, editing, and content shaping.
+Reach -- marketing strategy, growth, campaigns, and monetization.
+Dev -- development, automation, integrations, and technical systems.
+
+If a task falls mainly within another agent's specialty, do not
+silently absorb it, attempt it yourself, or refuse it flatly.
+Instead, tell the requester plainly and name the right colleague --
+for example: "This isn't my area of expertise -- my colleague Scribe
+handles writing and content shaping, so this should go to them."
+Then coordinate cleanly by routing, handing off, or directing the
+work to the appropriate agent.
+
+Confirm once every agent has this shared team awareness.
+
+PROMPT 8 Set up the full content pipeline
+
+// WHAT THIS DOES
+
+This wires the agents into a supervised production pipeline. One command triggers a chain: Scout
+researches  hands findings to Scribe  Scribe writes  hands content to Reach  Reach creates
+social posts and builds the promo strategy. This is the payoff of the isolated workspaces and
+handoff rules from earlier.
+
+https://komputermechanic.com/tutorials/hermes-dashboard                                                                             13/44
+6/29/26, 1:17 PM  How to Build a PREMIUM Hermes Agent Mission Control Dashboard | Komputer Mechanic
+
+Set up a supervisor flow with this sequence:                                       Copy
+
+      K Komputer Mechanic                                            All Tutorials
+
+Scout researches the topic first
+
+Scout passes findings to Scribe
+
+Scribe writes the blog/content
+
+Scribe passes content to Reach
+
+Reach creates social media posts from the content
+
+Reach builds the marketing/promotion strategy from the same content
+
+Reach delivers the final promotion plan
+
+This should work as both an automatic pipeline when triggered, and
+manually when I ask.
+
+Add a command I can use to kick off the full pipeline:
+Run full pipeline on [topic]
+
+Confirm once the supervisor flow and pipeline command are set up.
+
+PROMPT 9 Test the full pipeline
+
+   // WHAT THIS DOES
+
+  A live end-to-end test. This isn't just a smoke test -- it proves Scout can research a real topic, Scribe
+  can pick it up and write from it, and Reach can produce an actual promo plan from Scribe's output. If
+  any handoff fails here, you find out now.
+
+Run full pipeline on: AI automation ideas for solo creators and                                      Copy
+small teams
+
+        PART 04 / 15                                                                                         14/44
+https://komputermechanic.com/tutorials/hermes-dashboard
+6/29/26, 1:17 PM  How to Build a PREMIUM Hermes Agent Mission Control Dashboard | Komputer Mechanic
+
+Discord integration --
+
+channels and bindings K Komputer Mechanic
+                                                         All Tutorials
+
+Time to give the agents a workspace. Wire Hermes to your Discord server, verify bot
+permissions with a throwaway channel, create four dedicated agent channels, and bind each
+agent to exactly one channel -- no server-wide fallbacks.
+
+ PROMPT 10 Wire Hermes to your Discord server
+
+      // WHAT THIS DOES
+
+    The Discord bot token is already set from the Hermes backend -- this prompt binds it to your
+    specific server. After this, the bot becomes a real presence on your server that can create channels
+    and receive messages.
+
+I've already configured the Discord bot token from the Hermes                                        Copy
+backend. Now update the Hermes setup to work with my Discord server.
+
+Server ID: [PASTE YOUR DISCORD SERVER ID HERE]
+
+Wire the Hermes-Discord integration to this server ID.
+Confirm the bot can connect and is reachable on the server.
+
+PROMPT 11 Verify bot permissions
+
+   // WHAT THIS DOES
+
+  Before creating real channels, do a quick permission check. Creating a test channel proves the bot
+  has the admin rights it needs. A bot without channel creation rights will silently fail at exactly the
+  wrong moment.
+
+https://komputermechanic.com/tutorials/hermes-dashboard                                                    15/44
+6/29/26, 1:17 PM  How to Build a PREMIUM Hermes Agent Mission Control Dashboard | Komputer Mechanic
+
+I have made you an admin on the Discord server.                                               Copy
+
+      K Komputer Mechanic                                                       All Tutorials
+
+Create a test channel called #hermes-test to confirm you have
+permission to create channels.
+
+Reply with:
+- The channel name
+- The channel ID
+- Confirmation that bot permissions are working
+
+We will delete the channel after verification.
+
+PROMPT 12 Create the agent channels
+
+   // WHAT THIS DOES
+
+  One channel per agent, each with a clear purpose. The emoji prefix is a small detail that matters --
+  at a glance in the Discord sidebar you know what each channel is for. The channel IDs captured here
+  are used in the next prompt to bind each agent.
+
+          Delete the #hermes-test channel.                                                           Copy
+
+          Then create the following channels in my Discord server -- one per                                        16/44
+          agent. After creating each channel, capture its channel ID. Add a
+          fitting emoji prefix to each channel name.
+
+          Channels to create:
+          scout-briefs -- Scout posts research briefs, trend intelligence, and
+          validated sources here
+          scribe-scripts -- Scribe posts completed blog posts, captions,
+          scripts, and written content here
+          reach-marketing -- Reach posts marketing strategies, campaign plans,
+          ad copy, and growth tactics here
+          dev-build -- Dev posts build logs, code snippets, integration notes,
+          and technical updates here
+
+          List all channels back to me with their channel IDs once created.
+
+https://komputermechanic.com/tutorials/hermes-dashboard
+6/29/26, 1:17 PM  How to Build a PREMIUM Hermes Agent Mission Control Dashboard | Komputer Mechanic
+
+These IDs are used in the next step to bind each agent to their
+
+channel.                                                         All Tutorials
+
+      K Komputer Mechanic
+
+PROMPT 13 Bind each agent to their channel
+
+   // WHAT THIS DOES
+
+  The binding step is what turns a Discord server into an agent workspace. Each agent listens to
+  exactly one channel and ignores everything else. The verification -- asking 'Who are you?' in each
+  channel -- proves the binding is clean before you trust it with real work.
+
+Bind each of the 4 agents to their dedicated channel using the IDs                                   Copy
+you just captured.
+Rules:
+- Each agent listens ONLY to its own channel
+- No agent listens to any other agent's channel
+- No server-wide or category-wide bindings
+- Use the EXACT channel IDs -- no fallbacks
+
+Bindings:
+Scout  scout-briefs channel
+Scribe  scribe-scripts channel
+Reach  reach-marketing channel
+Dev  dev-build channel
+
+Confirm each binding as a clean list: agent name  channel name 
+channel ID.
+
+Test: I'll go into each channel and ask "Who are you?" Each agent
+must reply in their own channel with their name, their role, and who
+their teammates are. If any agent responds in the wrong channel or
+fails to respond in its own, fix it before we move on.
+
+        PART 05 / 15                                                                                       17/44
+https://komputermechanic.com/tutorials/hermes-dashboard
+6/29/26, 1:17 PM  How to Build a PREMIUM Hermes Agent Mission Control Dashboard | Komputer Mechanic
+
+Activity logging -- every
+
+agent action recorded K Komputer Mechanic                                     All Tutorials
+
+The foundation for the mission control dashboard you'll build in Part 09. Every agent action
+gets written to a SQLite database. The schema is deliberately simple -- enough to answer
+'what did each agent do, when, and did it succeed?'
+
+ PROMPT 14 Build the agent logging system
+
+      // WHAT THIS DOES
+
+    A SQLite database at ~/.hermes/agent-logs.db. The shared bash script means any agent can log with
+    one line regardless of platform.
+
+          Build a local agent logging system on this VPS.                                            Copy
+
+          Create a SQLite database at ~/.hermes/agent-logs.db with this                                             18/44
+          schema:
+          id: TEXT PRIMARY KEY (UUID)
+          agent_name: TEXT NOT NULL
+          task_description: TEXT NOT NULL
+          model_used: TEXT
+          status: TEXT NOT NULL (completed, failed, etc.)
+          created_at: TEXT NOT NULL (ISO 8601 timestamp)
+          Add indexes on agent_name, status, and created_at DESC.
+
+          Create a bash script at ~/.hermes/agents/_shared/log-task-local.sh
+          that:
+          - Accepts 3­4 arguments: agent_name, task_description, status,
+          optionally model_used
+          - Auto-detects model from ~/.hermes/hermes.json if model_used not
+          provided
+          - Generates a UUID for id, gets current UTC timestamp, inserts the
+          row using Python stdlib
+          - Prints: "LOGGED: agent_name | status | model_used"
+          - Creates the database and table automatically if they don't exist
+
+https://komputermechanic.com/tutorials/hermes-dashboard
+6/29/26, 1:17 PM  How to Build a PREMIUM Hermes Agent Mission Control Dashboard | Komputer Mechanic
+
+Make it executable. Test it:                                                       All Tutorials
+
+bash K~/.hKeormmesp/uatgeerntMs/e_cshhaarneicd/log-task-local.sh "dev" "built the
+
+agent logging system" "completed"
+
+Verify:
+sqlite3 ~/.hermes/agent-logs.db "SELECT * FROM agent_logs ORDER BY
+created_at DESC LIMIT 5;"
+
+Python stdlib only -- no pip packages.
+
+PROMPT 15 Roll out logging to all agents
+
+   // WHAT THIS DOES
+
+  The script exists -- now every agent must use it automatically before every response. The shared
+  policy file is the source of truth, but each agent also gets the runnable command hardcoded into
+  their own AGENTS.md so logging still works even if an agent doesn't read the shared file at runtime.
+
+          Roll out activity logging to every agent.                                                  Copy
+
+          Create a shared policy at ~/.hermes/agents/_shared/LOGGING_POLICY.md                                      19/44
+          with these rules:
+          - Before sending any response, log the action by running the log
+          script
+          - Log EVERY response, even simple replies
+          - Keep descriptions under 140 characters
+          - Use "completed" for success, "failed" if something went wrong
+          - Agent name must be lowercase
+          - Log before sending the response, never after
+          - Never mention logging to the user -- it's silent background
+          activity
+
+          Add a short mandatory pointer to the END of each agent's AGENTS.md
+          (Orchestrator, Scout, Scribe, Reach, Dev). The pointer must include
+          the actual runnable command with that agent's lowercase name
+          hardcoded -- not just a reference to the shared file.
+
+          For Orchestrator: confirm it can reach the log script from Telegram-
+
+https://komputermechanic.com/tutorials/hermes-dashboard
+6/29/26, 1:17 PM  How to Build a PREMIUM Hermes Agent Mission Control Dashboard | Komputer Mechanic
+
+side. If it can't, tell me what it needs instead of skipping it.
+
+AfterKimpKloemmenptuatteironM,ercuhnaanicsmoke test for each of the 5 agents so aAll Tutorials
+
+log entry lands for each one. Show the result:
+sqlite3 ~/.hermes/agent-logs.db "SELECT agent_name, status,
+created_at FROM agent_logs ORDER BY created_at DESC LIMIT 10;"
+
+PROMPT 16 Logging reinforcement (send to each agent)
+
+   // WHAT THIS DOES
+
+  The rollout in Prompt 15 sets the policy in each agent's AGENTS.md -- but agents sometimes fail to
+  apply it for short or simple replies. This prompt is sent directly to each agent on their active channel
+  (Telegram for Orchestrator, Discord for the rest) to lock the rule into the live session.
+
+          Store this in your long-term memory as a durable operating rule:                           Copy
+
+          I must silently log every response before I send it by running:                                           20/44
+
+          bash ~/.hermes/agents/_shared/log-task-local.sh "<agent-name>" "
+          <brief description of what I did>" "completed"
+
+          Rules:
+          Replace <agent-name> with my lowercase agent name.
+          Use:
+
+             scout for Scout
+             scribe for Scribe
+             reach for Reach
+             dev for Dev
+          Log EVERY response, including simple replies and quick answers.
+          Keep the description concise and meaningful, under 140 characters.
+          Use "completed" when the response succeeded.
+          Use "failed" if something went wrong.
+          Run the logging command BEFORE sending the response.
+          Do not mention logging to [YOUR NAME] unless they specifically ask
+          about logging.
+          The correct script path is: ~/.hermes/agents/_shared/log-task-
+          local.sh
+
+https://komputermechanic.com/tutorials/hermes-dashboard
+6/29/26, 1:17 PM  How to Build a PREMIUM Hermes Agent Mission Control Dashboard | Komputer Mechanic
+
+After saving this to long-term memory, immediately run this smoke
+
+test:                                                              All Tutorials
+
+      K Komputer Mechanic
+
+bash ~/.hermes/agents/_shared/log-task-local.sh "<agent-name>"
+"saved activity logging rule to memory" "completed"
+
+Then report back:
+That the memory was saved.
+Whether the smoke test succeeded.
+The exact agent name you logged as.
+
+PROMPT 17 Set up monthly log retention
+
+   // WHAT THIS DOES
+
+  Without cleanup, agent-logs.db grows indefinitely. This cron runs on the 1st of every month at 03:00,
+  deletes anything older than 30 days, and runs VACUUM to reclaim disk space. Telegram notification
+  is a bonus -- but the deletion runs regardless of whether Telegram is reachable. Cleanup first, notify
+  second.
+
+          Set up automatic monthly log retention -- permanent deletion, no                           Copy
+          archiving.
+                                                                                                                    21/44
+          Create ~/.hermes/agents/_shared/cleanup-logs.sh that:
+          - Deletes rows in agent-logs.db older than RETENTION_DAYS (set to 30
+          at the top of the script)
+          - Runs VACUUM afterward to reclaim disk space
+          - Prints: how many rows deleted, current total remaining
+          - Python stdlib + bash only, no pip packages
+          - Creates db/table if missing (safe to run fresh)
+
+          Make it executable. Schedule via cron: 1st of month at 03:00 server
+          time.
+          Show me the exact crontab line added.
+
+          After cleanup, Orchestrator sends a short Telegram message:
+
+       " Monthly log cleanup ran -- deleted X rows, Y remaining
+
+          (retention: 30 days)."
+
+https://komputermechanic.com/tutorials/hermes-dashboard
+6/29/26, 1:17 PM  How to Build a PREMIUM Hermes Agent Mission Control Dashboard | Komputer Mechanic
+
+Deletion must NOT depend on the notification -- if Telegram is
+
+unreachable, the cleanup still completes and logs locally that the
+
+notifKy stKeop mfapiulteedr.Mechanic                                All Tutorials
+
+Run it once manually as a test and show me the summary output.
+
+PART 06 / 15
+
+Mission Control -- data
+sources & backend
+
+Before writing dashboard code, you map the exact shape of every data source. Then you
+build the entire backend -- server, all data functions, and a personal operator task board -- in
+one focused step.
+
+ PROMPT 18 Explore the data sources
+
+      // WHAT THIS DOES
+
+    Three of these four sources are created and maintained automatically by Hermes -- you never write
+    to them, only read. The fourth is agent-logs.db which you built yourself. Understanding what's in
+    each one lets you build a dashboard that actually works on first run.
+
+          I want to build a read-only mission control dashboard for the Hermes                       Copy
+          system we just set up.
+                                                                                                                    22/44
+          Project folder: /root/agent-mission-control/ · Port: 51763 · Bind to
+          127.0.0.1 only
+          Python stdlib only -- no pip, no npm. Everything in one server.py and
+          one index.html.
+          All SQLite connections must be read-only (file:path?mode=ro + PRAGMA
+          query_only=1).
+
+https://komputermechanic.com/tutorials/hermes-dashboard
+6/29/26, 1:17 PM  How to Build a PREMIUM Hermes Agent Mission Control Dashboard | Komputer Mechanic
+
+Data lives in HERMES_HOME=/root/.hermes -- never write to any of
+
+these:                                                               All Tutorials
+
+- ageKnt-lKoogsm.dpbut--erthMeelcohgaginnicg database we built
+
+- state.db -- auto-created by Hermes, stores sessions and token usage
+
+- kanban.db -- auto-created by Hermes, its internal task board
+
+- gateway_state.json -- live gateway status, rewritten by Hermes on
+
+every change
+
+Read the schemas of state.db, kanban.db, and gateway_state.json.
+Show a sample timestamp from every timestamp column so we know if
+they're ISO strings or Unix floats. Don't create any files yet.
+
+PROMPT 19 Server and data layer
+
+   // WHAT THIS DOES
+
+  This single prompt builds the entire backend -- the server, all five data functions, and the operator
+  task board. Everything the dashboard needs to run lives in server.py after this.
+
+          Set up the full backend for the mission control dashboard.                                 Copy
+
+          Create server.py with a ThreadingHTTPServer on 127.0.0.1:51763.                                           23/44
+          Serve index.html on GET /, return a live JSON snapshot on
+          /api/snapshot, and push SSE updates on /events every 5 seconds. Wrap
+          every data function in try/except so one failure never crashes the
+          server.
+
+          Wire up five data functions into the snapshot:
+
+          gateway_data() -- reads gateway_state.json, returns gateway state,
+          platform statuses, active agent count, and uptime.
+
+          activity_data() -- queries agent-logs.db for the last 50 entries,
+          per-agent stats (total, completed, failed, last task, last seen,
+          model), overall totals, and a 7-day daily breakdown. Sort by
+          created_at DESC, id DESC.
+
+          sessions_data() -- queries state.db for session count, message count,
+          token totals (input, output, cache), and 25 most recent sessions.
+
+https://komputermechanic.com/tutorials/hermes-dashboard
+6/29/26, 1:17 PM  How to Build a PREMIUM Hermes Agent Mission Control Dashboard | Komputer Mechanic
+
+Note: timestamps in state.db are Unix float seconds -- pass them
+
+through as-is.                                                       All Tutorials
+
+      K Komputer Mechanic
+
+vps_health() -- CPU from two /proc/stat samples, RAM from
+/proc/meminfo, disk from os.statvfs. No subprocess calls.
+
+cron_jobs() -- reads /var/spool/cron/crontabs/root, /etc/crontab, and
+/etc/cron.d/. Strip the extra username field in system files. Label
+each job "hermes" or "system" and convert the schedule to plain
+English.
+
+Also add a personal operator task board backed by board.db -- a
+SQLite database in the project folder (not Hermes's kanban.db which
+stays read-only). Use Python stdlib sqlite3 with read-write access.
+Schema:
+
+CREATE TABLE IF NOT EXISTS tasks (
+   id TEXT PRIMARY KEY,
+   title TEXT NOT NULL,
+   status TEXT DEFAULT 'pending',
+   priority TEXT DEFAULT 'medium',
+   notes TEXT DEFAULT '',
+   created_at TEXT NOT NULL,
+   updated_at TEXT
+
+)
+
+Pre-seed with 8 realistic personal tasks spread across all three
+statuses on first run.
+Endpoints: GET /api/board (list all), POST /api/board (create), POST
+/api/board/update?id= (update fields), POST /api/board/delete?id=
+(delete by id).
+
+Create a start.sh launcher and confirm the server responds.
+
+        PART 07 / 15                                                                                 24/44
+https://komputermechanic.com/tutorials/hermes-dashboard
+6/29/26, 1:17 PM  How to Build a PREMIUM Hermes Agent Mission Control Dashboard | Komputer Mechanic
+
+Design shell -- the empty
+
+visK uKoampultersMekchaenicleton  All Tutorials
+
+Before a single piece of content goes in, you lock in the look. The skeleton is the full visual
+shell -- background, nav, tabs -- with nothing inside any tab. Confirm it looks right here and
+every section you build from this point matches.
+
+ PROMPT 20 Build the dashboard skeleton
+
+      // WHAT THIS DOES
+
+    Dark glassmorphism -- Apple-grade minimal meets NASA mission control. Background is near-black,
+    panels are glass cards over soft violet and cyan orbs and a low-opacity dot grid. Two fonts (Inter
+    Tight + JetBrains Mono), a fixed nav with brand mark, five tab pills, and a live clock. No data yet --
+    just the shell.
+
+          Build the index.html skeleton for the dashboard -- just the visual                         Copy
+          shell, no content inside any tab yet.
+                                                                                                                    25/44
+          The overall feel is dark glassmorphism -- Apple-grade minimal meets
+          NASA mission control. Background is near-black #15151F. All panels
+          are glass cards: rgba(31,31,43,0.55) with heavy backdrop blur and a
+          barely-there white border. Behind everything, a large soft violet
+          orb blurred in the top-left and a large soft cyan orb blurred in the
+          mid-right. A full-page dot grid sits over the background at very low
+          opacity -- small dots, ~24px spacing. None of these background
+          elements are ever crisp.
+
+          Color palette as CSS variables -- violet #8B5CF6, violet-glow
+          #A78BFA, cyan #7DD3FC, mint #5EE2B5, amber #F5B544, red #F26D6D,
+          pink #F472B6, gold #FBBF24, magenta #E879F9, text #F4F4F8, muted
+          #8A8A9B.
+
+          Two fonts from Google CDN: Inter Tight for all headings and numbers,
+          JetBrains Mono for all labels, codes, and timestamps -- mono text is
+          always uppercase with wide letter-spacing.
+
+https://komputermechanic.com/tutorials/hermes-dashboard
+6/29/26, 1:17 PM  How to Build a PREMIUM Hermes Agent Mission Control Dashboard | Komputer Mechanic
+
+Fixed nav at the top: on the left, the Hermes brand mark -- a small
+
+circlKe wiKtoh ma pvuitoelretM-teoc-hcayannicgradient ring and a pulsing mint dot inAll Tutorials
+
+the center, with "Hermes" and "/ ORCHESTRATOR" in mono beside it. In
+the center, a pill with five tab buttons -- Overview, Agents, Tasks,
+Schedule, Content -- the active tab is a solid white pill with dark
+text, clicking switches tabs. On the right, a status pill showing a
+pulsing mint dot, "All systems operational", and a live 24-hour
+clock that ticks every second.
+
+No data, no SSE, no JavaScript beyond the clock and tab switching.
+Just the shell. The Content tab panel can be an empty placeholder
+div for now -- it gets filled in Prompt 27.
+
+PART 08 / 15
+
+Backup protocol and
+version display
+
+Sets up a safety net before any tab content is built. Every change from this point is preceded
+by a backup, and the version number is always visible so you instantly know which build
+you're looking at.
+
+ PROMPT 21 Backup protocol and version badge
+
+      // WHAT THIS DOES
+
+    If the agent produces a broken dashboard you can roll back to the last good state in seconds. The
+    visible version badge means you can confirm at a glance which build the browser is showing.
+
+          Before we start building tab content, set up two things:                                   Copy
+          1. BACKUP FOLDER
+                                                                                                                    26/44
+https://komputermechanic.com/tutorials/hermes-dashboard
+6/29/26, 1:17 PM  How to Build a PREMIUM Hermes Agent Mission Control Dashboard | Komputer Mechanic
+
+Create a dedicated backups folder at:
+
+/root/agent-mission-control/backups/                                   All Tutorials
+
+ K Komputer Mechanic
+
+     From this point forward, before making any change to index.html
+or server.py, always save a backup of the current file into that
+folder first.
+
+Backup naming convention:
+   index_v{version}_{YYYY-MM-DDThh-mm}.html
+   server_v{version}_{YYYY-MM-DDThh-mm}.py
+
+     Never skip the backup step -- even for "small" changes. A broken
+dashboard with no backup means manually reconstructing work.
+
+Take the first backup now and confirm the full path.
+
+2. VERSION BADGE
+     Add a small version badge in the dashboard nav, immediately after
+
+the "/ ORCHESTRATOR" sub-label under the Hermes brand mark.
+
+     Style: mono text, 10px, muted color, very subtle glass pill
+background (rgba(255,255,255,.05)), 1px border, 5px border-radius.
+Text: "v1.0"
+
+     This badge must always be visible on every page load so you can
+confirm at a glance which version the browser is showing. Increment
+it manually each time a meaningful set of changes is complete --
+v1.1, v1.2, etc.
+
+Confirm the backup folder path and show the badge in the nav before
+we continue.
+
+PART 09 / 15
+
+Overview tab -- the live
+ops console
+
+https://komputermechanic.com/tutorials/hermes-dashboard                                              27/44
+6/29/26, 1:17 PM  How to Build a PREMIUM Hermes Agent Mission Control Dashboard | Komputer Mechanic
+
+The centrepiece of the dashboard. A live ops console at the top, a row of key stats below it,
+
+and a sK parklKinoemwipthutaecrtiMviteycfheeadniact the bottom. This is also where the live dataAclloTnuntoerciatlison
+(SSE + polling fallback) gets wired in for the first time.
+
+PROMPT 22 Build the Overview tab
+
+   // WHAT THIS DOES
+
+  Wires SSE from /events with a polling fallback every 8 seconds, then builds the full Overview tab: an
+  eyebrow, a three-column ops console (radar + directive + VPS health), a 5-cell stats footer, a stats
+  strip, a throughput sparkline, and a live activity feed.
+
+          Wire up the live data connection -- SSE from /events, polling                              Copy
+          fallback every 8 seconds -- then build the full Overview tab.
+                                                                                                                    28/44
+          EYEBROW -- Above the ops console card, a flex row with a pulsing mint
+          dot, "UPLINK SYNCED" in mint mono, two hairline dividers, "Hermes
+          Orchestrator" label, and a version string.
+
+          LIVE OPS CONSOLE -- a full-width glass card with three columns: 180px
+          · 1fr · 1fr, gap 32px.
+
+             Left -- a radar SVG 180×180 (viewBox 0 0 140 140). Four faint
+          concentric circles at r=62/46/30/14. Two hairline crosshair lines
+          through center. A CSS-animated sweep group rotating continuously: a
+          cyan line from center to the edge with a dot at the tip and a glow
+          filter. Five agent dots rendered by JS, each sized ~4.5px radius,
+          positioned by their share of total responses -- a high-response agent
+          sits far from center, an idle agent stays near it. Dots glow in
+          their accent color.
+
+             Agent accent colors: Orchestrator #A78BFA · Scout #7DD3FC · Scribe
+          #F472B6 · Reach #E879F9 · Dev #A78BFA
+
+             Center -- "CURRENT DIRECTIVE" mono label at top. Below it, a line
+          of mono cyan text (15px) that fades in a new task description every
+          2.6s, cycling through recent log entries formatted as "AGENTNAME ·
+          task description". Min-height 60px.
+
+             Below the directive, a "CONTEXT WINDOW" section: a label showing
+          the current agent's name (uppercase) on the left and their task
+          count on the right, then a row of 16 small horizontal segments (5px
+
+https://komputermechanic.com/tutorials/hermes-dashboard
+6/29/26, 1:17 PM  How to Build a PREMIUM Hermes Agent Mission Control Dashboard | Komputer Mechanic
+
+tall, with small gap between) colored in the agent's accent color
+
+for the filled portion -- proportional to that agent's share of total
+
+respoKnsesKo-- manpdutneerarM-iencvhiasinbicle for empty segments. Filled segments All Tutorials
+
+have a staggered pulse animation. A muted line below shows that
+
+agent's last status. The whole section cycles to the next agent
+
+every 2.4s.
+
+   Right -- "VPS HEALTH" mono label. Three metrics stacked with 16px
+gap:
+
+   CPU: a 6px-tall bar with a cyanviolet gradient, percentage value
+in cyan above right.
+
+   RAM: a 6px-tall bar with a violetmagenta gradient, percentage
+above right in violet-glow, "used / total MB" sub-text in muted
+below right.
+
+   Disk: a 6px-tall bar with a mintcyan gradient, percentage above
+right in mint, "used / total GB" sub-text in muted below right.
+
+   All three bars turn amber above 70% usage, red above 85%.
+   At the bottom, a hairline separator then "HERMES DBs" label and
+total DB size in gold (text only, no bar).
+
+   Footer -- inside the card, a hairline top border then a 5-cell
+equal grid: Queue · Sessions · Errors · Today · Uptime. Mono 18px
+numbers. Hairline left borders between cells. Errors is mint when
+zero, red if above zero.
+
+STATS STRIP -- five glass cards in a row, each with a 2px solid top
+border:
+
+   Integrity (mint) · Agent Calls (cyan) · Messages (violet-glow) ·
+Tokens In (gold) · Cache Hits (pink).
+
+   Large number in each card: clamp(24px,2.4vw,34px), weight 500.
+Small mono sub-text below.
+
+   Integrity shows the success rate as a percentage split across two
+spans -- an integer part and a ".XX" decimal part -- so the decimal
+can jitter independently every 1.8s. Below: "N of 5 responsive" with
+a pulsing mint dot.
+
+          BOTTOM SECTION -- two glass cards side by side (1.2fr · 1fr):                              29/44
+             Left "Throughput": a large total response count in cyan
+
+          (clamp(34px,4vw,56px), weight 700) with "responses total" in muted
+          18px beside it. Below, a 100px-tall canvas sparkline showing the
+          last 7 days of activity -- a filled area with a violetcyan gradient,
+          a violetcyan stroke line, and a glowing dot at the rightmost point.
+          Redraws every 900ms. A mint mono sub-text below the canvas shows the
+
+https://komputermechanic.com/tutorials/hermes-dashboard
+6/29/26, 1:17 PM  How to Build a PREMIUM Hermes Agent Mission Control Dashboard | Komputer Mechanic
+
+most active day.
+
+   Right "Activity": a live feed showing the 8 most recent log
+
+entriKes. KEovemrypu2t.e2rs,Maecnheaw neicntry slides in at the top (the oldest All Tutorials
+
+drops off the bottom). Each row: agent name in a tinted color badge,
+
+task description truncated, status in mint or red, relative time
+
+right-aligned in muted mono.
+
+DATA SOURCES:
+   Radar dots, directive text, context-window cycle  d.agents,
+
+d.activity
+   VPS bars  d.vps (cpu_pct, mem_pct, mem_used_mb, mem_total_mb,
+
+disk_pct, disk_used_gb, disk_total_gb, db_size_mb)
+   Footer  Queue: d.kanban.total · Sessions: d.sessions.count ·
+
+Errors: d.stats.failed · Today: last entry in d.activity_by_day ·
+Uptime: d.gateway.uptime_seconds
+
+   Stat cards  d.stats (total, completed, failed) · d.sessions
+(count, totals.messages, totals.input_tokens,
+totals.cache_read_tokens)
+
+   Sparkline  d.activity_by_day[].total · Activity feed 
+d.activity[]
+
+PART 10 / 15
+
+Agents tab -- the
+collective view
+
+A full view of all five agents -- live status header, per-agent cards with 7-day mini chart, and a
+filterable log table at the bottom.
+
+ PROMPT 23 Build the Agents tab
+
+      // WHAT THIS DOES
+
+https://komputermechanic.com/tutorials/hermes-dashboard                                              30/44
+6/29/26, 1:17 PM  How to Build a PREMIUM Hermes Agent Mission Control Dashboard | Komputer Mechanic
+
+Header with Active/Idle/Dormant counts, five agent cards (each with a 7-day mini bar chart, stats
+
+row, load bar, last task), and a filterable agent log table at the bottom.  All Tutorials
+
+     K Komputer Mechanic
+
+          Build the full Agents tab.                                                                 Copy
+
+          HEADER -- "SUBAGENTS" eyebrow label, then "The collective." as a                                          31/44
+          large display heading (clamp 36px­60px, weight 500, tight tracking).
+          On the right side of the header, a single glass card with three
+          cells divided by hairline borders -- Active (mint), Idle (amber),
+          Dormant (muted) -- each showing a mono label above and a large number
+          below. Active = logged in the last 10 minutes, idle = last 6 hours,
+          dormant = beyond that.
+
+          AGENT CARDS -- five glass cards in a row, one per agent, each with a
+          2px solid top border in the agent's accent color. Inside each card,
+          top to bottom:
+
+             -- Top row: on the left, the agent's short code (ORCH / SCNT / SCRB
+          / RECH / DEV) in a small mono badge tinted in the agent's color. On
+          the right, a platform pill (Telegram or Discord) in cyan or violet-
+          glow, and a status dot -- mint if active, amber if idle, near-
+          invisible gray if dormant. The dot pulses if active.
+
+             -- Agent name in Inter Tight, 22px, weight 600.
+
+             -- A two-line role description in muted text, clamped to 2 lines.
+
+             -- "7-DAY ACTIVITY" mono label then a mini bar chart: 7 thin bars
+          aligned to the bottom, each bar's height proportional to that day's
+          log count (max 32px tall, min 2px). Bars use the agent's accent
+          color at 85% opacity, empty days at 15%.
+
+             -- A three-column stats row: Responses (large number in agent
+          color) · Success % (mint if 100%, amber if 80%, red below) · Model
+          (mono, small, muted, truncated).
+
+             -- A thin 3px load bar spanning the full card width -- filled
+          portion in the agent's color showing this agent's share of total
+          responses.
+
+             -- Last task description in small muted text, truncated to one line
+
+https://komputermechanic.com/tutorials/hermes-dashboard
+6/29/26, 1:17 PM  How to Build a PREMIUM Hermes Agent Mission Control Dashboard | Komputer Mechanic
+
+with an arrow prefix "", and a relative timestamp below it ("4m
+
+ago", "2h ago").                                                    All Tutorials
+
+      K Komputer Mechanic
+
+AGENT LOG -- a glass card below the cards with an "Agent Logs" label
+on the left and a live entry count on the right. Above the table, a
+filter pill row: one button for ALL and one for each agent by their
+code name. The active filter has a subtle white background, inactive
+ones are muted. Clicking any filter instantly re-renders from cached
+data.
+
+The log table has five columns -- Time · Agent · Task · Model ·
+Status -- with mono column headers. Each row: relative time, agent
+name in their accent color, task description (truncated), model
+label, and a status badge (mint background for completed, red for
+failed). The table scrolls at a max height of 420px.
+
+Data sources: d.agents for all card data · d.activity for the log
+table.
+Agent accent colors: Orchestrator #A78BFA · Scout #7DD3FC · Scribe
+#F472B6 · Reach #E879F9 · Dev #A78BFA
+
+PART 11 / 15
+
+Agent statistics -- at-a-
+glance health read
+
+Four stat cards and a donut chart slot in between the agent cards and the activity log. No
+new data fetching -- everything comes from the existing SSE snapshot.
+
+ PROMPT 24 Add the Agent Statistics section
+
+      // WHAT THIS DOES
+
+https://komputermechanic.com/tutorials/hermes-dashboard                                              32/44
+6/29/26, 1:17 PM  How to Build a PREMIUM Hermes Agent Mission Control Dashboard | Komputer Mechanic
+
+Tasks today, weekly volume, most active agent, success rate -- plus a canvas donut showing each
+
+agent's share of total responses with a percentage legend.  All Tutorials
+
+     K Komputer Mechanic
+
+          Add an Agent Statistics section to the Agents tab, between the five                        Copy
+          agent cards and the activity log. No new data fetching needed --
+          everything comes from the existing SSE snapshot.                                                          33/44
+
+          LAYOUT -- a two-column grid: 1fr for the stat cards, 300px for the
+          donut chart. Add a small bar-chart icon and "Agent Statistics" label
+          as a section eyebrow above.
+
+          STAT CARDS -- a 2×2 grid of glass cards, each with:
+             -- Mono uppercase label (10px, wide letter-spacing, muted) at the
+
+          top.
+             -- Large number or value (36px, weight 700, Inter Tight) below.
+             -- A 2px-tall accent bar spanning the full card width at the
+
+          bottom: a dark track with a colored fill div that animates to its
+          width on render.
+
+             Four cards:
+             TASKS TODAY -- today's total from d.activity_by_day.at(-1).total.
+          Amber bar, always 100% wide (it's today's absolute count, not a
+          ratio).
+             TASKS THIS WEEK -- sum of all 7 entries in d.activity_by_day. Cyan
+          bar, always 100%.
+             MOST ACTIVE -- name of the agent with the highest count across the
+          7-day window, derived by summing d.activity_by_day[].agents per
+          agent. Show the name in that agent's accent color. Bar width = that
+          agent's count / week total × 100%.
+             SUCCESS RATE -- Math.round(d.stats.completed / d.stats.total * 100)
+          + '%'. Bar width matches the percentage. Bar color: mint if 90%,
+          amber if 70%, red below 70%.
+
+          DONUT CHART -- a glass card on the right with a "TASK DISTRIBUTION"
+          mono eyebrow.
+
+             Draw on a <canvas> (130×130px) using the 2D context -- no library
+          needed.
+
+             Each agent is one arc slice: use arc() from center, outer radius
+          52, inner radius 32 (donut hole). Slice size proportional to that
+          agent's d.agents[].responses count.
+
+             Agent colors (hex, not CSS variables -- canvas can't resolve
+
+https://komputermechanic.com/tutorials/hermes-dashboard
+6/29/26, 1:17 PM  How to Build a PREMIUM Hermes Agent Mission Control Dashboard | Komputer Mechanic
+
+var()):
+
+orchestrator #A78BFA · scout #7DD3FC · scribe #F472B6 · reach
+
+#FBBFK24 ·Kodemv p#uEt8e7r9FM9echanic                                          All Tutorials
+
+If all agents have 0 responses, draw a single faint circle as a
+
+placeholder.
+
+In the center of the donut, draw the grand total in bold 18px and
+
+"TOTAL" in 10px mono below it, both in #F4F4F8.
+
+Below the canvas, a legend: one row per agent -- 8px colored dot ·
+
+agent name · percentage right-aligned in muted mono.
+
+Redraw the canvas and update all four stat cards every time the SSE
+snapshot fires.
+
+PART 12 / 15
+
+Tasks tab -- your
+personal operator board
+
+A kanban-style task board backed by board.db -- for you, not the agents. Three columns,
+drag-to-update statuses, and full CRUD through the endpoints you built in Prompt 19.
+
+ PROMPT 25 Build the Tasks tab
+
+      // WHAT THIS DOES
+
+    Three columns (Pending · In Progress · Done), each row is a glass card with title, priority chip, notes,
+    and quick status actions. All writes go through /api/board.
+
+          Build the Tasks tab -- a three-column operator board backed by                             Copy
+          board.db (the read-write SQLite you created in Prompt 19, not
+          Hermes's kanban.db).                                                                                      34/44
+
+          LAYOUT -- a 3-column grid (1fr · 1fr · 1fr), one column per status:
+
+https://komputermechanic.com/tutorials/hermes-dashboard
+6/29/26, 1:17 PM  How to Build a PREMIUM Hermes Agent Mission Control Dashboard | Komputer Mechanic
+
+Pending, In Progress, Done. Each column has a mono header with the
+
+status name, a count badge, and an "+ Add task" button at the top of
+
+the PKendiKnog mcopluutmenr oMnleyc.hanic                            All Tutorials
+
+TASK CARDS -- each card is a small glass card showing:
+   -- Title (Inter Tight, 14px, weight 500)
+   -- Priority chip (low / medium / high) on the right, color-coded
+   -- Optional notes (muted, 12px, clamp 2 lines)
+   -- A footer row with relative time ("2h ago") and three quick-
+
+action buttons:  move-back,  move-forward,  delete
+
+ADD-TASK MODAL -- clicking "+ Add task" opens an inline form with
+title, priority dropdown (low/medium/high), and notes. Save calls
+POST /api/board with the values; the new card appears in Pending
+without a page refresh.
+
+INTERACTIONS -- clicking  moves the card to the next status
+(pendingin_progressdone),  moves it back.  calls
+/api/board/delete. Every action is optimistic: update the UI
+immediately, then call the endpoint; if the call fails, revert.
+
+Data refresh: re-fetch /api/board after every successful write. The
+Tasks tab is independent from the SSE snapshot.
+
+PART 13 / 15
+
+Schedule tab -- cron jobs
+in plain English
+
+Reads every scheduled job on the box -- user crontab, system crontab, and /etc/cron.d/ --
+and renders them as friendly cards with a next-run estimate and a plain-English schedule.
+
+PROMPT 26 Build the Schedule tab
+
+https://komputermechanic.com/tutorials/hermes-dashboard                                              35/44
+6/29/26, 1:17 PM  How to Build a PREMIUM Hermes Agent Mission Control Dashboard | Komputer Mechanic
+
+// WHAT THIS DOES
+
+Two sKectioKnso: m Heprmuetse-roMwneecdhjoabns iacnd System jobs. Each card shows the command, thAellcTruotnorials
+
+expression, a plain-English version, and an estimated next run.
+
+Build the Schedule tab -- a read-only view of every cron job on the                                  Copy
+VPS.
+
+DATA SOURCE -- d.crons (from the cron_jobs() function you wrote in
+Prompt 19). Each entry has: source (file path), schedule (raw cron
+string), command, owner ("hermes" or "system"), and a friendly
+description string you built server-side.
+
+LAYOUT -- two stacked sections, each with a mono eyebrow:
+   HERMES JOBS -- entries where owner == "hermes"
+   SYSTEM JOBS -- entries where owner == "system"
+
+JOB CARDS -- each is a glass card with:
+   -- Owner badge in the top-right: violet for hermes, muted for
+
+system.
+   -- Command rendered in JetBrains Mono, 13px, truncated with
+
+ellipsis and a full version on hover.
+   -- A 2-column row below: "SCHEDULE" with the raw cron expression in
+
+mono · "NEXT RUN" with the next estimated run as a relative time
+("in 3h 12m", "tomorrow 03:00").
+
+   -- A muted line at the bottom with the plain-English schedule
+description (e.g. "Every day at 03:00").
+
+   -- A tiny source label at the very bottom: the path the entry came
+from.
+
+Empty state if either section has no jobs: muted mono text "No
+scheduled jobs in this group." centered.
+
+No writes from this tab -- it's read-only.
+
+        PART 14 / 15                                                                                                36/44
+https://komputermechanic.com/tutorials/hermes-dashboard
+6/29/26, 1:17 PM  How to Build a PREMIUM Hermes Agent Mission Control Dashboard | Komputer Mechanic
+
+Content tab and                       All Tutorials
+document K Komputer Mechanic storage
+
+protocol
+
+Wires up a content library that reads every long-form document the agents produce, with a
+list-and-preview UI. Then a storage protocol is sent to all agents so they actually save their
+work there instead of dumping it into chat.
+
+ PROMPT 27 Content tab -- backend endpoints + full UI
+
+      // WHAT THIS DOES
+
+    Lists every markdown file under /root/.hermes/content/<agent>/, renders them as a sidebar list
+    grouped by agent, and shows the selected document in a wide preview panel with view/edit modes.
+
+          Build the Content tab.                                                                     Copy
+
+          BACKEND -- add these endpoints to server.py:                                                              37/44
+             GET /api/content -- returns a JSON list of every .md file under
+
+          /root/.hermes/content/. Each entry: { agent, filename, title (first
+          H1), modified_at, size }.
+
+             GET /api/content/get?path= -- returns the raw markdown content of a
+          single file. Validate the path is under /root/.hermes/content/ --
+          reject any traversal attempts.
+
+             POST /api/content/save -- body { path, content }. Same path
+          validation. Writes the content back to disk and updates modified_at.
+
+          UI -- a two-column layout: a 280px sidebar on the left and a content
+          panel filling the rest.
+
+             SIDEBAR -- group documents by agent. For each agent, a mono
+          uppercase agent name header in their accent color, then a list of
+          their documents. Each row: title (Inter Tight, 13px), filename below
+          in muted mono. Clicking a row selects it. The selected row has a
+          subtle white background and a 2px left border in the agent's color.
+
+https://komputermechanic.com/tutorials/hermes-dashboard
+6/29/26, 1:17 PM  How to Build a PREMIUM Hermes Agent Mission Control Dashboard | Komputer Mechanic
+
+   PREVIEW PANEL -- header with the document title (Inter Tight 22px),
+
+the aKgentKobamdgpeu,temrodMifeicehdadnaicte, and two buttons: "View" and "Edit". All Tutorials
+
+   View mode: renders the markdown into HTML (use marked.min.js --
+already loaded by the page) to parse and render. Style headings and
+code blocks to match the dashboard palette.
+
+   Edit mode: replaces the rendered div with a full-width textarea
+containing the raw markdown. Save button calls POST
+/api/content/save with the textarea value, then returns to view
+mode. Cancel restores the previous view without saving.
+
+   Empty state (no doc selected): centered muted mono text "Select a
+document to read".
+
+Wire the Content tab into the existing switchTab() function -- add:
+   if (name === 'content') loadContentDocs();
+
+alongside the existing overview/tutorial hooks. Without this the tab
+renders blank.
+Auto-select the first document in the list if one exists.
+
+PROMPT 28 Agent document storage protocol
+
+   // WHAT THIS DOES
+
+  All five agents now know the content library exists and exactly how to use it. After this step, every
+  long-form document is automatically saved to disk and immediately visible in the Content tab
+  instead of disappearing into chat.
+
+          When you produce any long-form document -- articles, research                              Copy
+          reports, scripts, outlines, briefs, plans, transcripts, summaries,
+          or any deliverable longer than ~15 lines -- you must save it to your                                      38/44
+          dedicated agent folder, not return it as a chat response.
+
+          Folder structure:
+             /root/.hermes/content/
+                  orchestrator/
+                  scout/
+                  scribe/
+                  reach/
+
+https://komputermechanic.com/tutorials/hermes-dashboard
+6/29/26, 1:17 PM        How to Build a PREMIUM Hermes Agent Mission Control Dashboard | Komputer Mechanic
+
+                  dev/
+
+Each KagenKtowmriptuetseronMlyecthoaintics own lowercase subfolder. Never write All Tutorials
+
+into another agent's folder.
+
+Rules:
+
+1. Save to your own folder only.
+
+Orchestrator  /root/.hermes/content/orchestrator/
+
+Scout                    /root/.hermes/content/scout/
+
+Scribe                   /root/.hermes/content/scribe/
+
+Reach                    /root/.hermes/content/reach/
+
+Dev                      /root/.hermes/content/dev/
+
+2. Use markdown (.md) for every long-form document. No .txt, no
+inline chat dumps.
+
+3. Filename convention: YYYY-MM-DD_short-kebab-case-title.md
+     Example: 2026-05-01_competitor-scan.md
+     Lowercase only, hyphens between words, no spaces, no special
+
+characters.
+
+4. First line must be a top-level heading (# Title) that matches the
+document's purpose. The Content tab uses this as the display title --
+make it descriptive and human-readable, not a slug.
+
+5. Structure the body with proper markdown: ## and ### for sections,
+**bold** for emphasis, `inline code` for technical terms, fenced
+code blocks with language tags for code, and - bullet lists where
+they help. The Content tab renders all of this -- write so it reads
+well in the preview panel.
+
+6. What counts as long-form (save to folder): articles, research
+summaries, scripts, outreach drafts, strategy docs, meeting notes,
+technical guides, post-mortems, anything intended to be reread or
+reused.
+
+7. What does not (return inline in chat): single-sentence answers,
+quick status updates, one-line confirmations, tool call results,
+conversational replies.
+
+          8. One document per file. If a task produces multiple deliverables,                              39/44
+          save each as its own file.
+
+https://komputermechanic.com/tutorials/hermes-dashboard
+6/29/26, 1:17 PM  How to Build a PREMIUM Hermes Agent Mission Control Dashboard | Komputer Mechanic
+
+9. Never overwrite silently. If a filename collides, append -v2, -
+
+v3, oKr usKeoammpourteerspMeceicfhiac nticitle.                      All Tutorials
+
+10. Stay in your lane. Write content that fits your role. If a task
+falls outside your role, hand it off rather than writing it
+yourself.
+
+11. After saving, confirm in chat with your agent name, the full
+path, and a one-line summary. Example:
+
+       Scout  /root/.hermes/content/scout/2026-05-01_competitor-scan.md
+-- competitive analysis of 6 platforms.
+
+This protocol exists because the Content tab in the dashboard reads
+directly from /root/.hermes/content/. If you return long-form work
+in chat instead of saving it there, it doesn't show up in the
+dashboard, can't be previewed, edited, or downloaded, and
+effectively gets lost.
+
+Create your subfolder now if it doesn't exist. Save a short test
+document to confirm the protocol is working. Confirm with the
+standard one-line format above.
+
+PART 15 / 15
+
+Seamless access from
+any device
+
+The dashboard only listens on 127.0.0.1 -- it never accepts public internet traffic. To open it in
+a browser on your laptop or phone you need a secure tunnel. Two options: SSH port
+forwarding (zero extra software) or Tailscale (more convenient for daily use, works on mobile).
+
+PROMPT 29 SSH keys -- set them up once, never type a
+            password again
+
+https://komputermechanic.com/tutorials/hermes-dashboard                                              40/44
+6/29/26, 1:17 PM  How to Build a PREMIUM Hermes Agent Mission Control Dashboard | Komputer Mechanic
+
+// WHAT THIS DOES
+
+SSH kKey auKthoemntipcauttioenrlM etseycohuramnaicchine prove its identity with a cryptographic key inAstlel Taudtofrials
+
+password. One-time setup, then every connection is instant. Mac/Linux and Windows PowerShell
+variants below.
+
+          # ============================================                                             Copy
+          # SSH Setup Guide for VPS Access
+          # ============================================                                                            41/44
+
+          # ============================================
+          # FOR MAC/LINUX USERS
+          # ============================================
+
+          # Check if you already have an SSH key
+          ls ~/.ssh/id_ed25519
+
+          # If the file exists, skip to the ssh-copy-id step below
+          # If you get "No such file or directory", generate a new key:
+          ssh-keygen -t ed25519 -C "agent-dashboard"
+          # Press Enter for all prompts -- no passphrase needed for automation
+
+          # Copy your key to the VPS (enter your VPS password one last time)
+          ssh-copy-id root@YOUR_VPS_IP
+
+          # Test the connection -- you should connect with no password prompt
+          ssh root@YOUR_VPS_IP
+          # Type 'exit' to disconnect
+
+          # ============================================
+          # FOR WINDOWS POWERSHELL USERS
+          # ============================================
+
+          # Check if you already have an SSH key
+          Test-Path "$env:USERPROFILE\.ssh\id_ed25519"
+
+          # If False, generate a new key:
+          ssh-keygen -t ed25519 -C "agent-dashboard"
+
+          # Copy your key to the VPS
+          $pubKey = Get-Content "$env:USERPROFILE\.ssh\id_ed25519.pub"
+
+https://komputermechanic.com/tutorials/hermes-dashboard
+6/29/26, 1:17 PM  How to Build a PREMIUM Hermes Agent Mission Control Dashboard | Komputer Mechanic
+
+ssh root@YOUR_VPS_IP "mkdir -p ~/.ssh && echo '$pubKey' >>
+
+~/.ssh/authorized_keys && chmod 600 ~/.ssh/authorized_keys"          All Tutorials
+
+      K Komputer Mechanic
+
+# Test the connection -- you should connect with no password prompt
+ssh root@YOUR_VPS_IP
+
+PROMPT 30 Create a one-click desktop launcher
+
+   // WHAT THIS DOES
+
+  A small script on your desktop that opens the SSH tunnel and launches the dashboard in one
+  double-click. No terminal required after this.
+
+          # ============================================                                             Copy
+          # FOR MAC USERS -- save as AgentOS.command
+          # ============================================                                                            42/44
+          #!/bin/bash
+          pkill -f "51763:127.0.0.1:51763" 2>/dev/null
+          sleep 1
+          ssh -o StrictHostKeyChecking=no -N -L 51763:127.0.0.1:51763
+          root@YOUR_VPS_IP &
+          sleep 2
+          open "http://localhost:51763"
+
+          # Then in Terminal:
+          chmod +x /path/to/AgentOS.command
+          # Now double-click AgentOS.command to start the tunnel
+
+          # ============================================
+          # FOR WINDOWS POWERSHELL -- save as AgentOS.ps1
+          # ============================================
+          # Run this ONCE to allow scripts:
+          Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+          # Then put this in AgentOS.ps1:
+          Get-Process | Where-Object {$_.ProcessName -match "ssh"} | Stop-
+          Process -Force -ErrorAction SilentlyContinue 2>$null
+
+          Write-Host "Starting SSH tunnel to AgentOS..."
+
+https://komputermechanic.com/tutorials/hermes-dashboard
+6/29/26, 1:17 PM  How to Build a PREMIUM Hermes Agent Mission Control Dashboard | Komputer Mechanic
+
+Write-Host "The dashboard will be available at:
+
+http://localhost:51763"                                                       All Tutorials
+
+WriteK-HosKto"mKepeuptetrhiMsewcihnadonwicopen while you use the dashboard."
+
+ssh -o StrictHostKeyChecking=no -N -L 51763:127.0.0.1:51763
+root@YOUR_VPS_IP
+
+Write-Host "Tunnel closed. Press Enter to exit..."
+Read-Host
+
+# Right-click the .ps1 file  "Run with PowerShell"
+# Then open http://localhost:51763 in your browser
+
+PROMPT 31 Option B -- Tailscale for phone & laptop access
+
+   // WHAT THIS DOES
+
+  Tailscale creates a private mesh network between your devices. Once the VPS is on your Tailnet, you
+  reach the dashboard directly via its Tailscale IP -- no tunnel command to run, works from your
+  phone, and the connection survives network switches. Send this prompt to your Dev agent.
+
+Set up Tailscale on this VPS so I can securely access the Mission                                    Copy
+Control dashboard from anywhere, both on my PC and on my mobile
+device.
+
+Please install and configure Tailscale on the VPS, then start the
+Tailscale authentication process and provide me with the
+login/authentication link so I can approve and connect the VPS to my
+Tailscale account.
+
+After authentication, please verify that the VPS is connected to my
+Tailnet and confirm the Tailscale IP address. Then explain how I can
+use that Tailscale IP to access the Mission Control dashboard
+remotely from my PC or phone.
+
+Also make sure the dashboard remains secure and is not unnecessarily
+exposed to the public internet.
+
+https://komputermechanic.com/tutorials/hermes-dashboard                                                    43/44
+6/29/26, 1:17 PM  How to Build a PREMIUM Hermes Agent Mission Control Dashboard | Komputer Mechanic
+
+//KWKhomaptuteYr M oeuch'raenicBuilding Toward           All Tutorials
+
+By the end of the full prompt set, you'll have the complete Hermes AgentOS in place -- an
+Orchestrator on Telegram coordinating four persistent specialists on Discord, a live mission-
+control dashboard, document storage, and secure remote access. Persistent memory, shared
+team awareness, and slash-command routing across the whole stack.
+
+Stuck on a step? Drop a comment on the video -- or book a session and we'll walk through it
+together.
+
+                                        </> KOMPUTER MECHANIC
+                  Home Tutorials Book a Session Contact Newsletter  Buy Me a Coffee
+
+                                                                            SPONSORS
+
+                                                                    Sodales AI
+                                           © 2026 Komputer Mechanic. All rights reserved.
+
+https://komputermechanic.com/tutorials/hermes-dashboard                                              44/44
+

@@ -1,0 +1,19 @@
+# Quest: acme-cloud-services-rfp
+title: "ACME Cloud Services RFP"
+created: "2026-06-30T18:00:00Z"
+status: ratified
+target_gate: MS2
+pwin: 42
+brief: |
+  NAICS 541512 — federal cloud migration and cybersecurity support.
+  Agency example: DoD. Due Q3 2026. High strategic fit.
+  Initial intel: past awards and competitors.
+artifacts:
+  iris_intel: agents/iris/content/acme-cloud-services-rfp-intel.md
+  clio_packet: agents/clio/content/acme-cloud-services-rfp-packet.md
+  odysseus_gate: agents/odysseus/content/acme-cloud-services-rfp-gate-review.md
+  hephaestus_mc: agents/hephaestus/content/acme-cloud-services-rfp-build.md
+  ratification: agents/hermes/content/quests/acme-cloud-services-rfp/ratification.md
+handoffs:
+  - iris_to_clio: agents/iris/content/acme-cloud-services-rfp-handoff-clio.md
+  - clio_to_odysseus: agents/clio/content/acme-cloud-services-rfp-handoff-odysseus.md

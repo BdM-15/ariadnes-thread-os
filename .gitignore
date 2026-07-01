@@ -1,0 +1,30 @@
+# Local Hermes Desktop exports (session history)
+.hermes/
+
+# Runtime / generated state
+board.db
+snap.json
+agents/_shared/agent-logs.db
+
+# MCP tool descriptors (IDE-local, not project source)
+mcps/
+
+# Large third-party PDF (text extracts kept in repo)
+hermes-dashboard-inspiration/*.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.env.*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/

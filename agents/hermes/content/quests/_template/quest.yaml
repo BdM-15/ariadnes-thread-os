@@ -1,0 +1,10 @@
+# Quest: <slug>
+title: "<human title>"
+created: "<ISO8601>"
+status: initiated  # initiated | iris_research | clio_packet | odysseus_gate | hephaestus_build | ratified
+target_gate: null  # e.g. MS3
+pwin: null
+brief: |
+  <Overwatch brief>
+artifacts: {}
+handoffs: []

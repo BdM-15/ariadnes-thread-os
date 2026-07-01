@@ -1,0 +1,63 @@
+# Ariadne's Thread Capture Agent OS — party registry
+# Canonical workspaces live under agents/<name>/; Hermes profiles provide memory/session binding.
+
+project_root: C:/Users/benma/ariadnes-thread-os
+owner: Overwatch (axelrod2023)
+
+agents:
+  - name: Hermes
+    role: Guildmaster / Orchestrator
+    workspace: agents/hermes
+    hermes_profile: ariadne-guildmaster
+    cli_alias: ariadne-guildmaster
+  - name: Iris
+    role: Scout / Intel Researcher
+    workspace: agents/iris
+    hermes_profile: iris
+    cli_alias: iris
+  - name: Clio
+    role: Packet Filler / Scribe
+    workspace: agents/clio
+    hermes_profile: clio
+    cli_alias: clio
+  - name: Odysseus
+    role: Knight / Strategist
+    workspace: agents/odysseus
+    hermes_profile: odysseus
+    cli_alias: odysseus
+  - name: Hephaestus
+    role: Artificer / Builder
+    workspace: agents/hephaestus
+    hermes_profile: hephaestus
+    cli_alias: hephaestus
+
+persistence:
+  workspace_files: [SOUL.md, IDENTITY.md, USER.md, AGENTS.md, MEMORY.md, content/]
+  profile_state: ~/.hermes/profiles/<hermes_profile>/
+  memory_continuity: per-profile memories/MEMORY.md + sessions (role-scoped charters in repo)
+  isolation: separate profile memory and content/ per agent; terminal.cwd = project_root for correct repo-relative writes
+  verify_paths: scripts/verify_party_paths.py
+  fix_cwd: scripts/fix_party_profile_cwds.py
+  sync_soul: scripts/sync_party_profiles.py
+  sync_operator: Hephaestus (delegated by Hermes; Overwatch never runs)
+  router: agents/ROUTER.md
+  team_awareness: agents/TEAM_AWARENESS.md
+  capture_loop: agents/CAPTURE_LOOP_SUPERVISOR.md
+  agent_activity_log: agents/_shared/agent-logs.db
+  log_task_script: agents/_shared/log-task-local.sh
+  logging_policy: agents/_shared/LOGGING_POLICY.md
+  content_delivery_policy: agents/_shared/CONTENT_DELIVERY_POLICY.md
+  log_cleanup_script: agents/_shared/cleanup-logs.sh
+  log_cleanup_schedule: "0 3 1 * *"
+  log_cleanup_cron_job: ariadne-agent-logs-cleanup
+  mission_control:
+    host: 127.0.0.1
+    port: 51763
+    server: server.py
+    launcher: start.sh
+  capture_loop_triggers:
+    - "Run capture loop on"
+    - "Process new opp:"
+    - "Advance packet to MS3 gate for"
+  slash_commands: [/hermes, /iris, /clio, /odysseus, /hephaestus, /capture-router, /capture-loop]
+  write_path_rule: use relative paths or C:/Users/benma/ariadnes-thread-os/... — never /c/Users/... in write tools
