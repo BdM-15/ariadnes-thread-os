@@ -24,4 +24,6 @@
 
 **Chat file names:** When citing a path to Overwatch, include a preview link per `agents/_shared/CHAT_FILE_LINK_POLICY.md`.
 
+**Vault (SSOT):** `knowledge/thread/` — retrieve per `agents/_shared/VAULT_RETRIEVE.md`; triage via Hermes B.
+
 See also: `agents/README.md`, `agents/REGISTRY.yaml` (`write_path_rule`).

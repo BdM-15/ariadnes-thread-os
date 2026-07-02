@@ -1,0 +1,26 @@
+---
+auto_generated: true
+entity_type: concept
+id: lesson-common-proposal-disqualification-causes
+last_updated: 2026-06-18
+name: "Common Proposal Disqualification Causes"
+source_module: lessons_learned
+title: "Common Proposal Disqualification Causes"
+trust: trusted
+type: concept
+updated: "'2026-04-22T23:01:17'"
+---
+
+> **Entity type:** `concept`
+
+Frequent reasons proposals are rejected as non-responsive or unacceptable. Top causes: (1) Missing required content - failing to address specific Section L requirements, (2) Page limit violations - even one page over can disqualify, (3) Late submission - no exceptions regardless of reason, (4) Wrong format - file types, fonts, margins not per instructions, (5) Missing certifications - required representations not included, (6) Non-compliant pricing - wrong CLINs, missing elements, arithmetic errors. Prevention: Compliance matrix validated at Pink Team, production checklist at Gold Team, early submission with confirmation.
+
+## Related
+- [[capture-llm-wiki]]
+- [[price-to-win-analysis]]
+- [[firm-fixed-pricing]]
+- [[ffp-shaping-radar]]
+- [[non-fixed-pricing]]
+- [[pricing-buckets]]
+- [[ambiguous-requirement-red-flags]]
+- [[hidden-requirement-patterns]]

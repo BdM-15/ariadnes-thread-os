@@ -14,6 +14,17 @@
 | decompose this into party tasks | Hermes |
 | run review gate on the whole opportunity | Hermes (coordinates Odysseus + Clio) |
 | sync the party after identity changes | Hermes → Hephaestus |
+| remember this / dump idea / triage to vault | Hermes (**knowledge-triage B**) → `knowledge/thread/` or task |
+| promote vault candidate to trusted | Hermes → Odysseus (citations) → Hephaestus (move + index) |
+
+### Hermes — knowledge intake (doc 02)
+| Say something like… | Route to |
+|---------------------|----------|
+| remember this for the vault | Hermes triage → `generated-projections/` or discard |
+| is this competitor or customer intel? | Hermes → Iris lane after triage |
+| what needs my confirm in the vault? | Hermes morning queue (candidates + uncertain) |
+
+Spec: `docs/inspiration/knowledge-vault-and-compounding-truth.md` · Retrieve: `agents/_shared/VAULT_RETRIEVE.md`
 
 ### Iris — Scout / research
 | Say something like… | Route to |
@@ -54,6 +65,7 @@
 | add skill for SAM polling | Hephaestus |
 | Mission Control shell component | Hephaestus |
 | maintain Hermes profile bindings | Hephaestus |
+| vault bootstrap / lint / zone INDEX | Hephaestus (`scripts/bootstrap_knowledge_vault.py`, `scripts/vault_lint.py`) |
 
 ## Capture loop supervisor (Hermes — full or slice)
 
