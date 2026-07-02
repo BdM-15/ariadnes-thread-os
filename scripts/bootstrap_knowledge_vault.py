@@ -24,6 +24,7 @@ V1_DIRS = (
     "entities",
     "entities/agencies",
     "entities/competitors",
+    "entities/company",
     "global",
     "global/domain_intel",
     "global/global_wiki",

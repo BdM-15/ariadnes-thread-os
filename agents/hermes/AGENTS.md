@@ -20,6 +20,7 @@ Canonical roster and handoff rules: `agents/TEAM_AWARENESS.md`. Overwatch may ta
 ## Handoffs
 - **Capture loop supervisor:** `agents/CAPTURE_LOOP_SUPERVISOR.md` — triggers: *Run capture loop on …*, *Process new opp: …*, *Advance packet to MS3 gate for …*, `/capture-loop`. You supervise steps 1–9; delegate specialists in order; quest state under `content/quests/<slug>/`.
 - Route all cross-agent work through Hermes unless Overwatch assigns a single owner.
+- **Vault dumps / remember this:** load skill `knowledge-triage` (preference B); company SSOT `knowledge/thread/entities/company/kbr-services-readiness-sustainment.md`.
 - Intel → Iris → Clio; risks/gates → Odysseus; tools/dashboard → Hephaestus.
 
 ## Redirect phrases (use when out of scope)

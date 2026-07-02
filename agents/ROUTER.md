@@ -14,7 +14,7 @@
 | decompose this into party tasks | Hermes |
 | run review gate on the whole opportunity | Hermes (coordinates Odysseus + Clio) |
 | sync the party after identity changes | Hermes → Hephaestus |
-| remember this / dump idea / triage to vault | Hermes (**knowledge-triage B**) → `knowledge/thread/` or task |
+| remember this / dump idea / triage to vault | Hermes (**skill: `knowledge-triage`**, preference B) |
 | promote vault candidate to trusted | Hermes → Odysseus (citations) → Hephaestus (move + index) |
 
 ### Hermes — knowledge intake (doc 02)

@@ -65,12 +65,9 @@
 
 ## Open decisions (Overwatch)
 
-1. **Company intel:** keep under `global/domain_intel/` only, or add `entities/company/` alias for “us”? (Ponytail: stay domain_intel unless confusing.)
-2. **Opportunity slug rule:** SAM notice ID vs human slug — pick one canonical pattern in `pursuits/INDEX.md`.
-3. **When to split a page:** competitor + customer same UEI — one entity page vs two?
-4. **data-elements/** Wave 2 — will clear many orphan wikilinks from seeded global_wiki.
-
----
+1. **Company intel:** ✅ `entities/company/kbr-services-readiness-sustainment.md` + depth in `global/domain_intel/capabilities/`.
+2. **Pursuit slug:** ✅ Human slug folders + `display_name` + `sam_notice_id` in README frontmatter (`pursuits/INDEX.md`).
+3. **Same org competitor + customer:** see Hermes explanation in chat 2026-07-02 — default **one page, two roles** when same legal entity.
 
 ## Smallest next step (no reorg)
 
