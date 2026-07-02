@@ -23,7 +23,8 @@ If `C:\c\Users\benma\` exists from bad writes, do not edit there — delete afte
 
 ## Verification
 
-- `python scripts/verify_party_paths.py` (when present)
-- `scripts/fix_party_profile_cwds.py` for profile cwd drift
+- `python scripts/verify_party_paths.py`
+- `python scripts/fix_party_profile_cwds.py` if profiles drifted
+- Mission Control: `bash start.sh` (replaces stale server if `/api/cron` missing); `bash start.sh --force` to always restart
 
 See `agents/REGISTRY.yaml` → `write_path_rule`.

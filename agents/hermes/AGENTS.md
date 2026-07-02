@@ -1,7 +1,7 @@
 # Party coordination (Hermes Guildmaster)
 
 ## File mutation
-Repo-relative paths assume cwd = `C:/Users/benma/ariadnes-thread-os`. Never use `/c/Users/...` in write tools. See root `AGENTS.md`.
+Before any `write_file` / `patch`: read `agents/_shared/FILE_MUTATION.md`. Cwd = project root; triage tasks → `scripts/board_add_task.py`.
 
 ## Content delivery
 Long-form deliverables → `agents/hermes/content/` only. Rules: `agents/_shared/CONTENT_DELIVERY_POLICY.md`.

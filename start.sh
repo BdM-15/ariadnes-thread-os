@@ -27,6 +27,15 @@ api_ok() {
   curl -sf "${URL}api/snapshot" >/dev/null 2>&1
 }
 
+mc_ready() {
+  api_ok && curl -sf "${URL}api/cron" >/dev/null 2>&1
+}
+
+FORCE=0
+for arg in "$@"; do
+  case "${arg}" in --force) FORCE=1 ;; esac
+done
+
 clear_stale_port() {
   if ! command -v netstat >/dev/null 2>&1; then
     return 0
@@ -40,10 +49,20 @@ clear_stale_port() {
   done
 }
 
-if api_ok; then
+if mc_ready && [ "${FORCE}" != "1" ]; then
   echo "Mission Control already running at ${URL}"
   open_browser
   exit 0
+fi
+
+if api_ok && [ "${FORCE}" != "1" ]; then
+  echo "Mission Control is running an older server (missing GET /api/cron). Restarting..." >&2
+  clear_stale_port
+  sleep 1
+elif api_ok && [ "${FORCE}" = "1" ]; then
+  echo "Forcing Mission Control restart (--force)..." >&2
+  clear_stale_port
+  sleep 1
 fi
 
 if netstat -ano 2>/dev/null | grep -q ':51763.*LISTENING'; then

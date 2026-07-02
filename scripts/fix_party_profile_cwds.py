@@ -1,39 +1,44 @@
 #!/usr/bin/env python3
-"""Set all five capture OS Hermes profiles terminal.cwd to project root (fixes relative path mutations)."""
+"""Set terminal.cwd to project root in all five capture profiles."""
 from __future__ import annotations
 
-import subprocess
+import re
 import sys
 from pathlib import Path
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
 ROOT = "C:/Users/benma/ariadnes-thread-os"
-PROFILES = (
-    "ariadne-guildmaster",
-    "iris",
-    "clio",
-    "odysseus",
-    "hephaestus",
-)
+PROFILES = ("ariadne-guildmaster", "iris", "clio", "odysseus", "hephaestus")
+HERMES = Path.home() / "AppData/Local/hermes/profiles"
+
+
+def fix_config(path: Path) -> bool:
+    text = path.read_text(encoding="utf-8")
+    new, n = re.subn(
+        r"(?m)^(\s*cwd:\s*).*$",
+        rf"\g<1>{ROOT}",
+        text,
+        count=1,
+    )
+    if n == 0:
+        return False
+    if new != text:
+        path.write_text(new, encoding="utf-8")
+    return True
 
 
 def main() -> int:
-    if Path(r"C:/Users/benma/ariadnes-thread-os").resolve() != PROJECT_ROOT.resolve():
-        print(f"WARN project root mismatch: {PROJECT_ROOT}", file=sys.stderr)
-    err = 0
-    for profile in PROFILES:
-        r = subprocess.run(
-            ["hermes", "-p", profile, "config", "set", "terminal.cwd", ROOT],
-            capture_output=True,
-            text=True,
-            timeout=60,
-        )
-        if r.returncode != 0:
-            print(f"ERROR {profile}: {r.stderr or r.stdout}", file=sys.stderr)
-            err = 1
+    ok = 0
+    for name in PROFILES:
+        cfg = HERMES / name / "config.yaml"
+        if not cfg.is_file():
+            print(f"SKIP missing {cfg}", file=sys.stderr)
+            continue
+        if fix_config(cfg):
+            print(f"OK {name} cwd -> {ROOT}")
+            ok += 1
         else:
-            print(f"OK {profile} terminal.cwd -> {ROOT}")
-    return err
+            print(f"WARN no cwd line updated in {cfg}", file=sys.stderr)
+    return 0 if ok == len(PROFILES) else 1
 
 
 if __name__ == "__main__":

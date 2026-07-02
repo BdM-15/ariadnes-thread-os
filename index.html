@@ -333,6 +333,7 @@
       renderAgentStats();
       if(snapshot?.board){boardTasks=normBoardPayload(snapshot.board);renderBoard()}
       else if(!boardTasks.length)loadBoard();
+      if(Array.isArray(snapshot?.crons)&&snapshot.crons.length&&!cronJobsCache.length)cronJobsCache=snapshot.crons;
       renderSchedule();
       updateNextCron();
     }
