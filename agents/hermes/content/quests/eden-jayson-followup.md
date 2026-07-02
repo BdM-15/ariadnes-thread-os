@@ -20,4 +20,4 @@ Contact **Jayson Gray** (POC for EDEN) to capture:
 
 ## Board
 
-Add to Mission Control Tasks when pursuing: title `Follow up: EDEN / Jayson Gray`, lane `hermes`, priority normal.
+Mission Control **Pending** — `source_key: triage:eden-jayson` (see Task board after MC server restart).

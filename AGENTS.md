@@ -9,6 +9,9 @@
 | `agents/<name>/file.md` (repo-relative from **project root** cwd) | `/c/Users/benma/...` in `write_file` / `patch` → lands in `C:\c\Users\...` |
 | `C:/Users/benma/ariadnes-thread-os/agents/<name>/...` (absolute) | `agents/other/...` when cwd is `agents/hermes` (resolves under wrong folder) |
 | Read tool `resolved_path` in the response | Assume relative paths without checking cwd |
+| Triage **tasks** → `scripts/board_add_task.py` (Mission Control `board.db`) | Quest `.md` only (board won't see it) |
+
+Full policy: `agents/_shared/FILE_MUTATION.md`.
 
 **Party profiles** use `terminal.cwd` = this repo root so `agents/iris/...` resolves correctly. Each agent still **writes only** under their own `agents/<self>/` and `content/` unless Hermes delegates cross-agent doc maintenance to Hephaestus.
 

@@ -23,6 +23,7 @@ BOARD_DB = ROOT / "board.db"
 REGISTRY = ROOT / "agents" / "REGISTRY.yaml"
 HERMES_HOME = Path.home() / "AppData" / "Local" / "hermes"
 GATEWAY_STATE = HERMES_HOME / "gateway_state.json"
+HERMES_CRON_JOBS = HERMES_HOME / "cron" / "jobs.json"
 
 PARTY = ["hermes", "iris", "clio", "odysseus", "hephaestus"]
 AGENT_META = {
@@ -454,19 +455,56 @@ def content_data(limit: int = 40) -> dict:
 def cron_data() -> dict:
     try:
         jobs = []
+        seen: set[str] = set()
+
+        def add_job(name: str, schedule: str, detail: str, command: str, category: str = "hermes", job_id: str = "") -> None:
+            key = f"{name}|{schedule}"
+            if key in seen:
+                return
+            seen.add(key)
+            jobs.append(
+                {
+                    "id": job_id or name,
+                    "name": name,
+                    "schedule": schedule,
+                    "category": category,
+                    "detail": detail,
+                    "command": command,
+                }
+            )
+
+        if HERMES_CRON_JOBS.is_file():
+            try:
+                raw = json.loads(HERMES_CRON_JOBS.read_text(encoding="utf-8"))
+                for j in raw.get("jobs") or []:
+                    if j.get("enabled") is False or j.get("state") == "paused":
+                        continue
+                    sched = j.get("schedule_display") or (j.get("schedule") or {}).get("expr") or ""
+                    script = j.get("script") or ""
+                    prompt = (j.get("prompt") or "")[:120]
+                    cmd = script or prompt or "hermes cron job"
+                    add_job(
+                        str(j.get("name") or j.get("id") or "cron"),
+                        str(sched),
+                        f"Hermes cron · {cmd}"[:200],
+                        str(cmd),
+                        "hermes",
+                        str(j.get("id") or ""),
+                    )
+            except (json.JSONDecodeError, OSError):
+                pass
+
         if REGISTRY.is_file():
             text = REGISTRY.read_text(encoding="utf-8")
             m = re.search(r'log_cleanup_schedule:\s*["\']?([^"\']+)', text)
             name_m = re.search(r"log_cleanup_cron_job:\s*(\S+)", text)
             if m:
-                jobs.append(
-                    {
-                        "name": (name_m.group(1) if name_m else "log-cleanup"),
-                        "schedule": m.group(1).strip(),
-                        "category": "hermes",
-                        "detail": "Permanent delete agent_logs rows older than 30 days",
-                        "command": "ariadne-cleanup-agent-logs.sh",
-                    }
+                add_job(
+                    (name_m.group(1) if name_m else "log-cleanup"),
+                    m.group(1).strip(),
+                    "Permanent delete agent_logs rows older than 30 days",
+                    "ariadne-cleanup-agent-logs.sh",
+                    "hermes",
                 )
         return {"jobs": jobs, "count": len(jobs)}
     except Exception as exc:
@@ -517,11 +555,15 @@ def board_init() -> None:
             status TEXT DEFAULT 'pending',
             priority TEXT DEFAULT 'medium',
             notes TEXT DEFAULT '',
+            source_key TEXT DEFAULT '',
             created_at TEXT NOT NULL,
             updated_at TEXT
         )
         """
     )
+    cols = {r[1] for r in conn.execute("PRAGMA table_info(tasks)").fetchall()}
+    if "source_key" not in cols:
+        conn.execute("ALTER TABLE tasks ADD COLUMN source_key TEXT DEFAULT ''")
     count = conn.execute("SELECT COUNT(*) FROM tasks").fetchone()[0]
     if count == 0:
         now = utc_now_iso()
@@ -538,8 +580,8 @@ def board_init() -> None:
         for title, status, priority, notes in seeds:
             tid = str(uuid.uuid4())
             conn.execute(
-                "INSERT INTO tasks (id, title, status, priority, notes, created_at, updated_at) VALUES (?,?,?,?,?,?,?)",
-                (tid, title, status, priority, notes, now, now),
+                "INSERT INTO tasks (id, title, status, priority, notes, source_key, created_at, updated_at) VALUES (?,?,?,?,?,?,?,?)",
+                (tid, title, status, priority, notes, "", now, now),
             )
     conn.commit()
     conn.close()
@@ -556,18 +598,29 @@ def board_list() -> list[dict]:
 
 def board_create(payload: dict) -> dict:
     board_init()
+    source_key = (payload.get("source_key") or "").strip()
+    if source_key:
+        conn = sqlite3.connect(BOARD_DB)
+        conn.row_factory = sqlite3.Row
+        existing = conn.execute(
+            "SELECT id FROM tasks WHERE source_key=? LIMIT 1", (source_key,)
+        ).fetchone()
+        conn.close()
+        if existing:
+            return {"ok": True, "id": existing["id"], "deduped": True}
     tid = str(uuid.uuid4())
     now = utc_now_iso()
     title = (payload.get("title") or "Untitled").strip()
     conn = sqlite3.connect(BOARD_DB)
     conn.execute(
-        "INSERT INTO tasks (id, title, status, priority, notes, created_at, updated_at) VALUES (?,?,?,?,?,?,?)",
+        "INSERT INTO tasks (id, title, status, priority, notes, source_key, created_at, updated_at) VALUES (?,?,?,?,?,?,?,?)",
         (
             tid,
             title,
             payload.get("status") or "pending",
             payload.get("priority") or "medium",
             payload.get("notes") or "",
+            source_key,
             now,
             now,
         ),
