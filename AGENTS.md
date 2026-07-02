@@ -22,4 +22,6 @@
 
 **Long-form content:** Save to own `agents/<self>/content/` per `agents/_shared/CONTENT_DELIVERY_POLICY.md` (Content tab reads these files).
 
+**Chat file names:** When citing a path to Overwatch, include a preview link per `agents/_shared/CHAT_FILE_LINK_POLICY.md`.
+
 See also: `agents/README.md`, `agents/REGISTRY.yaml` (`write_path_rule`).

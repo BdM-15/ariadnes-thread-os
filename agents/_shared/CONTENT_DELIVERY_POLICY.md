@@ -48,10 +48,11 @@ Use proper markdown: `##` / `###`, **bold**, `inline code`, fenced blocks with l
 
 ## After saving
 
-Confirm in chat with agent name, full repo-relative path, one-line summary:
+Confirm in chat with agent name, full repo-relative path, one-line summary, and **MC preview link** when under `agents/*/content/` (see `CHAT_FILE_LINK_POLICY.md`):
 
 ```text
 Iris → agents/iris/content/2026-07-01_acme-cloud-intel.md — competitive analysis of six platforms.
+Preview: http://127.0.0.1:51763/#content/iris/2026-07-01_acme-cloud-intel.md
 ```
 
 ## Paths

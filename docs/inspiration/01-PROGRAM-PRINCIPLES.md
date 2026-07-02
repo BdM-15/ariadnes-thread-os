@@ -41,7 +41,7 @@ Overwatch **does not** run routine scripts, vault lint, or profile sync. If a st
 | Layer | Role | Location (convention) |
 |-------|------|------------------------|
 | **Work staging** | Handoffs, drafts, loop output | `agents/<agent>/content/*.md` → Mission Control **Content** tab |
-| **Compounding SSOT** | Trusted, structured, growing truth | TBD canonical vault root (Wave 1 doc)—agents curate |
+| **Compounding SSOT** | Trusted, structured, growing truth | `knowledge/thread/` (Wave 1 doc 02)—agents curate |
 | **Hermes memory** | Compact prefs & conventions | Profile memory only—not the knowledge base |
 
 Avoid a third parallel wiki unless it clearly subsumes vault + search; interlinking is an implementation choice, not a product pillar.

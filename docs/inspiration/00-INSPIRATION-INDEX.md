@@ -1,6 +1,6 @@
 # Capform → Mission Control inspiration index
 
-**Branch:** `docs/capform-inspiration` · **Status:** Wave 0 (program shell)  
+**Branch:** `docs/capform-inspiration` · **Status:** Wave 1 in progress (doc **02** merged)  
 **Source essence:** `C:/Users/benma/ariadne-capform` (read-only reference; do not port monolith)  
 **Target system:** Ariadne's Thread **Agent OS** — Mission Control + five persistent party agents
 
@@ -23,7 +23,7 @@ Overwatch does **not** run sync scripts, backups, or routine cleanup—agents do
 | Wave | Scope | Gate |
 |------|--------|------|
 | **0** | Index + program principles | ✅ this file |
-| **1** | Knowledge SSOT · Task/capture funnel · Tools/MCP/skills | One doc per session; party brainstorm → Hermes merge |
+| **1** | Knowledge SSOT · Task/capture funnel · Tools/MCP/skills | One doc per session; party brainstorm → Hermes merge · **02 ✅** |
 | **2** | Living Packet (boss fight) · Review gate · Capture/opp record | After Wave 1 merged |
 | **3** | Data Insights · Clew · Command cockpit | Intent only until Wave 2 used on a real opp |
 | **4** | Education · Studio/Win · Tavern→MC | Parked depth explicit |
@@ -81,4 +81,4 @@ Overwatch does **not** run sync scripts, backups, or routine cleanup—agents do
 
 ## Next action
 
-**Wave 1 · Doc 02:** `knowledge-vault-and-compounding-truth.md` — Hephaestus draft → Hermes merge (after Overwatch says **go** on doc #1).
+**Wave 1 · Doc 03:** `task-management-and-capture-funnel.md` — Hermes draft → party brainstorm → Overwatch review before merge.
