@@ -29,4 +29,6 @@ Full policy: `agents/_shared/FILE_MUTATION.md`.
 
 **Vault (SSOT):** `knowledge/thread/` — retrieve per `agents/_shared/VAULT_RETRIEVE.md`; triage via Hermes B.
 
+**Deliberate build:** `agents/_shared/DELIBERATE_BUILD.md` — what/when to add features; tech debt = parked design work.
+
 See also: `agents/README.md`, `agents/REGISTRY.yaml` (`write_path_rule`).

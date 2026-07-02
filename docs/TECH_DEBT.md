@@ -3,11 +3,11 @@
 | ID | Item | Status |
 |----|------|--------|
 | MC-CRON-02 | Schedule UI used stale snapshot only; `/api/cron` route missing | **Fixed** 2026-07-02 — GET `/api/cron` + `loadCron()` |
-| MC-VAULT-UI | Dedicated Vault Candidates tab | **Deferred** — v1 uses task board `vault:` notes + disk path; promote via Hermes, not new MC tab |
 | MC-BOARD-01 | Triage wrote quest `.md` only; Task board uses `board.db` | **Fixed** — `board_add_task.py` + `source_key` dedupe |
-| MC-BOARD-02 | Restart MC after `server.py` change | Use `bash start.sh` (auto-restarts stale) or `bash start.sh --force` |
-| MC-STALE-01 | `start.sh` reused old process when port answered but `/api/cron` missing | **Fixed** — `mc_ready()` health check |
-| MC-TASK-VAULT-ROUTING | Task card shows vault path on hover only; no click-through to vault/agent routing | **Backlog** — party to design minimal Overwatch↔agent handoff (not a Vault tab) |
+| MC-BOARD-02 | Restart MC after `server.py` change | `bash start.sh` or `bash start.sh --force` |
+| MC-STALE-01 | `start.sh` reused old process when `/api/cron` missing | **Fixed** — `mc_ready()` |
+| MC-VAULT-UI | Vault surfacing in MC | **Parked** — deliberate design: best minimal fit (see `DELIBERATE_BUILD.md`) |
+| MC-TASK-VAULT-ROUTING | From board task to vault candidate + agent handoff (actionable, not hover-only) | **Backlog** — party finds modern minimalist routing in existing surfaces (Content, skills, Hermes); log intent, don't bolt tab same day |
 | TASK-FLOW-01 | Recurring triage tasks → skills/cron (“research ready at wake”) | **Backlog** — pattern in `TASK_WORKFLOW_LADDER.md` |
 | MC-QUEST-01 | Flat `quests/*.md` not ingested (only `quests/<slug>/quest.yaml`) | **Backlog** — optional sync or YAML scaffold |
 

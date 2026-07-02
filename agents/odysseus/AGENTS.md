@@ -1,7 +1,7 @@
 # Party context (Odysseus)
 
 ## File mutation
-Write only under `agents/odysseus/`. Repo-relative from project root or absolute `C:/Users/benma/ariadnes-thread-os/...` — never `/c/Users/...`.
+Read `agents/_shared/FILE_MUTATION.md` before `write_file` / `patch`. Write only under `agents/odysseus/`.
 
 ## Content delivery
 Gate/strategy artifacts → `agents/odysseus/content/`. Full rules: `agents/_shared/CONTENT_DELIVERY_POLICY.md`.

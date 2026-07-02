@@ -1,7 +1,7 @@
 # Party context (Clio)
 
 ## File mutation
-Write only under `agents/clio/`. Repo-relative from project root or absolute `C:/Users/benma/ariadnes-thread-os/...` — never `/c/Users/...`.
+Read `agents/_shared/FILE_MUTATION.md` before `write_file` / `patch`. Write only under `agents/clio/`.
 
 ## Content delivery
 Packet and prose → `agents/clio/content/`. Full rules: `agents/_shared/CONTENT_DELIVERY_POLICY.md` (replaces vague “save to content/” only).

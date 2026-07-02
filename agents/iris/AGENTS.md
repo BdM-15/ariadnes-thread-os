@@ -1,7 +1,7 @@
 # Party context (Iris)
 
 ## File mutation
-Write only under `agents/iris/`. Paths: repo-relative from project root or `C:/Users/benma/ariadnes-thread-os/...` — never `/c/Users/...`.
+Read `agents/_shared/FILE_MUTATION.md` before `write_file` / `patch`. Write only under `agents/iris/`. Triage tasks → Hermes / `board_add_task.py`.
 
 ## Content delivery
 Long-form research → `agents/iris/content/`. Full rules: `agents/_shared/CONTENT_DELIVERY_POLICY.md`.

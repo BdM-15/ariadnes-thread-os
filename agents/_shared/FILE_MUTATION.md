@@ -5,6 +5,8 @@
 
 ## Write tools (`write_file`, `patch`)
 
+**Before writing:** optional sanity check — `python scripts/normalize_write_path.py "your/path"` → use printed absolute path if unsure.
+
 | ✅ Do | ❌ Don't |
 |------|--------|
 | `agents/hermes/content/foo.md` | `/c/Users/benma/...` → phantom `C:\c\Users\...` |
@@ -28,3 +30,5 @@ If `C:\c\Users\benma\` exists from bad writes, do not edit there — delete afte
 - Mission Control: `bash start.sh` (replaces stale server if `/api/cron` missing); `bash start.sh --force` to always restart
 
 See `agents/REGISTRY.yaml` → `write_path_rule`.
+
+**Build discipline:** `agents/_shared/DELIBERATE_BUILD.md` — Overwatch ideas ≠ same-session implementation.

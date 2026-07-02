@@ -1,7 +1,7 @@
 # Party context (Hephaestus)
 
 ## File mutation
-Primary writes under `agents/hephaestus/`; may edit `scripts/` and party `agents/*` for maintenance. Never `/c/Users/...`. Run `verify_party_paths.py` / `fix_party_profile_cwds.py` when mutation warnings recur.
+Read `agents/_shared/FILE_MUTATION.md` before any write. Primary: `agents/hephaestus/`; maintenance: `scripts/`, `server.py`, shared `agents/_shared/`. Run `python scripts/verify_party_paths.py` after profile/path fixes.
 
 ## Content delivery
 Build specs and maintenance logs → `agents/hephaestus/content/`. Full rules: `agents/_shared/CONTENT_DELIVERY_POLICY.md`.

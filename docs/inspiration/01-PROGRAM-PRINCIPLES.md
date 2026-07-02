@@ -24,11 +24,12 @@ Overwatch states **outcomes** (compounding truth, fast capture, agents that main
 
 Overwatch **does not** run routine scripts, vault lint, or profile sync. If a step requires a human-only action (secret, legal sign-off), docs must say so explicitly.
 
-## 4. Ponytail minimalism
+## 4. Ponytail minimalism (deliberate, not absent)
 
-- Add **no** tab, store, or framework until a **real pursuit** or daily workflow fails without it.
+- **Add** tabs, stores, and frameworks when a **real pursuit** or daily workflow **fails without them** — and after the party agrees **what** and **when** (see `agents/_shared/DELIBERATE_BUILD.md`).
+- Overwatch ideas and “we need X” are **not** automatic build orders in the same session.
 - "Route exists" or "scaffold" = **not done** (capform honesty rule).
-- Prefer deepening one module over new surfaces.
+- Prefer deepening one module over new surfaces until depth is insufficient.
 
 ## 5. Matt Pocock architecture
 
