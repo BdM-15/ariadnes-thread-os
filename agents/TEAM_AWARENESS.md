@@ -38,6 +38,9 @@ If a task is **mainly another agent's specialty**, do **not** silently absorb it
 ## Router
 Natural language + `/hermes` `/iris` `/clio` `/odysseus` `/hephaestus` — see `agents/ROUTER.md`.
 
+## Operating rhythm (build mode)
+Overwatch → Hermes (plan, Grok 4.3) → specialists execute (Composer 2.5 in their profiles). See `agents/_shared/PARTY_OPERATING_RHYTHM.md`. Hermes does not default to implementation.
+
 ## Capture loop (supervised pipeline)
 Hermes supervises steps 1–9 in `agents/CAPTURE_LOOP_SUPERVISOR.md`. Chain: Hermes → Iris (intel) → Clio (packet) → Odysseus (gates) → Hephaestus (build, if needed) → Hermes (ratify/pWin/Mission Control).
 
