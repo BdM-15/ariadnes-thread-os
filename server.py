@@ -20,7 +20,8 @@ HOST = "127.0.0.1"
 PORT = 51763
 AGENT_LOG_DB = ROOT / "agents" / "_shared" / "agent-logs.db"
 BOARD_DB = ROOT / "board.db"
-VAULT_THREAD = ROOT / "knowledge" / "thread"
+VAULT_ROOT = ROOT / "knowledge"
+MC_VERSION = "1.3"
 REGISTRY = ROOT / "agents" / "REGISTRY.yaml"
 HERMES_HOME = Path.home() / "AppData" / "Local" / "hermes"
 GATEWAY_STATE = HERMES_HOME / "gateway_state.json"
@@ -516,9 +517,9 @@ def _vault_safe_path(rel: str) -> Path | None:
     rel = (rel or "").replace("\\", "/").lstrip("/")
     if not rel or ".." in rel.split("/"):
         return None
-    full = (VAULT_THREAD / rel).resolve()
+    full = (VAULT_ROOT / rel).resolve()
     try:
-        full.relative_to(VAULT_THREAD.resolve())
+        full.relative_to(VAULT_ROOT.resolve())
     except ValueError:
         return None
     if not full.is_file() or full.suffix.lower() not in {".md", ".markdown"}:
@@ -527,7 +528,7 @@ def _vault_safe_path(rel: str) -> Path | None:
 
 
 def vault_candidates_data() -> dict:
-    zone = VAULT_THREAD / "generated-projections"
+    zone = VAULT_ROOT / "generated-projections"
     items: list[dict] = []
     if not zone.is_dir():
         return {"candidates": [], "count": 0}
@@ -546,7 +547,7 @@ def vault_candidates_data() -> dict:
                         title = line.split(":", 1)[1].strip().strip('"')
                     if line.strip().lower().startswith("trust:"):
                         trust = line.split(":", 1)[1].strip().strip('"')
-        rel = path.relative_to(VAULT_THREAD).as_posix()
+        rel = path.relative_to(VAULT_ROOT).as_posix()
         items.append(
             {
                 "path": rel,
@@ -563,7 +564,53 @@ def vault_read_data(rel: str) -> dict:
     full = _vault_safe_path(rel)
     if not full:
         return {"ok": False, "error": "invalid path"}
-    return {"ok": True, "path": rel, "text": full.read_text(encoding="utf-8", errors="replace")}
+    return {
+        "ok": True,
+        "path": rel,
+        "text": full.read_text(encoding="utf-8", errors="replace"),
+    }
+
+
+VAULT_ZONES = (
+    "entities",
+    "foundation",
+    "generated-projections",
+    "global",
+    "pursuits",
+    "relationships",
+)
+
+
+def vault_tree_data() -> dict:
+    """Shallow listing of vault markdown for MC browser (read-only)."""
+    files: list[dict] = []
+    for name in ("INDEX.md", "log.md"):
+        p = VAULT_ROOT / name
+        if p.is_file():
+            files.append(
+                {
+                    "path": name,
+                    "zone": "_root",
+                    "title": p.stem.upper() if name == "INDEX.md" else "log",
+                    "trust": "meta",
+                }
+            )
+    for zone in VAULT_ZONES:
+        zdir = VAULT_ROOT / zone
+        if not zdir.is_dir():
+            continue
+        for path in sorted(zdir.rglob("*.md")):
+            if path.name.upper() == "README.MD":
+                continue
+            rel = path.relative_to(VAULT_ROOT).as_posix()
+            title = path.stem.replace("-", " ")
+            trust = "trusted"
+            if zone == "generated-projections" and path.name != "INDEX.md":
+                trust = "candidate"
+            if path.name == "INDEX.md":
+                title = f"{zone} INDEX"
+            files.append({"path": rel, "zone": zone, "title": title, "trust": trust})
+    return {"ok": True, "files": files, "count": len(files), "zones": list(VAULT_ZONES)}
 
 
 def vps_data() -> dict:
@@ -962,6 +1009,9 @@ class Handler(BaseHTTPRequestHandler):
             return
         if path == "/api/vault/candidates":
             self._json(200, vault_candidates_data())
+            return
+        if path == "/api/vault/tree":
+            self._json(200, vault_tree_data())
             return
         if path == "/api/vault/read":
             qs = parse_qs(urlparse(self.path).query)

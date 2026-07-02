@@ -18,7 +18,7 @@ Items like **vault ↔ task routing** mean: *we need capability X; find the most
 ## Architecture bias (Matt Pocock)
 
 - Thin UI / routes → fat services (`server.py`, `scripts/`, skills).
-- One source of truth per concept (`board.db`, `knowledge/thread/`, Hermes `jobs.json`).
+- One source of truth per concept (`board.db`, `knowledge/`, Hermes `jobs.json`).
 - Observable seams; Hephaestus owns refactors when delegated.
 
 ## Anti-pattern

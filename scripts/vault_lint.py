@@ -9,9 +9,27 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_VAULT = REPO_ROOT / "knowledge" / "thread"
+DEFAULT_VAULT = REPO_ROOT / "knowledge"
 WIKILINK = re.compile(r"\[\[([^\]|#]+)")
 TRUST = re.compile(r"^trust:\s*(\S+)", re.MULTILINE)
+FENCE = re.compile(r"^```.*?^```", re.MULTILINE | re.DOTALL)
+
+
+def _strip_fenced_code(text: str) -> str:
+    return FENCE.sub("", text)
+
+
+def _wikilink_resolves(vault: Path, link: str, stems: set[str]) -> bool:
+    link = link.strip()
+    if link in stems:
+        return True
+    if (vault / f"{link}.md").is_file():
+        return True
+    # Obsidian-style path links (entities/agencies/dhs)
+    normalized = link.replace("\\", "/")
+    if (vault / f"{normalized}.md").is_file():
+        return True
+    return False
 
 
 def lint(vault: Path, append_log: bool) -> str:
@@ -19,8 +37,11 @@ def lint(vault: Path, append_log: bool) -> str:
         return f"ERROR: vault missing: {vault}"
 
     md_files = [p for p in vault.rglob("*.md") if ".obsidian" not in p.parts]
-    names = {p.stem for p in md_files}
-    names.update(p.relative_to(vault).with_suffix("").as_posix().split("/")[-1] for p in md_files)
+    stems = {p.stem for p in md_files}
+    for p in md_files:
+        rel = p.relative_to(vault).with_suffix("").as_posix()
+        stems.add(rel.split("/")[-1])
+        stems.add(rel)
 
     links: list[str] = []
     trust_counts: Counter[str] = Counter()
@@ -31,10 +52,11 @@ def lint(vault: Path, append_log: bool) -> str:
             trust_counts[m.group(1)] += 1
         if "generated-projections" in p.as_posix() and p.name != "INDEX.md":
             candidates += 1
-        for m in WIKILINK.finditer(text):
+        scan = _strip_fenced_code(text)
+        for m in WIKILINK.finditer(scan):
             links.append(m.group(1).strip())
 
-    missing = sorted({ln for ln in links if ln not in names and not (vault / f"{ln}.md").exists()})
+    missing = sorted({ln for ln in links if not _wikilink_resolves(vault, ln, stems)})
 
     zones = Counter()
     for p in md_files:

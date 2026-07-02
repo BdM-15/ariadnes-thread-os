@@ -2,7 +2,7 @@
 
 When Hermes triage creates a **task**:
 
-1. **Board** — `python scripts/board_add_task.py --title "..." --source-key triage:<slug> --notes "vault:knowledge/thread/<rel-path> · …"`
+1. **Board** — `python scripts/board_add_task.py --title "..." --source-key triage:<slug> --notes "vault:knowledge/<rel-path> · …"`
 2. **Quest note** (optional) — `agents/hermes/content/quests/<slug>.md` for humans only; board is SSOT for pending work.
 3. **Vault** — candidate path in notes
 

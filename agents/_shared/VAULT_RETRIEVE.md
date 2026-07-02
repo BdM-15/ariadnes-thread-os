@@ -2,7 +2,7 @@
 
 Before pursuit-relevant **strategy, entity, or competitor claims**:
 
-1. Read `knowledge/thread/index.md`
+1. Read `knowledge/index.md`
 2. Read the zone `INDEX.md` for that concern (`entities/`, `global/`, `pursuits/`, `generated-projections/`)
 3. Read trusted pages (`trust: trusted`) or explicit candidates if asked
 

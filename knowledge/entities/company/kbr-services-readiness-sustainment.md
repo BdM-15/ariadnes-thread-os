@@ -22,7 +22,7 @@ tags: [company, capability-matrix, domain-intel-hub]
 
 - **Capability matrices** and gap analysis anchor here → deep pages under `global/domain_intel/capabilities/`.
 - Agents compare **requirements vs our capabilities vs competitors** starting from this hub.
-- Do not duplicate long capability prose here; link with `[[wikilinks]]`.
+- Do not duplicate long capability prose here; link with Obsidian wikilinks.
 
 ## Capability catalog (trusted)
 

@@ -27,7 +27,7 @@ Full policy: `agents/_shared/FILE_MUTATION.md`.
 
 **Chat file names:** When citing a path to Overwatch, include a preview link per `agents/_shared/CHAT_FILE_LINK_POLICY.md`.
 
-**Vault (SSOT):** `knowledge/thread/` — retrieve per `agents/_shared/VAULT_RETRIEVE.md`; triage via Hermes B.
+**Vault (SSOT):** `knowledge/` — retrieve per `agents/_shared/VAULT_RETRIEVE.md`; triage via Hermes B.
 
 **Deliberate build:** `agents/_shared/DELIBERATE_BUILD.md` — what/when to add features; tech debt = parked design work.
 

@@ -2,6 +2,12 @@
 
 **Where to start:** All LLM drafts land here with `trust: candidate` until Overwatch promotes.
 
+## Active candidates (morning queue)
+
+| Page | Concern |
+|------|---------|
+| [[eden-edge-computing-candidate]] | EDEN edge computing — POC Jayson Gray; promote after follow-up |
+
 ## Subfolders
 - `archived/` — rejected or superseded candidates
 

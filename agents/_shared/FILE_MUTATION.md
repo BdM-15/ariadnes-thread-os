@@ -10,13 +10,13 @@
 | ✅ Do | ❌ Don't |
 |------|--------|
 | `agents/hermes/content/foo.md` | `/c/Users/benma/...` → phantom `C:\c\Users\...` |
-| `C:/Users/benma/ariadnes-thread-os/knowledge/thread/...` | `agents/other/...` when cwd is `agents/hermes` |
+| `C:/Users/benma/ariadnes-thread-os/knowledge/...` | `agents/other/...` when cwd is `agents/hermes` |
 | Read `resolved_path` in tool response | Assume relative path without checking cwd |
 
 ## Vault paths
 
-- SSOT: `knowledge/thread/` (repo root relative).
-- Triage candidates: `knowledge/thread/generated-projections/`.
+- SSOT: `knowledge/` (repo root relative).
+- Triage candidates: `knowledge/generated-projections/`.
 - Board tasks: `board.db` via `scripts/board_add_task.py` or `POST /api/board` — **not** only quest markdown.
 
 ## Phantom tree
