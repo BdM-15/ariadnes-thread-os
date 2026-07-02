@@ -20,6 +20,7 @@ HOST = "127.0.0.1"
 PORT = 51763
 AGENT_LOG_DB = ROOT / "agents" / "_shared" / "agent-logs.db"
 BOARD_DB = ROOT / "board.db"
+VAULT_THREAD = ROOT / "knowledge" / "thread"
 REGISTRY = ROOT / "agents" / "REGISTRY.yaml"
 HERMES_HOME = Path.home() / "AppData" / "Local" / "hermes"
 GATEWAY_STATE = HERMES_HOME / "gateway_state.json"
@@ -494,7 +495,7 @@ def cron_data() -> dict:
             except (json.JSONDecodeError, OSError):
                 pass
 
-        if REGISTRY.is_file():
+        if REGISTRY.is_file() and not jobs:
             text = REGISTRY.read_text(encoding="utf-8")
             m = re.search(r'log_cleanup_schedule:\s*["\']?([^"\']+)', text)
             name_m = re.search(r"log_cleanup_cron_job:\s*(\S+)", text)
@@ -509,6 +510,60 @@ def cron_data() -> dict:
         return {"jobs": jobs, "count": len(jobs)}
     except Exception as exc:
         return {"jobs": [], "count": 0, "error": str(exc)}
+
+
+def _vault_safe_path(rel: str) -> Path | None:
+    rel = (rel or "").replace("\\", "/").lstrip("/")
+    if not rel or ".." in rel.split("/"):
+        return None
+    full = (VAULT_THREAD / rel).resolve()
+    try:
+        full.relative_to(VAULT_THREAD.resolve())
+    except ValueError:
+        return None
+    if not full.is_file() or full.suffix.lower() not in {".md", ".markdown"}:
+        return None
+    return full
+
+
+def vault_candidates_data() -> dict:
+    zone = VAULT_THREAD / "generated-projections"
+    items: list[dict] = []
+    if not zone.is_dir():
+        return {"candidates": [], "count": 0}
+    for path in sorted(zone.glob("*.md")):
+        if path.name.upper() == "README.MD":
+            continue
+        text = path.read_text(encoding="utf-8", errors="replace")
+        title = path.stem.replace("-", " ")
+        trust = "candidate"
+        if text.startswith("---"):
+            end = text.find("---", 3)
+            if end > 0:
+                block = text[3:end]
+                for line in block.splitlines():
+                    if line.strip().lower().startswith("name:"):
+                        title = line.split(":", 1)[1].strip().strip('"')
+                    if line.strip().lower().startswith("trust:"):
+                        trust = line.split(":", 1)[1].strip().strip('"')
+        rel = path.relative_to(VAULT_THREAD).as_posix()
+        items.append(
+            {
+                "path": rel,
+                "title": title,
+                "trust": trust,
+                "mtime": utc_now_iso(),
+                "size": path.stat().st_size,
+            }
+        )
+    return {"candidates": items, "count": len(items)}
+
+
+def vault_read_data(rel: str) -> dict:
+    full = _vault_safe_path(rel)
+    if not full:
+        return {"ok": False, "error": "invalid path"}
+    return {"ok": True, "path": rel, "text": full.read_text(encoding="utf-8", errors="replace")}
 
 
 def vps_data() -> dict:
@@ -901,6 +956,18 @@ class Handler(BaseHTTPRequestHandler):
                 cond._closed = True  # type: ignore
                 with cond:
                     cond.notify_all()
+            return
+        if path == "/api/cron":
+            self._json(200, cron_data())
+            return
+        if path == "/api/vault/candidates":
+            self._json(200, vault_candidates_data())
+            return
+        if path == "/api/vault/read":
+            qs = parse_qs(urlparse(self.path).query)
+            rel = (qs.get("path") or [""])[0]
+            out = vault_read_data(rel)
+            self._json(200 if out.get("ok") else 404, out)
             return
         self._send(404, b"not found", "text/plain")
 
