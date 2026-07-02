@@ -1,8 +1,7 @@
 # Party calibration quest — operating rhythm before v1 continues
 
-**Status:** Awaiting Overwatch ratification  
-**Owner:** Hermes (orchestration) · **Execution:** whole party  
-**Trigger:** Overwatch Option A — rhythm + specialty-aligned brainstorming for upcoming builds  
+**Status:** ✅ Ratified 2026-07-02 — see `2026-07-02_party-calibration-ratification.md`  
+**Next:** `2026-07-02_wave1-doc02-finish-plan.md` (Wave 1 doc 02, then doc 03 per index)  
 
 ---
 
@@ -109,10 +108,10 @@ Overwatch (NLP)
 
 ## 6. Ratification checklist (Overwatch)
 
-- [ ] Agree: Hermes = touchpoint, not default implementer  
-- [ ] Agree: Composer 2.5 on party profiles for execution work  
-- [ ] Agree: ownership matrix for next 3 build items (pick from §3)  
-- [ ] Agree: first delegated slice after ratification (suggested: **Hephaestus** — `MC-TASK-VAULT-ROUTING` design spike **or** quest YAML scaffold — Hermes assigns, does not code)
+- [x] Agree: Hermes = touchpoint, not default implementer  
+- [x] Agree: Composer 2.5 on party profiles for execution work  
+- [x] Agree: roadmap = inspiration **waves**; finish **doc 02** before doc 03  
+- [x] First slice: **doc 02 finish plan** (Odysseus gate → Hephaestus vault → Iris/Clio EDEN)
 
 ---
 

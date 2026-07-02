@@ -81,4 +81,4 @@ Overwatch does **not** run sync scripts, backups, or routine cleanup—agents do
 
 ## Next action
 
-**Wave 1 · Doc 03:** `task-management-and-capture-funnel.md` — Hermes draft → party brainstorm → Overwatch review before merge.
+**Wave 1 · Doc 02 finish:** `agents/hermes/content/2026-07-02_wave1-doc02-finish-plan.md` — party execution per ratified rhythm. **Then** doc **03** `task-management-and-capture-funnel.md`.
