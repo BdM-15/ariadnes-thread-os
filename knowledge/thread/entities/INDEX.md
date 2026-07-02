@@ -12,6 +12,8 @@
 
 Same **page pattern** (frontmatter + signals + citations); `type` field distinguishes `company` | `agency` | `competitor`.
 
+**Relationships:** Customers stay in `agencies/`; competitors in `competitors/`; **never** duplicate a competitor/company profile under `agencies/`. Link roles on pursuits via frontmatter — `knowledge/thread/relationships/ENTITY_RELATIONSHIPS.md`.
+
 ## Canonical files (trusted)
 
 - `company/kbr-services-readiness-sustainment.md` — **Overwatch company SSOT**
@@ -28,4 +30,4 @@ Candidates → `generated-projections/` until promote.
 
 ## Maintainer
 
-Iris (external entities) · Clio (pursuit links) · Hephaestus (index/lint) · Overwatch (company entity)
+Iris (external entities) · Clio (pursuit links) · Hephaestus (index/lint) · Overwatch (company entity)[H[2J[3J

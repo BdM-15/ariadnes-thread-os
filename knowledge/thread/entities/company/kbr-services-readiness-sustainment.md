@@ -30,6 +30,10 @@ tags: [company, capability-matrix, domain-intel-hub]
 - [[kbr-readiness-and-sustainment]] — BU positioning
 - [[cleared-workforce-at-scale-discriminator]] · [[fedramp-high-plus-il5-discriminator]] — example discriminators
 
+## Capability discoveries (candidates)
+
+- [[eden-edge-computing-candidate]] — EDEN / edge computing; POC Jayson Gray; **follow-up queued**
+
 ## UEI / registrations
 
 - See `global/domain_intel/uei/` (spreadsheet + future parsed pages)
@@ -48,3 +52,4 @@ tags: [company, capability-matrix, domain-intel-hub]
 - [[domain-intel]]
 - [[entities/INDEX]]
 - [[global/INDEX]]
+- [[ENTITY_RELATIONSHIPS]]

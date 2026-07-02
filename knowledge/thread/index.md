@@ -17,7 +17,7 @@ tags: [index, karpathy-wiki, thread-os]
 
 ## Zones (read zone `INDEX.md` first)
 
-- [[entities/INDEX]] — agencies, competitors
+- [[entities/INDEX]] — agencies, competitors, **company (us)**
 - [[global/INDEX]] — doctrine + domain intel
 - [[pursuits/INDEX]] — per-opportunity
 - [[generated-projections/INDEX]] — candidates only
