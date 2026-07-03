@@ -22,9 +22,8 @@ V1_DIRS = (
     "foundation",
     "foundation/reference",
     "entities",
-    "entities/agencies",
-    "entities/competitors",
-    "entities/company",
+    "entities/customers",
+    "entities/companies",
     "global",
     "global/domain_intel",
     "global/global_wiki",
@@ -44,8 +43,8 @@ REFERENCE_COPIES: tuple[tuple[str, str], ...] = (
 LIVE_VAULT_MERGE: tuple[tuple[str, str], ...] = (
     ("global/global_wiki", "global/global_wiki"),
     ("global/domain_intel", "global/domain_intel"),
-    ("entities/agencies", "entities/agencies"),
-    ("entities/competitors", "entities/competitors"),
+    ("entities/customers", "entities/customers"),
+    ("entities/companies", "entities/companies"),
 )
 
 ZONE_INDEX: dict[str, str] = {

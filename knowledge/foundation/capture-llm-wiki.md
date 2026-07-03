@@ -6,7 +6,13 @@ schema_version: 2
 tags: ["karpathy-wiki", "schema", "vault"]
 ---
 
+# capture-llm-wiki (alias — superseded)
+
+> **Redirect:** Layer 3 contract moved to **`[[ariadne-vault-schema]]`** (`foundation/ariadne-vault-schema.md`, schema_version 3). This filename remains one release for wikilink compatibility.
+
 # capture-llm-wiki Schema (Karpathy LLM Wiki + Thread Capture Ontology)
+
+**Deprecated.** Read **`[[ariadne-vault-schema]]`** before any vault write. Legacy prose below is frozen at schema_version 2.
 
 **Layer 3 contract** for how agents maintain `knowledge/thread/`. Read this before any vault write.
 

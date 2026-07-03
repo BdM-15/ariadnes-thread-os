@@ -26,7 +26,7 @@ Overwatch can read `display_name` + `README.md`; agents use `pursuit_slug` for r
 
 ## Rules
 
-- Pursuit-specific only — company-wide doctrine stays `entities/company/` + `global/domain_intel/`.
+- Pursuit-specific only — company-wide doctrine stays `entities/companies/` + `global/domain_intel/`.
 - Link entities: `[[kbr-services-readiness-sustainment]]`, agencies, competitors in README.
 
 ## Maintainer

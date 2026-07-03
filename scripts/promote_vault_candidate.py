@@ -24,9 +24,8 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_VAULT = REPO_ROOT / "knowledge"
 
 WRITE_PREFIXES = (
-    "entities/agencies/",
-    "entities/competitors/",
-    "entities/company/",
+    "entities/customers/",
+    "entities/companies/",
     "global/domain_intel/",
     "global/global_wiki/",
     "pursuits/",

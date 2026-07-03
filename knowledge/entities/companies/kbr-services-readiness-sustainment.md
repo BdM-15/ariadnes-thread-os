@@ -6,6 +6,7 @@ last_updated: 2026-07-02
 name: "KBR Services, LLC — Readiness & Sustainment Business Unit"
 trust: trusted
 type: company
+org_role: self
 roles: [prime, offeror]
 business_unit: "Readiness and Sustainment"
 parent: "KBR Services, LLC"
@@ -43,8 +44,8 @@ tags: [company, capability-matrix, domain-intel-hub]
 | Action | Read first |
 |--------|------------|
 | Bid/no-bid fit | This page + [[domain-intel]] + pursuit folder |
-| Competitor gap | This page + `entities/competitors/<name>` |
-| Customer call | `entities/agencies/<name>` — not this page |
+| Competitor gap | This page + `entities/companies/<slug>` |
+| Customer call | `entities/customers/<slug>` — not this page |
 
 ## Related
 
