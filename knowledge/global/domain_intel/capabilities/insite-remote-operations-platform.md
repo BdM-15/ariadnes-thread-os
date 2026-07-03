@@ -20,7 +20,7 @@ updated: "'2026-04-22T23:01:17'"
 Remote technical and advisory services platform for operating plants and facilities; gathers data securely and delivers process-performance insights. KBR has stated expansion into aircraft systems operations. Applicable to remote O&M RFPs, condition-based maintenance contracts, and OCONUS facility support where on-site labor is constrained.
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[quantum-pantheon]]
 - [[viaverse-estates-intelligence-platform]]
 - [[kbr-readiness-and-sustainment]]

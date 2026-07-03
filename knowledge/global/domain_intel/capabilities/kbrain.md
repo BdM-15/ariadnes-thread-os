@@ -19,7 +19,7 @@ updated: "'2026-04-22T23:01:17'"
 KBR's generative AI / LLM platform for streamlining text-heavy operational workflows and knowledge management. Public positioning emphasizes operational automation rather than novel model development. Applicable when an RFP calls for AI-augmented document review, requirements analysis, knowledge graph construction, or natural-language interface to enterprise data.
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[artificial-intelligence-capability]]
 - [[athena-data-management-suite]]
 - [[encompass-digital-twin-platform]]

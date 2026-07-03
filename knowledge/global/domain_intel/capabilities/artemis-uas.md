@@ -19,7 +19,7 @@ updated: "'2026-04-22T23:01:17'"
 KBR's complete sub-25kg multirotor unmanned aircraft system. Features include GNSS-denied operations, BVLOS-capable radios, in-house EO/IR cameras and 2DOF gimbal, human-portable carriage. Applicable to RFPs for small UAS procurement, expeditionary ISR, force protection, and counter-UAS test target requirements.
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[autonomous-systems-capability]]
 - [[ttmt-tracking-and-targeting]]
 - [[kbr-readiness-and-sustainment]]

@@ -62,7 +62,7 @@ Bid/no-bid fit capability statements. Append synthesis; never erase trusted hist
 - [[wraith]]
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[thread-role]]
 - [[domain-intel]]
 - [[milestones-overview]]

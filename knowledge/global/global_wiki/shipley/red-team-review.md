@@ -16,7 +16,7 @@ updated: "'2026-04-22T23:01:16'"
 Primary color team review focused on STRATEGY and PERSUASIVENESS. Reviews complete proposal draft as evaluators would see it. Criteria: Is solution compliant? Are win themes compelling and substantiated? Do discriminators differentiate us? Is pricing realistic? Would this score Outstanding/Excellent? Red Team simulates Source Selection Evaluation Board perspective. Deliverable: Red Team Report with section scores and improvement actions.
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[price-to-win-analysis]]
 - [[firm-fixed-pricing]]
 - [[ffp-shaping-radar]]

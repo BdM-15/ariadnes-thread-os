@@ -19,7 +19,7 @@ updated: "'2026-04-22T23:01:17'"
 Tracking and Targeting Moving Things — proprietary closed-loop offboard UAS control algorithms operating in 8DOF (including gimbal). Combines CNN-based and classical CV tracking for multi-target identification at high frame rate. Enables GNSS-denied object-of-interest tracking on land and sea. Applicable to RFPs for autonomous ISR, manned-unmanned teaming, and edge-AI tracking payloads.
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[autonomous-systems-capability]]
 - [[artemis-uas]]
 - [[crystalvista]]

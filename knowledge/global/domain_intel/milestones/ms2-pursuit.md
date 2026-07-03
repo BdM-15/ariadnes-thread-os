@@ -131,7 +131,7 @@ These nine criteria are the MS2 gate scorecard, tracked under
 - [[incumbent-analysis-strategy]] - displacing the incumbent
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[milestones-overview]]
 - [[ms1-qualification]]
 - [[ms3-bid-no-bid]]

@@ -98,6 +98,6 @@ Shipley Coach) can cite when helping draft milestone content from
 accumulated pursuit intel.
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[capture-plan-development]]
 - [[README]]

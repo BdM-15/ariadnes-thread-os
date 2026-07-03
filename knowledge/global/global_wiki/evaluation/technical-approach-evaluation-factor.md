@@ -20,7 +20,7 @@ Technical Approach evaluates solution quality, methodology, and innovation. Comm
 - **importance**: Often most heavily weighted
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[cleared-workforce-at-scale-discriminator]]
 - [[cleared-workforce]]
 - [[agency-specific-evaluation-tendencies]]

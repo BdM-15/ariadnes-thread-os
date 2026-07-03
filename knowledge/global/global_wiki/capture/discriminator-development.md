@@ -19,7 +19,7 @@ Discriminators are unique strengths that differentiate from competitors. Effecti
 - **theme_type**: DISCRIMINATOR
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[capture-plan-development]]
 - [[capture-planning-phase]]
 - [[cleared-workforce]]

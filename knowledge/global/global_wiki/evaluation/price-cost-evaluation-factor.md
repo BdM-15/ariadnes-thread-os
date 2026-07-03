@@ -20,7 +20,7 @@ Price/Cost evaluation assesses proposed pricing for reasonableness, realism, and
 - **importance**: LPTA: Determines winner; Tradeoff: Weighed against technical
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[price-to-win-analysis]]
 - [[firm-fixed-pricing]]
 - [[ffp-shaping-radar]]

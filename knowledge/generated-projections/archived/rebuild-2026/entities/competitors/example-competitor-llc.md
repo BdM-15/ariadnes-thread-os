@@ -32,7 +32,7 @@ _Source_: competitive • NAICS 541512
 Seen in high-intensity flows. Add to watchlist.
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[capture-intensity]]
 - [[market-concentration]]
 - [[follow-the-money]]

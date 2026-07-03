@@ -19,7 +19,7 @@ Proof points are concrete evidence supporting claims in win themes. Types: (1) P
 - **theme_type**: PROOF_POINT
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[discriminator-development]]
 - [[capture-plan-development]]
 - [[capture-planning-phase]]

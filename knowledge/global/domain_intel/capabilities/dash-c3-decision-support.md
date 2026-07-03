@@ -19,7 +19,7 @@ updated: "'2026-04-22T23:01:17'"
 Interactive GUI for real-time situational awareness from multi-sensor uncooperative-object observation. Dynamic display configuration by feature or target. Applicable to RFPs for sensor fusion C2, range safety operations, and operator decision-support interface development.
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[autonomous-systems-capability]]
 - [[skypath-assured-containment]]
 - [[wraith]]

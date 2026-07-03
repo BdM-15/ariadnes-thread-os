@@ -20,7 +20,7 @@ updated: "'2026-04-22T23:01:17'"
 Proprietary compliance-management platform that links requirement updates to constraint-based system models and 3D engineering models, visually flagging review areas. Validated in safety-critical environments including nuclear. Applicable to RFPs in nuclear sustainment, aerospace certification, FAA, NRC, DOE NNSA, or any program with requirements traceability gates.
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[safety-critical-compliance-proof-point]]
 - [[digital-engineering-capability]]
 - [[afcap-contract-heritage]]

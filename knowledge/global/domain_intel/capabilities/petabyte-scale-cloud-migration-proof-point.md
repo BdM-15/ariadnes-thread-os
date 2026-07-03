@@ -22,7 +22,7 @@ Proof point: KBR publicly cites delivery of large-scale cloud migrations at peta
 - **theme_type**: PROOF_POINT
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[enterprise-technology-capability]]
 - [[afcap-contract-heritage]]
 - [[hundred-plus-digital-initiatives-proof-point]]

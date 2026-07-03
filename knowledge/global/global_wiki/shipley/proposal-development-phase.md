@@ -16,7 +16,7 @@ updated: "'2026-04-22T23:01:16'"
 Phase 5 of Shipley BD Lifecycle. Execute proposal writing with iterative reviews: draft sections per annotated outline, integrate graphics and proof points, conduct color team reviews (Pink→Red→Gold), resolve action items, final production and compliance verification. Focus on evaluation criteria responsiveness and discriminator emphasis. Outputs: Compliant, compelling proposal.
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[capture-plan-development]]
 - [[common-proposal-disqualification-causes]]
 - [[capture-planning-phase]]

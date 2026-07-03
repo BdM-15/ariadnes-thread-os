@@ -16,7 +16,7 @@ updated: "'2026-04-22T23:01:16'"
 Phase 3 of Shipley BD Lifecycle. Develop comprehensive capture strategy: customer engagement plan, competitive analysis (Black Hat), teaming strategy, win theme development, price-to-win analysis, solution shaping. Key activities: customer calls, industry days, draft RFP comments, teammate selection, capability demonstrations. Outputs: Capture Plan, Win Strategy, Ghost Plan.
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[capture-plan-development]]
 - [[discriminator-development]]
 - [[teaming-strategy-development]]

@@ -22,7 +22,7 @@ Discriminator: KBR's cleared workforce supports rapid staffing of cleared billet
 - **theme_type**: DISCRIMINATOR
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[cleared-workforce]]
 - [[owned-ip-digital-accelerators-discriminator]]
 - [[safety-critical-compliance-proof-point]]

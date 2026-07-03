@@ -49,7 +49,7 @@ tags: [company, capability-matrix, domain-intel-hub]
 
 ## Related
 
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[domain-intel]]
 - [[entities/INDEX]]
 - [[global/INDEX]]

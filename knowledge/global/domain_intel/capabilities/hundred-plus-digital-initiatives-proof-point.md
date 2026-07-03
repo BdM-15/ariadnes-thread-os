@@ -23,7 +23,7 @@ Proof point: KBR publicly cites 100+ active client initiatives running on Digita
 - **theme_type**: PROOF_POINT
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[kbr-digital-accelerators-portfolio]]
 - [[owned-ip-digital-accelerators-discriminator]]
 - [[petabyte-scale-cloud-migration-proof-point]]

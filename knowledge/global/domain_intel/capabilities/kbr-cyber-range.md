@@ -20,7 +20,7 @@ updated: "'2026-04-22T23:01:17'"
 Virtual cyber range for incident response practice, defense tactic development, and tool testing without impacting mission systems. Applicable to RFPs for cyber training, blue/red team exercises, certification ranges, and DoD/IC cyber workforce development contracts.
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[cybersecurity-capability]]
 - [[cleared-workforce-at-scale-discriminator]]
 - [[csom-scheduling-optimization-module]]

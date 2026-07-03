@@ -46,4 +46,4 @@ Customer (federal market)
 
 - [[entities/INDEX]]
 - [[ENTITY_RELATIONSHIPS]]
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]

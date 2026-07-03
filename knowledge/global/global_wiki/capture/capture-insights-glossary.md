@@ -16,4 +16,4 @@ type: index
 Monolithic glossaries don't scale in the Karpathy LLM wiki pattern — linked atomic pages do.
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]

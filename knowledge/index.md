@@ -13,11 +13,11 @@ tags: [index, karpathy-wiki, thread-os]
 |-------|----------|------|
 | Staging | `agents/*/content/` | Session handoffs — not SSOT |
 | Wiki | This tree | Candidate → Overwatch promote → trusted |
-| Schema | `foundation/capture-llm-wiki.md` | Read before vault writes |
+| Schema | `foundation/ariadne-vault-schema.md` | Read before vault writes |
 
 ## Zones (read zone `INDEX.md` first)
 
-- [[entities/INDEX]] — agencies, competitors, **company (us)**
+- [[entities/INDEX]] — `customers/` + `companies/` (federal buying side + org names)
 - [[global/INDEX]] — doctrine + domain intel
 - [[pursuits/INDEX]] — per-opportunity
 - [[generated-projections/INDEX]] — candidates only
@@ -25,4 +25,4 @@ tags: [index, karpathy-wiki, thread-os]
 ## Catalog maintenance
 Hephaestus rebuilds trusted lists on promote. Append lint lines to `log.md`.
 
-Read [[capture-llm-wiki]] before maintaining this vault.
+Read [[ariadne-vault-schema]] before maintaining this vault.

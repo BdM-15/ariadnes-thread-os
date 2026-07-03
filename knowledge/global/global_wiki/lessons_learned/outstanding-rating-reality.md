@@ -16,7 +16,7 @@ updated: "'2026-04-22T23:01:17'"
 What actually earns 'Outstanding' or 'Exceptional' ratings in government evaluation. It requires: (1) Exceeding requirements with QUANTIFIED benefits - vague claims don't count, (2) Innovation that reduces risk or cost for government - not just different, demonstrably better, (3) Exceptional relevant past performance - recent, similar, documented success, (4) Proof points substantiating every major claim, (5) Clear linkage to evaluation criteria - evaluator must easily trace your strengths to scoring factors. 'Outstanding' is rare - most proposals score 'Good' or 'Acceptable'. Achieving it requires investment in discriminator development and substantiation, not just good writing.
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[price-to-win-analysis]]
 - [[firm-fixed-pricing]]
 - [[ffp-shaping-radar]]

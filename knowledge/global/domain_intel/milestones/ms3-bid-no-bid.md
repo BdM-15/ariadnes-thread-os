@@ -136,7 +136,7 @@ When MS3 is conducted at DRFP, the FRFP update specifically checks:
 - [[win-theme-development]] - win-theme creation
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[milestones-overview]]
 - [[ms1-qualification]]
 - [[ms2-pursuit]]

@@ -22,7 +22,7 @@ Proof point: [[resan]] has been deployed in nuclear and other safety-critical en
 - **theme_type**: PROOF_POINT
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[digital-engineering-capability]]
 - [[cleared-workforce-at-scale-discriminator]]
 - [[petabyte-scale-cloud-migration-proof-point]]

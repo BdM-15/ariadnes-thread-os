@@ -23,7 +23,7 @@ Discriminator: [[kbr-vaault]] holds both FedRAMP High AND DoD SRG IL5 alignment 
 - **theme_type**: DISCRIMINATOR
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[enterprise-technology-capability]]
 - [[hundred-plus-digital-initiatives-proof-point]]
 - [[petabyte-scale-cloud-migration-proof-point]]

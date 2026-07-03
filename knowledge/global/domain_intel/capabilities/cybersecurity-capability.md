@@ -20,7 +20,7 @@ updated: "'2026-04-22T23:01:17'"
 Cyber operations, range-based testing, secure tactical fabrics, and edge compute. Anchored by Cyber Range (virtual cyber test/training environment), [[crystalvista]] (secure warfighting mesh fabric), and [[quantum-pantheon]] (edge HPC nodes). KBR publicly cites a 'highly cleared and skilled workforce' — useful in proposals requiring TS/SCI personnel scale. Applicable to RFPs from USCYBERCOM, service cyber components, IC, and DoD T&E ranges.
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[cleared-workforce]]
 - [[kbr-cyber-range]]
 - [[wraith]]

@@ -20,7 +20,7 @@ Defense Federal Acquisition Regulation Supplement cybersecurity requirements und
 - **modal_verb**: shall
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[cmmc-certification-status]]
 - [[dod-srg-impact-level-5-authorization-vaault]]
 - [[cmmc-certification-framework]]

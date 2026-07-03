@@ -19,7 +19,7 @@ Technique for neutralizing competitor strengths without naming them. Ghosting ra
 - **theme_type**: DISCRIMINATOR
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[capture-plan-development]]
 - [[discriminator-development]]
 - [[capture-planning-phase]]

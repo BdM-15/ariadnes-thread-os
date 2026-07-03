@@ -22,7 +22,7 @@ updated: "'2026-04-22T23:01:17'"
 KBR is one of the prime awardees of the U.S. Army's LOGCAP V (Logistics Civil Augmentation Program V) IDIQ contract — the largest contingency logistics support vehicle in DoD. KBR has substantial historical performance across multiple LOGCAP iterations dating to the 1990s. Most credible past performance reference for: contingency operations, expeditionary BOS, OCONUS sustainment, large-scale subcontract management, and rapid global mobilization. TODO: Insert current LOGCAP V CPARS ratings and specific task order references for proposal use.
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[afcap-contract-heritage]]
 - [[kbr-readiness-and-sustainment]]
 - [[active-gwac-and-idiq-holdings]]

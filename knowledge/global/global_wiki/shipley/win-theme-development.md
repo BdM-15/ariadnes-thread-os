@@ -19,7 +19,7 @@ Shipley methodology for creating compelling proposal messages. Win themes follow
 - **theme_type**: WIN_THEME
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[discriminator-development]]
 - [[capture-planning-phase]]
 - [[capture-plan-development]]

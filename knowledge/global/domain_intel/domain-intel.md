@@ -48,7 +48,7 @@ in `global_wiki/` or `pursuits/`.
 
 ## Related
 
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[thread-role]]
 - [[cybersecurity-capability]]
 - [[kbr-cyber-range]]

@@ -32,7 +32,7 @@ Evergreen proposal and capture lessons (`global/global_wiki/lessons_learned/`).
 - [[set-aside-strategy-considerations]]
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[milestone_1]]
 - [[recompete-radar]]
 - [[hot-agency-recompete]]

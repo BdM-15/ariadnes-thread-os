@@ -20,7 +20,7 @@ updated: "'2026-04-22T23:01:17'"
 Model-based engineering, digital twin, and engineering automation. Anchored by ENCOMPASS-powered digital twin, [[resan]] compliance modeling, automated engineering toolchains, and a hybrid-cloud Digital Engineering Environment for distributed model-based systems engineering. Applicable to RFPs requiring MBSE, digital thread, configuration management, or model-driven sustainment of safety-critical systems (nuclear, aerospace, DoD acquisition lifecycle support).
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[encompass-digital-twin-platform]]
 - [[safety-critical-compliance-proof-point]]
 - [[cleanspend-carbon-analysis]]

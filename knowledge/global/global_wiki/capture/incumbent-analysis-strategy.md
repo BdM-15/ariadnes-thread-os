@@ -16,7 +16,7 @@ updated: "'2026-04-22T23:01:16'"
 Incumbent contractors have significant advantages requiring specific counter-strategies. Incumbent advantages: customer relationships, performance history, staff familiarity, no transition risk, inside knowledge. Counter-strategies: (1) Ghosting incumbent weaknesses (delays, quality issues, customer complaints), (2) Emphasizing fresh perspective and innovation, (3) Offering key incumbent staff on your team, (4) Reducing transition risk with detailed plans, (5) Highlighting relevant past performance from similar environments. If you are incumbent: emphasize continuity, mission knowledge, and performance record while ghosting challenger risks. Research incumbent performance through CPARS, protests, news.
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[recompete-strategy-distinctions]]
 - [[recompete-radar]]
 - [[hot-agency-recompete]]

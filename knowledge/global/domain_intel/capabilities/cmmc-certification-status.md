@@ -20,7 +20,7 @@ updated: "'2026-04-22T23:01:17'"
 TODO: Insert KBR's current CMMC level (Level 1 self-assessed, Level 2 C3PAO, or Level 3) and assessment date. CMMC is increasingly required in DoD solicitations; missing or outdated certification status is a common compliance gap. Also document subcontractor flow-down posture.
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[quality-management-system-certification]]
 - [[cleared-workforce]]
 - [[cleared-workforce-at-scale-discriminator]]

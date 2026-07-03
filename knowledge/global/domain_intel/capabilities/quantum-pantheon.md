@@ -19,7 +19,7 @@ updated: "'2026-04-22T23:01:17'"
 High-performance edge compute nodes designed to process and contextualize data where it is created. Pairs with [[crystalvista]]. Applicable to RFPs requiring tactical edge compute, denied/disconnected operations support, or onboard ML inference for ISR/sensor platforms.
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[cybersecurity-capability]]
 - [[autonomous-systems-capability]]
 - [[insite-remote-operations-platform]]

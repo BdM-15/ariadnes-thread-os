@@ -16,7 +16,7 @@ updated: "'2026-04-22T23:01:16'"
 Traceability tool mapping RFP requirements to proposal responses. Columns: Requirement ID, Section L instruction, Section M criterion, Proposal section, Page number, Compliance status (Full/Partial/Exception). Critical for avoiding disqualification from non-responsiveness. Pink Team validates completeness. Maintained throughout proposal development. Links to requirements database for large proposals. Also called Requirements Traceability Matrix (RTM).
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[common-proposal-disqualification-causes]]
 - [[ambiguous-requirement-red-flags]]
 - [[hidden-requirement-patterns]]

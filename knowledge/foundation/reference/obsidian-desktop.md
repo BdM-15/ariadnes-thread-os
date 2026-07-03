@@ -1,14 +1,14 @@
 # Obsidian Desktop + Thread Vault
 
-Optional IDE for `knowledge/thread/`. Karpathy pattern: browse graph, follow wikilinks, manual append — agents do bulk maintenance.
+Optional IDE for `knowledge/`. Karpathy pattern: browse graph, follow wikilinks, manual append — agents do bulk maintenance.
 
 ## Open vault
 
 1. Obsidian → **Open folder as vault**
-2. Select repo path: `<repo>/knowledge/thread/`
+2. Select repo path: `<repo>/knowledge/`
 3. First app bootstrap seeds `.obsidian/` if missing
 
-Vault content is gitignored (`knowledge/thread/`). Obsidian config inside vault is local to your machine.
+Vault content lives in git (`knowledge/`). Obsidian config inside vault is local to your machine.
 
 ## Recommended plugins (install via Community Plugins)
 
@@ -24,7 +24,7 @@ Not required for Thread app — `/knowledge` HTMX browser works without desktop.
 
 ## Conventions
 
-- Match `foundation/capture-llm-wiki.md` frontmatter (`type`, `id`, `trust`, `citations`)
+- Match `foundation/ariadne-vault-schema.md` frontmatter (`type`, `id`, `trust`, `citations`)
 - Use `[[wikilinks]]` — see `skills/obsidian-markdown/SKILL.md`
 - **Append** new sections; do not delete trusted history
 - Candidate notes: `trust: candidate` or file under `generated-projections/`
@@ -38,5 +38,5 @@ Heavy lint or synthesis can run in agent; you inspect results in Obsidian graph/
 
 ## Related
 
-- [[capture-llm-wiki]] — vault schema
+- [[ariadne-vault-schema]] — vault schema
 - Platform skills: `skills/README.md`

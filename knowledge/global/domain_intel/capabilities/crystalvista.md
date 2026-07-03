@@ -20,7 +20,7 @@ updated: "'2026-04-22T23:01:17'"
 Secure warfighting fabric — data, system, platform, and cloud agnostic — that creates a global encrypted mesh network across diverse data paths including commercial internet. Modular open systems approach supports JADC2/CJADC2 themes. Applicable to RFPs for tactical communications, multi-domain operations, and DoD enterprise IT modernization with edge-to-cloud requirements.
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[cybersecurity-capability]]
 - [[quantum-pantheon]]
 - [[enterprise-technology-capability]]

@@ -86,6 +86,6 @@ Click **vault** beside any in-app label to open the matching concept page.
 - Reorganized from monolithic glossary into `concepts/` + this index.
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[bid-no-bid-decision-framework]]
 - [[entities]]

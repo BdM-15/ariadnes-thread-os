@@ -19,7 +19,7 @@ updated: "'2026-04-22T23:01:17'"
 Onboard autonomy assurance system for UAS and maritime platforms providing encrypted heartbeat, assurable geofencing (static and dynamic), propulsion interruption, and kinetic energy recovery. Platform and bearer agnostic. Applicable to RFPs requiring safety-of-flight assurance for autonomous operations, BVLOS waivers, or hazardous-environment UAS deployments.
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[autonomous-systems-capability]]
 - [[dash-c3-decision-support]]
 - [[quantum-pantheon]]

@@ -20,7 +20,7 @@ Past Performance evaluates historical contractor performance as predictor of fut
 - **importance**: Critical predictor of future success
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[past-performance-relevance-reality]]
 - [[outstanding-rating-reality]]
 - [[competitor-posture]]

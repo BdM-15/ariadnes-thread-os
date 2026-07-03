@@ -19,7 +19,7 @@ Utilization rates convert calendar time to productive hours. Industry standards:
 - **threshold**: 80-85% of calendar hours
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[labor-hour-calculation-methodology]]
 - [[capture-planning-phase]]
 - [[travel-cost-estimation-patterns]]

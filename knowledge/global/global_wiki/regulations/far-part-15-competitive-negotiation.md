@@ -16,7 +16,7 @@ updated: "'2026-04-22T23:01:16'"
 FAR Part 15 governs competitive negotiated acquisitions, the primary method for complex government contracts. Key elements: (1) Formal source selection with evaluation factors, (2) Section L (Instructions) and Section M (Evaluation Criteria) structure, (3) Discussions and BAFOs permitted, (4) Best value tradeoff or LPTA award basis. Proposal strategy must align with stated evaluation approach - tradeoff procurements reward discriminators while LPTA rewards compliant low price. Understand FAR 15.305 evaluation guidance.
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[price-to-win-analysis]]
 - [[firm-fixed-pricing]]
 - [[ffp-shaping-radar]]

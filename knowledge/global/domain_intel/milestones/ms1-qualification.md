@@ -124,7 +124,7 @@ typically deferred or skipped:
 - [[pwin-probability-assessment]] - early Pwin estimate
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[milestones-overview]]
 - [[ms2-pursuit]]
 - [[ms3-bid-no-bid]]

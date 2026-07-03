@@ -384,7 +384,7 @@ Point vault folder at **`knowledge/`** (absolute path on your machine).
 |------------|--------|
 | Flattened `knowledge/` tree | ✅ Item 4 Phase 1 |
 | `ariadne-vault-schema.md` | ✅ Phase 3 (this file) |
-| Entities 3b (`customers/`, `companies/`) | 📋 After schema ack |
+| Entities 3b (`customers/`, `companies/`) | ✅ Phase 3b live (G2 ack 2026-07-02) |
 | Automated lint cron | 📋 skill-guided |
 | Semantic vault search | 📋 backlog |
 

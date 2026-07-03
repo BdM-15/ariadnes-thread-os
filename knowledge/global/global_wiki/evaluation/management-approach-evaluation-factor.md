@@ -20,7 +20,7 @@ Management Approach evaluates organizational capability to execute contract. Com
 - **importance**: Demonstrates execution capability
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[cleared-workforce]]
 - [[cleared-workforce-at-scale-discriminator]]
 - [[agency-specific-evaluation-tendencies]]

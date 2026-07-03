@@ -19,7 +19,7 @@ updated: "'2026-04-22T23:01:17'"
 Center Scheduling Optimization Module — automated enterprise scheduling that optimizes mission asset and infrastructure utilization across the full project solution space. Applicable to range scheduling, test facility utilization, training center management, and any large/labor-intensive scheduling problem.
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[encompass-digital-twin-platform]]
 - [[data-analytics-capability]]
 - [[cybersecurity-capability]]

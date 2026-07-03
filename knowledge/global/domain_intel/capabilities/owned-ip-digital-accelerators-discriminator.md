@@ -22,7 +22,7 @@ Discriminator: KBR brings owned-IP digital products (Vaault, [[kbrain]], [[iron-
 - **theme_type**: DISCRIMINATOR
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[hundred-plus-digital-initiatives-proof-point]]
 - [[cleared-workforce-at-scale-discriminator]]
 - [[petabyte-scale-cloud-migration-proof-point]]

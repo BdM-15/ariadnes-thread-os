@@ -20,7 +20,7 @@ DFARS and FAR subcontracting requirements for contracts exceeding thresholds. Ke
 - **modal_verb**: shall
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[small-business-participation-evaluation-factor]]
 - [[dfars-cybersecurity-requirements]]
 - [[cybersecurity-capability]]

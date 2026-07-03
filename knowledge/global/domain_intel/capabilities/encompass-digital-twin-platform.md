@@ -19,7 +19,7 @@ updated: "'2026-04-22T23:01:17'"
 KBR's data-model-driven project and digital twin delivery platform. Used across both project planning and lifecycle O&M. Underpins the CleanSpend carbon-analysis solution. Applicable to RFPs requiring digital twin delivery, infrastructure lifecycle modeling, or facility/asset configuration management.
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[digital-engineering-capability]]
 - [[cleanspend-carbon-analysis]]
 - [[csom-scheduling-optimization-module]]

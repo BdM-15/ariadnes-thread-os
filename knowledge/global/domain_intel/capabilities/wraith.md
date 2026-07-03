@@ -20,7 +20,7 @@ updated: "'2026-04-22T23:01:17'"
 Warfighter Real-time Analysis and Interoperability with Truth — a real-time visualization suite for tactical, commercial, and instrumentation data with runtime-loadable interface and algorithm components. Applicable to DoD T&E ranges, live/virtual/constructive integration RFPs, and tactical data fusion programs.
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[cybersecurity-capability]]
 - [[dash-c3-decision-support]]
 - [[viaverse-estates-intelligence-platform]]

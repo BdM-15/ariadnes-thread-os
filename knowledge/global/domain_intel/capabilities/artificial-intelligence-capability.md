@@ -19,7 +19,7 @@ updated: "'2026-04-22T23:01:17'"
 AI/ML services anchored by [[kbrain]] (large language models, generative AI for operations automation), NLP/ML toolsets for data quality and tagging, and Intelligent Asset Management (IAM) for predictive maintenance. KBR's stated positioning is 'AI integrated to deliver results, not AI for AI's sake' — useful framing when an RFP calls for AI but cautions against unbounded R&D scope. Strongest applicability: knowledge management, decision support, predictive maintenance, and document/text-heavy operational workflows.
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[intelligent-asset-management-iam]]
 - [[data-analytics-capability]]
 - [[insite-remote-operations-platform]]

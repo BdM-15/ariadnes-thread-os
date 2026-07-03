@@ -24,7 +24,7 @@ Discriminator: KBR's LOGCAP/AFCAP heritage represents one of the few sustainment
 - **theme_type**: DISCRIMINATOR
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[kbr-readiness-and-sustainment]]
 - [[cleared-workforce-at-scale-discriminator]]
 - [[petabyte-scale-cloud-migration-proof-point]]

@@ -21,7 +21,7 @@ updated: "'2026-04-22T23:01:17'"
 KBR's [[iron-stallion]] platform is publicly cited as deployed for the U.S. Space Force for space situational awareness command-and-control. Most credible past performance reference for USSF, Space Systems Command, Space Operations Command, and Space Development Agency proposals involving SSA, SDA, or C2 software. TODO: Insert specific contract numbers, dollar values, and performance period for proposal citation.
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[afcap-contract-heritage]]
 - [[logcap-v-contract]]
 - [[hundred-plus-digital-initiatives-proof-point]]

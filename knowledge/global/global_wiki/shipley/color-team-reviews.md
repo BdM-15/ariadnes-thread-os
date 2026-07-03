@@ -16,7 +16,7 @@ updated: "'2026-04-22T23:01:16'"
 Shipley proposal quality gates using color-coded review milestones: Pink Team (compliance review of outline/storyboards), Red Team (strategy review of full draft for persuasiveness and win theme integration), Gold Team (final polish review for production readiness). Each review has specific criteria, independent reviewers, and mandatory action item resolution. Best practice: Schedule reviews with adequate recovery time before submission.
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[capture-plan-development]]
 - [[common-proposal-disqualification-causes]]
 - [[capture-planning-phase]]

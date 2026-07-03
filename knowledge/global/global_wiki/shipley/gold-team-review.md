@@ -16,7 +16,7 @@ updated: "'2026-04-22T23:01:16'"
 Final color team review focused on PRODUCTION QUALITY. Reviews camera-ready proposal for professional presentation: formatting consistency, graphics quality, cross-reference accuracy, page count compliance, executive summary impact. No substantive content changes at this stage. Also reviews pricing volume for arithmetic accuracy and cost narrative consistency. Deliverable: Gold Team signoff for production and submission.
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[common-proposal-disqualification-causes]]
 - [[price-to-win-analysis]]
 - [[firm-fixed-pricing]]

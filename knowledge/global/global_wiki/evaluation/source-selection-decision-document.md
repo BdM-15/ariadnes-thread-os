@@ -16,7 +16,7 @@ updated: "'2026-04-22T23:01:17'"
 FAR 15.308 SSDD — written rationale by the SSA explaining the integrated assessment and award decision, including comparative assessment of proposals and reasoning for any tradeoff. The SSDD is the primary document GAO reviews in a bid protest of the award rationale. Implication for proposal writing: make the SSA's job easy — provide clear, quotable benefit statements the SSA can paste into the SSDD to justify selecting your higher-priced offer over a lower-priced competitor. Generic claims and unquantified benefits force the SSA to invent justification, which is protestable. Concrete proof points ARE the tradeoff narrative.
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[lessons-learned-index]]
 - [[debrief-exploitation-strategy]]
 - [[gao-protest-risk-patterns]]

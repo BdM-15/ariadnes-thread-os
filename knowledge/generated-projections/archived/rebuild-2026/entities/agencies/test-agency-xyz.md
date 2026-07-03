@@ -28,7 +28,7 @@ Test Agency XYZ operates in a high-intensity area, as indicated by recent data.
 _Source_: test • NAICS 561210
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[capture-intensity]]
 - [[follow-the-money]]
 - [[market-concentration]]

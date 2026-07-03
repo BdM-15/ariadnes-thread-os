@@ -20,7 +20,7 @@ Common evaluation factor for unrestricted procurements requiring small business 
 - **importance**: Often go/no-go threshold; rarely outcome-determinative on its own
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[gap-fill-teaming]]
 - [[teaming-fit]]
 - [[teaming-strategy-development]]

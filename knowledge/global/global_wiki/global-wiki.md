@@ -22,7 +22,7 @@ Foundational, reusable capture knowledge auto-seeded from Theseus' curated ontol
 - **Company Capabilities** — 45 pages
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[capture-plan-development]]
 - [[discriminator-development]]
 - [[capture-planning-phase]]

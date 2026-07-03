@@ -20,7 +20,7 @@ updated: "'2026-04-22T23:01:17'"
 Estates and facilities intelligence platform delivering data validation and strategic insights for cost, performance, and sustainability optimization. Applicable to facility O&M RFPs, energy management contracts, and federal real-property optimization programs (GSA PBS, DoD installation support).
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[data-analytics-capability]]
 - [[insite-remote-operations-platform]]
 - [[intelligent-asset-management-iam]]

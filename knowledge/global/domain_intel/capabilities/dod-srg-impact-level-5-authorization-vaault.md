@@ -20,7 +20,7 @@ updated: "'2026-04-22T23:01:17'"
 [[kbr-vaault]] is publicly stated as aligned with DoD SRG Impact Level 5 (IL5). IL5 covers Controlled Unclassified Information (CUI) and unclassified National Security Systems including mission-critical DoD information. Required for many DoD mission system RFPs. Cite alongside FedRAMP High for DoD cloud-hosted SaaS opportunities.
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[fedramp-high-authorization-vaault]]
 - [[enterprise-technology-capability]]
 - [[cleared-workforce]]

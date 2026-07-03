@@ -26,7 +26,7 @@ tags:
 
 ## Related
 
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[usaspending-plain-english]]
 - [[domain-intel]]
 - [[follow-the-money]]

@@ -21,7 +21,7 @@ updated: "'2026-04-22T23:01:17'"
 KBR has prime contractor heritage on the U.S. Air Force's AFCAP (Air Force Contract Augmentation Program) for contingency and base operations support. Applicable past performance for AF-customer BOS, civil engineering, fuels, transportation, and contingency RFPs. TODO: Insert current AFCAP iteration, active task orders, CPARS ratings, and KBR-specific scope cited in active performance.
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[logcap-v-contract]]
 - [[kbr-readiness-and-sustainment]]
 - [[u-s-space-force-ssa-performance-iron-stallion]]

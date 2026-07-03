@@ -59,7 +59,7 @@ Internal discovery only. Treat as **placeholder** in capability matrices until J
 - [[kbr-services-readiness-sustainment]] — RS BU capability hub (promote target linkage)
 - [[kbr-readiness-and-sustainment]] — BU positioning
 - [[capabilities-catalog]] — trusted capability index
-- [[capture-llm-wiki]] — vault write schema (OFM + review gate)
+- [[ariadne-vault-schema]] — vault write schema (OFM + review gate)
 
 ## Added/Updated 2026-07-02
 

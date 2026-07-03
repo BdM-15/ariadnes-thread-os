@@ -147,7 +147,7 @@ Independent of MS4 outcome, every submitted proposal triggers:
 - [[win-loss-analysis]] - post-award lessons-learned
 
 ## Related
-- [[capture-llm-wiki]]
+- [[ariadne-vault-schema]]
 - [[gap-fill-teaming]]
 - [[teaming-fit]]
 - [[teaming-strategy-development]]
