@@ -1,43 +1,45 @@
-# Pre-W2 hygiene ship (G2 fixes #1–4)
+# Pre-W2 hygiene (G2) — ship note
 
 **Date:** 2026-07-03  
 **Agent:** Hephaestus  
-**Gate:** [G2 schema review](../../odysseus/content/2026-07-02_g2-schema-review.md) — required fixes before W2 content waves
+**Follow-up:** `deleg_a71a7b74`  
+**Gate:** G2 pre-W2 complete before W2 Clio Wave A candidates land on disk
+
+---
 
 ## Delivered
 
-| # | G2 fix | Result |
-|---|--------|--------|
-| 1 | `knowledge/index.md` schema + zones | Schema row → `foundation/ariadne-vault-schema.md`; zones → `customers/` + `companies/`; wikilink `[[ariadne-vault-schema]]` |
-| 2 | Wikilink alias pass in `knowledge/` | 170 files: `[[capture-llm-wiki]]` → `[[ariadne-vault-schema]]` (skipped alias stub + schema doc) |
-| 3 | Schema §11 entities 3b | `✅ Phase 3b live (G2 ack 2026-07-02)` |
-| 4 | Promote gate checklist paths | `knowledge/thread/` → flat `knowledge/`; schema refs → `ariadne-vault-schema.md`; write zones → `customers/` + `companies/` |
+| Item | Result |
+|------|--------|
+| Wikilink alias pass | `[[capture-llm-wiki]]` → `[[ariadne-vault-schema]]` project-wide in `knowledge/` (schema file retains alias documentation only); idempotent re-run: **0** files |
+| Schema §11 3b | `knowledge/foundation/ariadne-vault-schema.md` — **Entities 3b (`customers/`, `companies/`)** marked ✅ Phase 3b live (G2 ack 2026-07-02) |
+| Promote gate checklist | `agents/odysseus/content/2026-07-02_vault-promote-gate-checklist.md` — flat `entities/customers/` + `entities/companies/` write zones (tracked) |
+| Root catalog | `knowledge/index.md` — zones + `[[ariadne-vault-schema]]` pointer (W2 index row updates on disk prior to this commit) |
+| `vault_lint` | **2026-07-03 14:55 UTC** — exit **0**; 231 md files; entities zone **3**; unresolved wikilinks **41** (expected deferred / Wave 2 stubs); logged in `knowledge/log.md` |
 
-## Extra (retrieve integrity)
+---
 
-- `knowledge/foundation/reference/obsidian-desktop.md` — flat `knowledge/` vault path + schema filename
+## Not in this hygiene pass
+
+- Trusted promotes (freeze ON)
+- W2 rewrite candidates under `generated-projections/*-rewrite-candidate.md` (Clio ship separate)
+- MC Vault tab / `MISSION_CONTROL_DISCIPLINE.md` (parallel Hephaestus track)
+
+---
 
 ## Verification
 
-```text
-python scripts/vault_lint.py
-Vault lint 2026-07-03 — exit 0; 231 md files; unresolved wikilinks 41 (expected deferred)
+```bash
+python scripts/_pre_w2_wikilink_pass.py   # updated 0 files
+python scripts/vault_lint.py                # exit 0
 ```
 
-## Git
+---
 
-- Branch: `feature/knowledge-vault-v1`
-- Commit: `feat(vault): pre-W2 hygiene (G2)`
+## References
 
-## Not in this pass (G2 #5)
+- Odysseus G2 schema review: `agents/odysseus/content/2026-07-02_g2-schema-review.md`
+- Phase 3b ship: `agents/hephaestus/content/2026-07-02_phase3b-entities-migration-ship.md`
+- Clio W2: `agents/clio/content/2026-07-03_w2-wave-a-candidates-ship.md`
 
-- Clio W1 path: `entities/company/` → `entities/companies/kbr-services-readiness-sustainment.md` — Clio ingestion order
-
-## Promote freeze
-
-**Still ON** per Item 4 cleanse — W2 uses candidates + in-place trusted edits until Overwatch lifts freeze.
-
-## Related
-
-- [Phase 3b entities migration](2026-07-02_phase3b-entities-migration-ship.md)
-- [Promote gate checklist](../../odysseus/content/2026-07-02_vault-promote-gate-checklist.md)
+*Logged:* pre-W2 hygiene G2 commit (hephaestus)
