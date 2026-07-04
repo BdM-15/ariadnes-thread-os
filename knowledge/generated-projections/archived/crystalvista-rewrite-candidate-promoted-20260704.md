@@ -13,6 +13,7 @@ tags: [capability-rewrite, wave-b, morning-queue, cybersecurity, tactical-edge]
 source: iris-rescout
 review_id: null
 summary: "Secure warfighting fabric / encrypted mesh — corporate Cybersecurity §; tone down uncited JADC2."
+archived_reason: "promoted 2026-07-04 lighthouse #7a → global/domain_intel/capabilities/crystalvista.md"
 ---
 
 # CRYSTALVISTA — Wave B REWRITE candidate

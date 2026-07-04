@@ -22,8 +22,8 @@
 | ~~[[kbrain-rewrite-candidate]]~~ | `global/domain_intel/capabilities/kbrain.md` | W2 #4 | **Promoted 2026-07-04** (lighthouse #6) → [[kbrain]] |
 || ~~[[insite-remote-operations-platform-rewrite-candidate]]~~ | `global/domain_intel/capabilities/insite-remote-operations-platform.md` | W2 #5 | **Promoted 2026-07-04** (lighthouse #5) → [[insite-remote-operations-platform]] |
 | ~~[[iron-stallion-rewrite-candidate]]~~ | `global/domain_intel/capabilities/iron-stallion.md` | W2 #6 | **Promoted 2026-07-04** (lighthouse #2) → [[iron-stallion]] |
-| [[crystalvista-rewrite-candidate]] | `global/domain_intel/capabilities/crystalvista.md` | W2 #7a | candidate |
-| [[quantum-pantheon-rewrite-candidate]] | `global/domain_intel/capabilities/quantum-pantheon.md` | W2 #7b | candidate |
+| ~~[[crystalvista-rewrite-candidate]]~~ | `global/domain_intel/capabilities/crystalvista.md` | W2 #7a | **Promoted 2026-07-04** (lighthouse #7) → [[crystalvista]] |
+| ~~[[quantum-pantheon-rewrite-candidate]]~~ | `global/domain_intel/capabilities/quantum-pantheon.md` | W2 #7b | **Promoted 2026-07-04** (lighthouse #7) → [[quantum-pantheon]] |
 | ~~[[intelligent-asset-management-iam-rewrite-candidate]]~~ | `global/domain_intel/capabilities/intelligent-asset-management-iam.md` | W2 #8 | **Promoted 2026-07-04** (lighthouse #4) → [[intelligent-asset-management-iam]] |
 | ~~[[owned-ip-digital-accelerators-discriminator-rewrite-candidate]]~~ | `global/domain_intel/capabilities/owned-ip-digital-accelerators-discriminator.md` | W2 #9 | **Promoted 2026-07-04** (lighthouse #3) → [[owned-ip-digital-accelerators-discriminator]] |
 | [[eden-edge-data-extraction-node-rewrite-candidate]] | `global/domain_intel/capabilities/eden-edge-data-extraction-node.md` (TBD) | W2 #10 | candidate |

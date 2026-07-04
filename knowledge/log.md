@@ -182,12 +182,16 @@ Vault lint 2026-07-04 01:23 UTC
 
 ## [2026-07-04] promote | KBRain | review:b7d3e9a1-2c4f-5b8e-a3d6-1f8e9c0a5b2d | from:generated-projections/kbrain-rewrite-candidate.md → global/domain_intel/capabilities/kbrain.md | by:axelrod2023 | W2 lighthouse #6
 
+## [2026-07-04] promote | CRYSTALVISTA | review:c1f4a8b2-3d6e-4f9a-8b1c-2e3f5a7b9c0d | from:generated-projections/crystalvista-rewrite-candidate.md → global/domain_intel/capabilities/crystalvista.md | by:axelrod2023 | W2 lighthouse #7
+
+## [2026-07-04] promote | Quantum Pantheon | review:d2e5b9c3-4f7a-5b0e-9c2d-3f4a6b8c0d1e | from:generated-projections/quantum-pantheon-rewrite-candidate.md → global/domain_intel/capabilities/quantum-pantheon.md | by:axelrod2023 | W2 lighthouse #7
+
 ```
-Vault lint 2026-07-04 01:33 UTC
+Vault lint 2026-07-04 01:43 UTC
   markdown files: 237
   zone counts: {'index.md': 1, 'log.md': 1, 'README.md': 1, 'entities': 3, 'foundation': 5, 'generated-projections': 15, 'global': 208, 'pursuits': 1, 'relationships': 2}
   trust frontmatter hits: {'"candidate"': 2, 'candidate': 12, 'trusted': 205, '"trusted"': 2}
   projection files (non-INDEX): 14
-  unresolved wikilinks (heuristic): 47
+  unresolved wikilinks (heuristic): 49
   sample missing: acquisition_capture_progress, action_plan_items, army-logcap-funding-office, award_date, basis_of_evaluated_price, bookable_revenue, bp_funding_request_amount, bp_notes, business_case_rows, business_case_summary, business_unit, business_unit_division, capture_manager, consultants, contract_end_date
 ```

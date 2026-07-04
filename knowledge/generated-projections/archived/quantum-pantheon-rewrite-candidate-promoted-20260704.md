@@ -13,6 +13,7 @@ tags: [capability-rewrite, wave-b, morning-queue, edge-compute, hpc]
 source: iris-rescout
 review_id: null
 summary: "Edge HPC nodes contextualizing data at creation — corporate Cybersecurity §; pair w/ CRYSTALVISTA."
+archived_reason: "promoted 2026-07-04 lighthouse #7b → global/domain_intel/capabilities/quantum-pantheon.md"
 ---
 
 # Quantum Pantheon — Wave B REWRITE candidate
