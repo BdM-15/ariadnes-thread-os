@@ -13,6 +13,7 @@ tags: [capability-rewrite, wave-a, morning-queue, kbr-rs]
 source: iris-rescout
 review_id: null
 summary: "R&S hub under Mission Technology Solutions — seven service lines + next-gen asset mgmt."
+archived_reason: "promoted 2026-07-04 lighthouse → global/domain_intel/capabilities/kbr-readiness-and-sustainment.md"
 ---
 
 # KBR Readiness and Sustainment — Wave A REWRITE candidate
