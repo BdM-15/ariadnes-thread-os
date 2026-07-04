@@ -13,6 +13,7 @@ tags: [capability-rewrite, wave-a, morning-queue, generative-ai]
 source: iris-rescout
 review_id: null
 summary: "Generative AI / LLM streamlining under Digital Accelerators Artificial Intelligence."
+archived_reason: "promoted 2026-07-04 lighthouse #6 → global/domain_intel/capabilities/kbrain.md"
 ---
 
 # KBRain — Wave A REWRITE candidate

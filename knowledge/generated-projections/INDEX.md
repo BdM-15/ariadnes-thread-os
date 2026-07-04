@@ -9,7 +9,7 @@
 | [[eden-edge-computing-candidate]] | EDEN edge computing — POC Jayson Gray; promote after follow-up |
 | [[logcap-v-contract-rewrite-candidate]] | W2 Wave A #2 — LOGCAP marketing vs contract facts |
 | [[kbr-vaault-rewrite-candidate]] | W2 Wave A #3 — Vaault + FedRAMP/IL5 cite spine |
-| [[kbrain-rewrite-candidate]] | W2 Wave A #4 — KBRain / Generative AI |
+| ~~[[kbrain-rewrite-candidate]]~~ | W2 Wave A #4 — **Promoted 2026-07-04** (lighthouse #6) → [[kbrain]] |
 
 
 ## Wave A/B rewrite candidates (promote freeze)
@@ -19,7 +19,7 @@
 | ~~[[kbr-readiness-and-sustainment-rewrite-candidate]]~~ | `global/domain_intel/capabilities/kbr-readiness-and-sustainment.md` | W2 #1 | **Promoted 2026-07-04** (lighthouse) → [[kbr-readiness-and-sustainment]] |
 | [[logcap-v-contract-rewrite-candidate]] | `global/domain_intel/capabilities/logcap-v-contract.md` | W2 #2 | candidate |
 | [[kbr-vaault-rewrite-candidate]] | `global/domain_intel/capabilities/kbr-vaault.md` | W2 #3 | candidate |
-| [[kbrain-rewrite-candidate]] | `global/domain_intel/capabilities/kbrain.md` | W2 #4 | candidate |
+| ~~[[kbrain-rewrite-candidate]]~~ | `global/domain_intel/capabilities/kbrain.md` | W2 #4 | **Promoted 2026-07-04** (lighthouse #6) → [[kbrain]] |
 || ~~[[insite-remote-operations-platform-rewrite-candidate]]~~ | `global/domain_intel/capabilities/insite-remote-operations-platform.md` | W2 #5 | **Promoted 2026-07-04** (lighthouse #5) → [[insite-remote-operations-platform]] |
 | ~~[[iron-stallion-rewrite-candidate]]~~ | `global/domain_intel/capabilities/iron-stallion.md` | W2 #6 | **Promoted 2026-07-04** (lighthouse #2) → [[iron-stallion]] |
 | [[crystalvista-rewrite-candidate]] | `global/domain_intel/capabilities/crystalvista.md` | W2 #7a | candidate |
