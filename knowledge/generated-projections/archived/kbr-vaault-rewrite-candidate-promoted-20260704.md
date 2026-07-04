@@ -13,6 +13,7 @@ tags: [capability-rewrite, wave-a, morning-queue, vaault, fedramp, il5]
 source: iris-rescout
 review_id: null
 summary: "SaaS mission platform; corporate copy aligns with FedRAMP High and DoD SRG IL5."
+archived_reason: "promoted 2026-07-04 lighthouse #10 → global/domain_intel/capabilities/kbr-vaault.md"
 ---
 
 # KBR Vaault — Wave A REWRITE candidate
