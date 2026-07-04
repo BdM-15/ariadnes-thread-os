@@ -13,6 +13,7 @@ tags: [capability-rewrite, wave-a, morning-queue, logcap, contingency]
 source: iris-rescout
 review_id: null
 summary: "Contingency LOGCAP marketing claims — separate from LOGCAP V award facts."
+archived_reason: "promoted 2026-07-04 lighthouse #11 → global/domain_intel/capabilities/logcap-v-contract.md"
 ---
 
 # LOGCAP — Wave A REWRITE candidate

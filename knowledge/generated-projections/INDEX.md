@@ -7,7 +7,7 @@
 | Page | Concern |
 |------|---------|
 | [[eden-edge-computing-candidate]] | EDEN edge computing — POC Jayson Gray; promote after follow-up |
-| [[logcap-v-contract-rewrite-candidate]] | W2 Wave A #2 — LOGCAP marketing vs contract facts |
+| ~~[[logcap-v-contract-rewrite-candidate]]~~ | W2 Wave A #2 — **Promoted 2026-07-04** (lighthouse #11) → [[logcap-v-contract]] |
 | ~~[[kbr-vaault-rewrite-candidate]]~~ | W2 Wave A #3 — **Promoted 2026-07-04** (lighthouse #10) → [[kbr-vaault]] |
 | ~~[[kbrain-rewrite-candidate]]~~ | W2 Wave A #4 — **Promoted 2026-07-04** (lighthouse #6) → [[kbrain]] |
 
@@ -17,7 +17,7 @@
 | Candidate | Promote target | Wave / Iris # | Status |
 |-----------|----------------|---------------|--------|
 | ~~[[kbr-readiness-and-sustainment-rewrite-candidate]]~~ | `global/domain_intel/capabilities/kbr-readiness-and-sustainment.md` | W2 #1 | **Promoted 2026-07-04** (lighthouse) → [[kbr-readiness-and-sustainment]] |
-| [[logcap-v-contract-rewrite-candidate]] | `global/domain_intel/capabilities/logcap-v-contract.md` | W2 #2 | candidate |
+| ~~[[logcap-v-contract-rewrite-candidate]]~~ | `global/domain_intel/capabilities/logcap-v-contract.md` | W2 #2 | **Promoted 2026-07-04** (lighthouse #11) → [[logcap-v-contract]] |
 | ~~[[kbr-vaault-rewrite-candidate]]~~ | `global/domain_intel/capabilities/kbr-vaault.md` | W2 #3 | **Promoted 2026-07-04** (lighthouse #10) → [[kbr-vaault]] |
 | ~~[[kbrain-rewrite-candidate]]~~ | `global/domain_intel/capabilities/kbrain.md` | W2 #4 | **Promoted 2026-07-04** (lighthouse #6) → [[kbrain]] |
 || ~~[[insite-remote-operations-platform-rewrite-candidate]]~~ | `global/domain_intel/capabilities/insite-remote-operations-platform.md` | W2 #5 | **Promoted 2026-07-04** (lighthouse #5) → [[insite-remote-operations-platform]] |
