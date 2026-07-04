@@ -25,7 +25,7 @@
 | [[crystalvista-rewrite-candidate]] | `global/domain_intel/capabilities/crystalvista.md` | W2 #7a | candidate |
 | [[quantum-pantheon-rewrite-candidate]] | `global/domain_intel/capabilities/quantum-pantheon.md` | W2 #7b | candidate |
 | [[intelligent-asset-management-iam-rewrite-candidate]] | `global/domain_intel/capabilities/intelligent-asset-management-iam.md` | W2 #8 | candidate |
-| [[owned-ip-digital-accelerators-discriminator-rewrite-candidate]] | `global/domain_intel/capabilities/owned-ip-digital-accelerators-discriminator.md` | W2 #9 | candidate (KEEP) |
+| ~~[[owned-ip-digital-accelerators-discriminator-rewrite-candidate]]~~ | `global/domain_intel/capabilities/owned-ip-digital-accelerators-discriminator.md` | W2 #9 | **Promoted 2026-07-04** (lighthouse #3) → [[owned-ip-digital-accelerators-discriminator]] |
 | [[eden-edge-data-extraction-node-rewrite-candidate]] | `global/domain_intel/capabilities/eden-edge-data-extraction-node.md` (TBD) | W2 #10 | candidate |
 
 ## Subfolders

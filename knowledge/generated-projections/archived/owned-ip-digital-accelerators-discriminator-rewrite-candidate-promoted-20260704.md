@@ -14,6 +14,7 @@ source: iris-rescout
 review_id: null
 summary: "KEEP proposal discipline — refresh portfolio cite + top-10 child wikilinks (#3–#8 set)."
 entity_type: strategic_theme
+archived_reason: "promoted 2026-07-04 lighthouse #3 → global/domain_intel/capabilities/owned-ip-digital-accelerators-discriminator.md"
 ---
 
 # Owned IP Digital Accelerators — Wave B cite refresh (candidate)
