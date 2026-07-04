@@ -14,6 +14,7 @@ source: iris-rescout
 review_id: null
 summary: "Public EDEN℠ microsite — DDIL edge, LVC, cyber resilience; no USAspending PP by name."
 poc: "Jason Gray"
+archived_reason: "promoted 2026-07-04 lighthouse #9 → global/domain_intel/capabilities/eden-edge-data-extraction-node.md"
 ---
 
 # EDEN℠ — Wave B REWRITE v2 candidate
@@ -22,7 +23,7 @@ poc: "Jason Gray"
 > **Trust:** `candidate` · **Promote?** Odysseus gate + slug confirm (`eden-edge-data-extraction-node` TBD).  
 > **Today:** Supersedes meeting-only `eden-edge-computing-candidate.md` body for rescout — **no trusted capability slug yet**.
 
-**Status:** Freeze-safe projection — **not** trusted until promoted to new capability path. **No contract PP** claimed — Tier-4 USAspending by “EDEN” name **not found** (Iris §10).
+**Status:** Freeze-safe projection — **not** trusted until promoted to new capability path. **No contract PP** claimed — Tier-4 USAspending by "EDEN" name **not found** (Iris §10).
 
 ## Key signals + citations
 
@@ -36,7 +37,7 @@ poc: "Jason Gray"
 
 ## Offering
 
-EDEN℠ is KBR’s marketed edge compute capability for processing and acting on mission data in denied, degraded, intermittent, and limited environments — including disconnected live-virtual-constructive training workloads, with emphasis on stakeholder-owned edge, vendor-lock-in avoidance, and modular integration.
+EDEN℠ is KBR's marketed edge compute capability for processing and acting on mission data in denied, degraded, intermittent, and limited environments — including disconnected live-virtual-constructive training workloads, with emphasis on stakeholder-owned edge, vendor-lock-in avoidance, and modular integration.
 
 ## Bid fit
 
@@ -48,7 +49,7 @@ Training & simulation, disconnected field operations, analytics-at-edge for DoD 
 |------------|-------------|-------|
 | Product definition / DDIL / LVC | Tier-1 EDEN microsite | Primary |
 | Conference / PM contact | Tier-1 corporate event page | Secondary |
-| Contract award by “EDEN” name | Tier-4 | **Not found** — do not invent PP |
+| Contract award by "EDEN" name | Tier-4 | **Not found** — do not invent PP |
 
 ## Gaps / TODO
 
