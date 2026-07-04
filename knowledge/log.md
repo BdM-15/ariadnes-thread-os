@@ -92,6 +92,8 @@ Vault lint 2026-07-03 14:55 UTC
 
 ## [2026-07-04] promote | KBR Readiness and Sustainment | review:f7e2a9c4-1b3d-4e8f-9a0c-2d5e6f7a8b9c | from:generated-projections/kbr-readiness-and-sustainment-rewrite-candidate.md → global/domain_intel/capabilities/kbr-readiness-and-sustainment.md | by:axelrod2023 | W2 lighthouse
 
+## [2026-07-04] promote | Iron Stallion | review:a3c8e1f2-4d6b-4a9e-8c0d-1e2f3a4b5c6d | from:generated-projections/iron-stallion-rewrite-candidate.md → global/domain_intel/capabilities/iron-stallion.md | by:axelrod2023 | W2 lighthouse #2
+
 ## [2026-07-03] pre-W2 hygiene (G2) | wikilink alias pass | vault_lint green | Hephaestus ship
 
 ```
@@ -111,5 +113,15 @@ Vault lint 2026-07-04 00:40 UTC
   trust frontmatter hits: {'"candidate"': 2, 'candidate': 12, 'trusted': 205, '"trusted"': 2}
   projection files (non-INDEX): 14
   unresolved wikilinks (heuristic): 42
+  sample missing: acquisition_capture_progress, action_plan_items, army-logcap-funding-office, award_date, basis_of_evaluated_price, bookable_revenue, bp_funding_request_amount, bp_notes, business_case_rows, business_case_summary, business_unit, business_unit_division, capture_manager, consultants, contract_end_date
+```
+
+```
+Vault lint 2026-07-04 00:53 UTC
+  markdown files: 237
+  zone counts: {'index.md': 1, 'log.md': 1, 'README.md': 1, 'entities': 3, 'foundation': 5, 'generated-projections': 15, 'global': 208, 'pursuits': 1, 'relationships': 2}
+  trust frontmatter hits: {'"candidate"': 2, 'candidate': 12, 'trusted': 205, '"trusted"': 2}
+  projection files (non-INDEX): 14
+  unresolved wikilinks (heuristic): 43
   sample missing: acquisition_capture_progress, action_plan_items, army-logcap-funding-office, award_date, basis_of_evaluated_price, bookable_revenue, bp_funding_request_amount, bp_notes, business_case_rows, business_case_summary, business_unit, business_unit_division, capture_manager, consultants, contract_end_date
 ```

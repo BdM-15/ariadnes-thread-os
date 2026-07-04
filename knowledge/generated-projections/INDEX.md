@@ -21,7 +21,7 @@
 | [[kbr-vaault-rewrite-candidate]] | `global/domain_intel/capabilities/kbr-vaault.md` | W2 #3 | candidate |
 | [[kbrain-rewrite-candidate]] | `global/domain_intel/capabilities/kbrain.md` | W2 #4 | candidate |
 | [[insite-remote-operations-platform-rewrite-candidate]] | `global/domain_intel/capabilities/insite-remote-operations-platform.md` | W2 #5 | candidate |
-| [[iron-stallion-rewrite-candidate]] | `global/domain_intel/capabilities/iron-stallion.md` | W2 #6 | candidate |
+| ~~[[iron-stallion-rewrite-candidate]]~~ | `global/domain_intel/capabilities/iron-stallion.md` | W2 #6 | **Promoted 2026-07-04** (lighthouse #2) → [[iron-stallion]] |
 | [[crystalvista-rewrite-candidate]] | `global/domain_intel/capabilities/crystalvista.md` | W2 #7a | candidate |
 | [[quantum-pantheon-rewrite-candidate]] | `global/domain_intel/capabilities/quantum-pantheon.md` | W2 #7b | candidate |
 | [[intelligent-asset-management-iam-rewrite-candidate]] | `global/domain_intel/capabilities/intelligent-asset-management-iam.md` | W2 #8 | candidate |

@@ -13,6 +13,7 @@ tags: [capability-rewrite, wave-b, morning-queue, ssa, space]
 source: iris-rescout
 review_id: null
 summary: "Enterprise SSA software — corporate Data Analytics §; cite + dedupe proof-point page."
+archived_reason: "promoted 2026-07-04 lighthouse #2 → global/domain_intel/capabilities/iron-stallion.md"
 ---
 
 # Iron Stallion® — Wave B REWRITE candidate
