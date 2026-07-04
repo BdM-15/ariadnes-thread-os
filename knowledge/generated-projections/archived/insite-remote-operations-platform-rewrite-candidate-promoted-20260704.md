@@ -1,5 +1,6 @@
 ---
 added: "2026-07-03T12:00:00Z"
+archived_reason: "promoted to global/domain_intel/capabilities/insite-remote-operations-platform.md (W2 lighthouse #5)"
 citations: "https://solutions.kbr.com/insite • https://www.kbr.com/en/what-we-do/kbr-digital-accelerators • iris:2026-07-02_wave-a-top10-capability-rescout §5"
 retrieved: "2026-07-02"
 id: candidate-insite-remote-operations-platform-rewrite
