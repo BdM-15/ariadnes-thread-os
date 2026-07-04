@@ -147,3 +147,24 @@ Vault lint 2026-07-04 01:05 UTC
   unresolved wikilinks (heuristic): 44
   sample missing: acquisition_capture_progress, action_plan_items, army-logcap-funding-office, award_date, basis_of_evaluated_price, bookable_revenue, bp_funding_request_amount, bp_notes, business_case_rows, business_case_summary, business_unit, business_unit_division, capture_manager, consultants, contract_end_date
 ```
+## [2026-07-04] promote | Intelligent Asset Management (IAM) | review:e7b3c9d1-5a4f-4e8b-9c2d-3f6a7b8c9d0e | from:generated-projections/intelligent-asset-management-iam-rewrite-candidate.md → global/domain_intel/capabilities/intelligent-asset-management-iam.md | by:axelrod2023 | W2 lighthouse #4
+
+```
+Vault lint 2026-07-04 01:13 UTC
+  markdown files: 237
+  zone counts: {'index.md': 1, 'log.md': 1, 'README.md': 1, 'entities': 3, 'foundation': 5, 'generated-projections': 15, 'global': 208, 'pursuits': 1, 'relationships': 2}
+  trust frontmatter hits: {'"candidate"': 2, 'candidate': 12, 'trusted': 205, '"trusted"': 2}
+  projection files (non-INDEX): 14
+  unresolved wikilinks (heuristic): 45
+  sample missing: acquisition_capture_progress, action_plan_items, army-logcap-funding-office, award_date, basis_of_evaluated_price, bookable_revenue, bp_funding_request_amount, bp_notes, business_case_rows, business_case_summary, business_unit, business_unit_division, capture_manager, consultants, contract_end_date
+```
+
+```
+Vault lint 2026-07-04 01:13 UTC
+  markdown files: 237
+  zone counts: {'index.md': 1, 'log.md': 1, 'README.md': 1, 'entities': 3, 'foundation': 5, 'generated-projections': 15, 'global': 208, 'pursuits': 1, 'relationships': 2}
+  trust frontmatter hits: {'"candidate"': 2, 'candidate': 12, 'trusted': 205, '"trusted"': 2}
+  projection files (non-INDEX): 14
+  unresolved wikilinks (heuristic): 45
+  sample missing: acquisition_capture_progress, action_plan_items, army-logcap-funding-office, award_date, basis_of_evaluated_price, bookable_revenue, bp_funding_request_amount, bp_notes, business_case_rows, business_case_summary, business_unit, business_unit_division, capture_manager, consultants, contract_end_date
+```

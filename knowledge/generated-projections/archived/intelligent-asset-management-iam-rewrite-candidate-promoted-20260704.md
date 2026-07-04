@@ -13,6 +13,7 @@ tags: [capability-rewrite, wave-b, morning-queue, iam, asset-performance]
 source: iris-rescout
 review_id: null
 summary: "Scalable cloud IAM platform — lift corporate Data Analytics §; federal PP as verification block."
+archived_reason: "promoted 2026-07-04 lighthouse #4 → global/domain_intel/capabilities/intelligent-asset-management-iam.md"
 ---
 
 # Intelligent Asset Management (IAM) — Wave B REWRITE candidate
