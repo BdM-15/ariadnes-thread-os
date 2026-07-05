@@ -6,6 +6,14 @@
 
 | Page | Concern |
 |------|---------|
+| [[kbr-digital-accelerators-portfolio-rewrite-candidate]] | W3 #1 portfolio hub |
+| [[cybersecurity-capability-rewrite-candidate]] | W3 #2 cyber pillar |
+| [[data-analytics-capability-rewrite-candidate]] | W3 #3 data analytics pillar |
+| [[digital-engineering-capability-rewrite-candidate]] | W3 #4 digital engineering pillar |
+| [[athena-data-management-suite-rewrite-candidate]] | W3 #5 Athena product |
+| [[encompass-digital-twin-platform-rewrite-candidate]] | W3 #6 ENCOMPASS product |
+| [[hal-adaptive-learning-framework-rewrite-candidate]] | W3 #7 HAL product |
+| [[dash-c3-decision-support-rewrite-candidate]] | W3 #8 Dash C3 product |
 | [[eden-edge-computing-candidate]] | EDEN edge computing — POC Jayson Gray; promote after follow-up |
 | ~~[[logcap-v-contract-rewrite-candidate]]~~ | W2 Wave A #2 — **Promoted 2026-07-04** (lighthouse #11) → [[logcap-v-contract]] |
 | ~~[[kbr-vaault-rewrite-candidate]]~~ | W2 Wave A #3 — **Promoted 2026-07-04** (lighthouse #10) → [[kbr-vaault]] |
@@ -27,6 +35,19 @@
 | ~~[[intelligent-asset-management-iam-rewrite-candidate]]~~ | `global/domain_intel/capabilities/intelligent-asset-management-iam.md` | W2 #8 | **Promoted 2026-07-04** (lighthouse #4) → [[intelligent-asset-management-iam]] |
 | ~~[[owned-ip-digital-accelerators-discriminator-rewrite-candidate]]~~ | `global/domain_intel/capabilities/owned-ip-digital-accelerators-discriminator.md` | W2 #9 | **Promoted 2026-07-04** (lighthouse #3) → [[owned-ip-digital-accelerators-discriminator]] |
 | ~~[[eden-edge-data-extraction-node-rewrite-candidate]]~~ | `global/domain_intel/capabilities/eden-edge-data-extraction-node.md` | W2 #10 | **Promoted 2026-07-04** (lighthouse #9) → [[eden-edge-data-extraction-node]] |
+
+## W3 Digital Accelerators rewrite candidates (promote freeze)
+
+| Candidate | Promote target | W3 / Iris batch | Status |
+|-----------|----------------|-----------------|--------|
+| [[kbr-digital-accelerators-portfolio-rewrite-candidate]] | `global/domain_intel/capabilities/kbr-digital-accelerators-portfolio.md` | W3 #1 | **Candidate** |
+| [[cybersecurity-capability-rewrite-candidate]] | `global/domain_intel/capabilities/cybersecurity-capability.md` | W3 #2 | **Candidate** |
+| [[data-analytics-capability-rewrite-candidate]] | `global/domain_intel/capabilities/data-analytics-capability.md` | W3 #3 | **Candidate** |
+| [[digital-engineering-capability-rewrite-candidate]] | `global/domain_intel/capabilities/digital-engineering-capability.md` | W3 #4 | **Candidate** |
+| [[athena-data-management-suite-rewrite-candidate]] | `global/domain_intel/capabilities/athena-data-management-suite.md` | W3 #5 | **Candidate** |
+| [[encompass-digital-twin-platform-rewrite-candidate]] | `global/domain_intel/capabilities/encompass-digital-twin-platform.md` | W3 #6 | **Candidate** |
+| [[hal-adaptive-learning-framework-rewrite-candidate]] | `global/domain_intel/capabilities/hal-adaptive-learning-framework.md` | W3 #7 | **Candidate** |
+| [[dash-c3-decision-support-rewrite-candidate]] | `global/domain_intel/capabilities/dash-c3-decision-support.md` | W3 #8 | **Candidate** |
 
 ## Subfolders
 - `archived/` — rejected or superseded candidates
