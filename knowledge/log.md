@@ -421,3 +421,103 @@ Vault lint 2026-07-05 07:47 UTC
   unresolved wikilinks (heuristic): 72
   sample missing: acquisition_capture_progress, action_plan_items, active-gwac-and-idiq-holdings-rewrite-candidate, afcap-contract-heritage-rewrite-candidate, army-logcap-funding-office, artemis-uas-rewrite-candidate, artificial-intelligence-capability-rewrite-candidate, athena-data-management-suite-rewrite-candidate, autonomous-systems-capability-rewrite-candidate, award_date, basis_of_evaluated_price, bookable_revenue, bp_funding_request_amount, bp_notes, business_case_rows
 ```
+
+```
+Vault lint 2026-07-05 09:31 UTC
+  markdown files: 258
+  zone counts: {'index.md': 1, 'log.md': 1, 'README.md': 1, 'entities': 3, 'foundation': 5, 'generated-projections': 35, 'global': 209, 'pursuits': 1, 'relationships': 2}
+  trust frontmatter hits: {'"candidate"': 2, 'candidate': 32, 'trusted': 206, '"trusted"': 2}
+  projection files (non-INDEX): 34
+  unresolved wikilinks (heuristic): 72
+  sample missing: acquisition_capture_progress, action_plan_items, active-gwac-and-idiq-holdings-rewrite-candidate, afcap-contract-heritage-rewrite-candidate, army-logcap-funding-office, artemis-uas-rewrite-candidate, artificial-intelligence-capability-rewrite-candidate, athena-data-management-suite-rewrite-candidate, autonomous-systems-capability-rewrite-candidate, award_date, basis_of_evaluated_price, bookable_revenue, bp_funding_request_amount, bp_notes, business_case_rows
+```
+
+```
+Vault lint 2026-07-05 11:04 UTC
+  markdown files: 268
+  zone counts: {'index.md': 1, 'log.md': 1, 'README.md': 1, 'entities': 3, 'foundation': 5, 'generated-projections': 45, 'global': 209, 'pursuits': 1, 'relationships': 2}
+  trust frontmatter hits: {'"candidate"': 2, 'candidate': 42, 'trusted': 206, '"trusted"': 2}
+  projection files (non-INDEX): 44
+  unresolved wikilinks (heuristic): 72
+  sample missing: acquisition_capture_progress, action_plan_items, active-gwac-and-idiq-holdings-rewrite-candidate, afcap-contract-heritage-rewrite-candidate, army-logcap-funding-office, artemis-uas-rewrite-candidate, artificial-intelligence-capability-rewrite-candidate, athena-data-management-suite-rewrite-candidate, autonomous-systems-capability-rewrite-candidate, award_date, basis_of_evaluated_price, bookable_revenue, bp_funding_request_amount, bp_notes, business_case_rows
+```
+
+```
+Vault lint 2026-07-05 11:26 UTC
+  markdown files: 268
+  zone counts: {'index.md': 1, 'log.md': 1, 'README.md': 1, 'entities': 3, 'foundation': 5, 'generated-projections': 45, 'global': 209, 'pursuits': 1, 'relationships': 2}
+  trust frontmatter hits: {'"candidate"': 2, 'candidate': 42, 'trusted': 206, '"trusted"': 2}
+  projection files (non-INDEX): 44
+  unresolved wikilinks (heuristic): 72
+  sample missing: acquisition_capture_progress, action_plan_items, active-gwac-and-idiq-holdings-rewrite-candidate, afcap-contract-heritage-rewrite-candidate, army-logcap-funding-office, artemis-uas-rewrite-candidate, artificial-intelligence-capability-rewrite-candidate, athena-data-management-suite-rewrite-candidate, autonomous-systems-capability-rewrite-candidate, award_date, basis_of_evaluated_price, bookable_revenue, bp_funding_request_amount, bp_notes, business_case_rows
+```
+
+```
+Vault lint 2026-07-05 22:09 UTC
+  markdown files: 269
+  zone counts: {'index.md': 1, 'log.md': 1, 'README.md': 1, 'Welcome.md': 1, 'entities': 3, 'foundation': 5, 'generated-projections': 45, 'global': 209, 'pursuits': 1, 'relationships': 2}
+  trust frontmatter hits: {'"candidate"': 2, 'candidate': 42, 'trusted': 206, '"trusted"': 2}
+  projection files (non-INDEX): 44
+  unresolved wikilinks (heuristic): 73
+  sample missing: acquisition_capture_progress, action_plan_items, active-gwac-and-idiq-holdings-rewrite-candidate, afcap-contract-heritage-rewrite-candidate, army-logcap-funding-office, artemis-uas-rewrite-candidate, artificial-intelligence-capability-rewrite-candidate, athena-data-management-suite-rewrite-candidate, autonomous-systems-capability-rewrite-candidate, award_date, basis_of_evaluated_price, bookable_revenue, bp_funding_request_amount, bp_notes, business_case_rows
+```
+
+```
+Vault lint 2026-07-05 23:18 UTC
+  markdown files: 269
+  zone counts: {'index.md': 1, 'log.md': 1, 'README.md': 1, 'Welcome.md': 1, 'entities': 3, 'foundation': 5, 'generated-projections': 45, 'global': 209, 'pursuits': 1, 'relationships': 2}
+  trust frontmatter hits: {'"candidate"': 2, 'candidate': 42, 'trusted': 206, '"trusted"': 2}
+  projection files (non-INDEX): 44
+  unresolved wikilinks (heuristic): 73
+  sample missing: acquisition_capture_progress, action_plan_items, active-gwac-and-idiq-holdings-rewrite-candidate, afcap-contract-heritage-rewrite-candidate, army-logcap-funding-office, artemis-uas-rewrite-candidate, artificial-intelligence-capability-rewrite-candidate, athena-data-management-suite-rewrite-candidate, autonomous-systems-capability-rewrite-candidate, award_date, basis_of_evaluated_price, bookable_revenue, bp_funding_request_amount, bp_notes, business_case_rows
+```
+
+## [2026-07-05] candidate | W6 tail capability rewrites (2)
+- Clio: viaverse + wraith from `agents/iris/content/2026-07-05_viaverse-wraith-rescout-batch.md`
+- Ship: `agents/clio/content/2026-07-05_viaverse-wraith-ship.md`
+- by: clio | branch: feature/knowledge-vault-v1
+
+## [2026-07-05] promote | Viaverse Estates Intelligence Platform | review:f8a1b2c3-4d5e-6f7a-8b9c-0d1e2f3a4b5c | from:generated-projections/viaverse-estates-intelligence-platform-rewrite-candidate.md → global/domain_intel/capabilities/viaverse-estates-intelligence-platform.md | by:axelrod2023 | W6 lighthouse tail
+## [2026-07-05] promote | Wraith | review:e9b2c3d4-5e6f-7a8b-9c0d-1e2f3a4b5c6d | from:generated-projections/wraith-rewrite-candidate.md → global/domain_intel/capabilities/wraith.md | by:axelrod2023 | W6 lighthouse tail
+
+## [2026-07-05] index | Karpathy catalog refresh (W6 tail close)
+- Updated `index.md`: manifest tail closed (viaverse + wraith); morning queue note
+- by: hephaestus (batch script) | branch: feature/knowledge-vault-v1 (no merge main)
+
+
+```
+Vault lint 2026-07-05 23:31 UTC
+  markdown files: 271
+  zone counts: {'index.md': 1, 'log.md': 1, 'README.md': 1, 'Welcome.md': 1, 'entities': 3, 'foundation': 5, 'generated-projections': 47, 'global': 209, 'pursuits': 1, 'relationships': 2}
+  trust frontmatter hits: {'"candidate"': 2, 'candidate': 42, 'trusted': 206, 'archived': 2, '"trusted"': 2}
+  projection files (non-INDEX): 46
+  unresolved wikilinks (heuristic): 75
+  sample missing: acquisition_capture_progress, action_plan_items, active-gwac-and-idiq-holdings-rewrite-candidate, afcap-contract-heritage-rewrite-candidate, army-logcap-funding-office, artemis-uas-rewrite-candidate, artificial-intelligence-capability-rewrite-candidate, athena-data-management-suite-rewrite-candidate, autonomous-systems-capability-rewrite-candidate, award_date, basis_of_evaluated_price, bookable_revenue, bp_funding_request_amount, bp_notes, business_case_rows
+```
+
+## [2026-07-05 23:52:29 UTC] promote | generated-projections/kbr-cyber-range-rewrite-candidate.md → global/domain_intel/capabilities/kbr-cyber-range.md | review:ce3bcdf1-bd1b-5a9f-b89c-4e4779ff32c0 | by:axelrod2023 | W5 lighthouse #1
+
+## [2026-07-05 23:52:29 UTC] promote | generated-projections/kbr-inc-rewrite-candidate.md → global/domain_intel/capabilities/kbr-inc.md | review:ab4fd771-37ac-547c-a376-2c9070f86ff4 | by:axelrod2023 | W5 lighthouse #2
+
+## [2026-07-05 23:52:29 UTC] promote | generated-projections/petabyte-scale-cloud-migration-proof-point-rewrite-candidate.md → global/domain_intel/capabilities/petabyte-scale-cloud-migration-proof-point.md | review:13340c1c-8c05-516c-be4f-f7a6b3ff3f07 | by:axelrod2023 | W5 lighthouse #3
+
+## [2026-07-05 23:52:29 UTC] promote | generated-projections/proven-sustainment-scale-discriminator-rewrite-candidate.md → global/domain_intel/capabilities/proven-sustainment-scale-discriminator.md | review:ab36862a-e155-53fc-a76c-9a96a6b8ebf5 | by:axelrod2023 | W5 lighthouse #4
+
+## [2026-07-05 23:52:29 UTC] promote | generated-projections/quality-management-system-certification-rewrite-candidate.md → global/domain_intel/capabilities/quality-management-system-certification.md | review:7125bd88-e8ac-52f3-8768-046cc23fe689 | by:axelrod2023 | W5 lighthouse #5
+
+## [2026-07-05 23:52:29 UTC] promote | generated-projections/resan-rewrite-candidate.md → global/domain_intel/capabilities/resan.md | review:b4227c2f-3f25-5ca8-8f63-720a4ed01216 | by:axelrod2023 | W5 lighthouse #6
+
+## [2026-07-05 23:52:29 UTC] promote | generated-projections/safety-critical-compliance-proof-point-rewrite-candidate.md → global/domain_intel/capabilities/safety-critical-compliance-proof-point.md | review:cdea489e-ef66-53c8-bba7-a1c5172d2049 | by:axelrod2023 | W5 lighthouse #7
+
+## [2026-07-05 23:52:29 UTC] promote | generated-projections/skypath-assured-containment-rewrite-candidate.md → global/domain_intel/capabilities/skypath-assured-containment.md | review:39ed63f9-8694-565b-b5e0-64834d9c6f11 | by:axelrod2023 | W5 lighthouse #8
+
+## [2026-07-05 23:52:29 UTC] promote | generated-projections/ttmt-tracking-and-targeting-rewrite-candidate.md → global/domain_intel/capabilities/ttmt-tracking-and-targeting.md | review:afa6d7b8-7180-5613-bdee-cd4acb431c05 | by:axelrod2023 | W5 lighthouse #9
+
+## [2026-07-05 23:52:29 UTC] promote | generated-projections/u-s-space-force-ssa-performance-iron-stallion-rewrite-candidate.md → global/domain_intel/capabilities/u-s-space-force-ssa-performance-iron-stallion.md | review:9577d343-183a-5200-92b9-a110202938db | by:axelrod2023 | W5 lighthouse #10
+
+## [2026-07-05] promote | W5 lighthouse batch (10 capabilities)
+- Hephaestus: in-place REWRITE ×10 — slugs from Clio ship `ed984a1`
+- Archived → `generated-projections/archived/*-promoted-20260705.md`
+- Ship: `agents/hephaestus/content/2026-07-05_promote-w5.md`
+- `reviewed_by`: axelrod2023 | Odysseus PASS (QMS levels, sustainment $, Iron Stallion PP open questions)
+- by: hephaestus | branch: feature/knowledge-vault-v1

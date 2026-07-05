@@ -26,6 +26,16 @@
 | ~~[[csom-scheduling-optimization-module-rewrite-candidate]]~~ | W4 #10 — **Promoted 2026-07-05** (lighthouse batch B) → [[csom-scheduling-optimization-module]] |
 | ~~[[enterprise-technology-capability-rewrite-candidate]]~~ | W4 #11 — **Promoted 2026-07-05** (lighthouse batch B) → [[enterprise-technology-capability]] |
 | ~~[[hundred-plus-digital-initiatives-proof-point-rewrite-candidate]]~~ | W4 #12 — **Promoted 2026-07-05** (lighthouse batch B) → [[hundred-plus-digital-initiatives-proof-point]] |
+| ~~[[kbr-cyber-range-rewrite-candidate]]~~ | W5 #1 — **Promoted 2026-07-05** (lighthouse) → [[kbr-cyber-range]] |
+| ~~[[kbr-inc-rewrite-candidate]]~~ | W5 #2 — **Promoted 2026-07-05** (lighthouse) → [[kbr-inc]] |
+| ~~[[petabyte-scale-cloud-migration-proof-point-rewrite-candidate]]~~ | W5 #3 — **Promoted 2026-07-05** (lighthouse) → [[petabyte-scale-cloud-migration-proof-point]] |
+| ~~[[proven-sustainment-scale-discriminator-rewrite-candidate]]~~ | W5 #4 — **Promoted 2026-07-05** (lighthouse) → [[proven-sustainment-scale-discriminator]] |
+| ~~[[quality-management-system-certification-rewrite-candidate]]~~ | W5 #5 — **Promoted 2026-07-05** (lighthouse) → [[quality-management-system-certification]] |
+| ~~[[resan-rewrite-candidate]]~~ | W5 #6 — **Promoted 2026-07-05** (lighthouse) → [[resan]] |
+| ~~[[safety-critical-compliance-proof-point-rewrite-candidate]]~~ | W5 #7 — **Promoted 2026-07-05** (lighthouse) → [[safety-critical-compliance-proof-point]] |
+| ~~[[skypath-assured-containment-rewrite-candidate]]~~ | W5 #8 — **Promoted 2026-07-05** (lighthouse) → [[skypath-assured-containment]] |
+| ~~[[ttmt-tracking-and-targeting-rewrite-candidate]]~~ | W5 #9 — **Promoted 2026-07-05** (lighthouse) → [[ttmt-tracking-and-targeting]] |
+| ~~[[u-s-space-force-ssa-performance-iron-stallion-rewrite-candidate]]~~ | W5 #10 — **Promoted 2026-07-05** (lighthouse) → [[u-s-space-force-ssa-performance-iron-stallion]] |
 | [[eden-edge-computing-candidate]] | EDEN edge computing — POC Jayson Gray; promote after follow-up |
 | ~~[[logcap-v-contract-rewrite-candidate]]~~ | W2 Wave A #2 — **Promoted 2026-07-04** (lighthouse #11) → [[logcap-v-contract]] |
 | ~~[[kbr-vaault-rewrite-candidate]]~~ | W2 Wave A #3 — **Promoted 2026-07-04** (lighthouse #10) → [[kbr-vaault]] |
@@ -86,3 +96,24 @@
 
 ## Maintainer
 Hermes (triage intake) · Hephaestus (dedup/lint)
+
+## W6 manifest-tail rewrite candidates (capability tail close)
+
+| Candidate | Promote target | W6 / Iris batch | Status |
+|-----------|----------------|-----------------|--------|
+| ~~[[viaverse-estates-intelligence-platform-rewrite-candidate]]~~ | `global/domain_intel/capabilities/viaverse-estates-intelligence-platform.md` | W6 tail #1 | **Promoted 2026-07-05** (lighthouse tail) → [[viaverse-estates-intelligence-platform]] |
+| ~~[[wraith-rewrite-candidate]]~~ | `global/domain_intel/capabilities/wraith.md` | W6 tail #2 | **Promoted 2026-07-05** (lighthouse tail) → [[wraith]] |
+## W5 manifest-tail rewrite candidates (promote freeze)
+
+| Candidate | Promote target | W5 / Iris batch | Status |
+|-----------|----------------|-----------------|--------|
+| ~~[[kbr-cyber-range-rewrite-candidate]]~~ | `global/domain_intel/capabilities/kbr-cyber-range.md` | W5 #1 | **Promoted 2026-07-05** (lighthouse) → [[kbr-cyber-range]] |
+| ~~[[kbr-inc-rewrite-candidate]]~~ | `global/domain_intel/capabilities/kbr-inc.md` | W5 #2 | **Promoted 2026-07-05** (lighthouse) → [[kbr-inc]] |
+| ~~[[petabyte-scale-cloud-migration-proof-point-rewrite-candidate]]~~ | `global/domain_intel/capabilities/petabyte-scale-cloud-migration-proof-point.md` | W5 #3 | **Promoted 2026-07-05** (lighthouse) → [[petabyte-scale-cloud-migration-proof-point]] |
+| ~~[[proven-sustainment-scale-discriminator-rewrite-candidate]]~~ | `global/domain_intel/capabilities/proven-sustainment-scale-discriminator.md` | W5 #4 | **Promoted 2026-07-05** (lighthouse) → [[proven-sustainment-scale-discriminator]] |
+| ~~[[quality-management-system-certification-rewrite-candidate]]~~ | `global/domain_intel/capabilities/quality-management-system-certification.md` | W5 #5 | **Promoted 2026-07-05** (lighthouse) → [[quality-management-system-certification]] |
+| ~~[[resan-rewrite-candidate]]~~ | `global/domain_intel/capabilities/resan.md` | W5 #6 | **Promoted 2026-07-05** (lighthouse) → [[resan]] |
+| ~~[[safety-critical-compliance-proof-point-rewrite-candidate]]~~ | `global/domain_intel/capabilities/safety-critical-compliance-proof-point.md` | W5 #7 | **Promoted 2026-07-05** (lighthouse) → [[safety-critical-compliance-proof-point]] |
+| ~~[[skypath-assured-containment-rewrite-candidate]]~~ | `global/domain_intel/capabilities/skypath-assured-containment.md` | W5 #8 | **Promoted 2026-07-05** (lighthouse) → [[skypath-assured-containment]] |
+| ~~[[ttmt-tracking-and-targeting-rewrite-candidate]]~~ | `global/domain_intel/capabilities/ttmt-tracking-and-targeting.md` | W5 #9 | **Promoted 2026-07-05** (lighthouse) → [[ttmt-tracking-and-targeting]] |
+| ~~[[u-s-space-force-ssa-performance-iron-stallion-rewrite-candidate]]~~ | `global/domain_intel/capabilities/u-s-space-force-ssa-performance-iron-stallion.md` | W5 #10 | **Promoted 2026-07-05** (lighthouse) → [[u-s-space-force-ssa-performance-iron-stallion]] |
