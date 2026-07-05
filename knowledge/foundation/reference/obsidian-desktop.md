@@ -1,42 +1,39 @@
-# Obsidian Desktop + Thread Vault
+# Obsidian desktop (optional complement)
 
-Optional IDE for `knowledge/`. Karpathy pattern: browse graph, follow wikilinks, manual append — agents do bulk maintenance.
+**SSOT:** `knowledge/` at repo root — same files Hermes party and Mission Control browse.
 
-## Open vault
+## Karpathy pattern (aligned with PolyDAO / Hermes stack)
 
-1. Obsidian → **Open folder as vault**
-2. Select repo path: `<repo>/knowledge/`
-3. First app bootstrap seeds `.obsidian/` if missing
+| Role | Tool |
+|------|------|
+| **Programmer** | Hermes party (Iris → Clio → Odysseus gate → Hephaestus promote) |
+| **IDE (optional)** | Obsidian desktop — graph, manual append, human review |
+| **Codebase** | Flat markdown + `[[wikilinks]]` under `knowledge/` |
 
-Vault content lives in git (`knowledge/`). Obsidian config inside vault is local to your machine.
+You do **not** need Obsidian for agents to compound the vault. Use it when you want graph view, quick human edits, or offline reading.
 
-## Recommended plugins (install via Community Plugins)
+## Open vault in Obsidian
 
-| Plugin | Use |
-|--------|-----|
-| **Dataview** | Query frontmatter (`type`, `tags`, `trust`, `award_key`) |
-| **Omnisearch** | Fast vault search while PG/pgvector matures |
-| **Graph Analysis** | Orphan / hub detection (lint aid) |
-| **Obsidian Web Clipper** | Clip articles → `generated-projections/` for review |
-| **Defuddle** | Clean HTML → markdown (pairs with `defuddle` skill) |
+1. Install [Obsidian](https://obsidian.md/) (local-first).
+2. **Open folder as vault:** `C:\Users\benma\ariadnes-thread-os\knowledge`
+3. Enable **Properties** (YAML frontmatter) in settings if not default.
+4. Recommended: **Graph view**, **Outgoing links**, **Backlinks**.
 
-Not required for Thread app — `/knowledge` HTMX browser works without desktop.
+## Wikilinks
 
-## Conventions
+Same as agent OS: `[[kbr-vaault]]`, `[[ariadne-vault-schema]]`, `[[global/INDEX]]`.
 
-- Match `foundation/ariadne-vault-schema.md` frontmatter (`type`, `id`, `trust`, `citations`)
-- Use `[[wikilinks]]` — see `skills/obsidian-markdown/SKILL.md`
-- **Append** new sections; do not delete trusted history
-- Candidate notes: `trust: candidate` or file under `generated-projections/`
-- Promote to trusted via Thread `/review` when integrated with 17b-vault write path
+## Rules
 
-## Agents + desktop together
+- `agents/*/content/` = staging only, not vault SSOT.
+- Append trusted sections; do not erase history per `[[ariadne-vault-schema]]`.
+- Large rewrites: candidate → lighthouse promote.
 
-Grok Build / skill runner: load `obsidian-markdown` + `vault_maintainer` from repo `skills/`.
+## Git
 
-Heavy lint or synthesis can run in agent; you inspect results in Obsidian graph/reading view in real time (Karpathy workflow).
+Branch `feature/knowledge-vault-v1` until Overwatch approves merge to `main`.
 
 ## Related
 
-- [[ariadne-vault-schema]] — vault schema
-- Platform skills: `skills/README.md`
+- [[ariadne-vault-schema]]
+- `docs/inspiration/knowledge-vault-and-compounding-truth.md`
