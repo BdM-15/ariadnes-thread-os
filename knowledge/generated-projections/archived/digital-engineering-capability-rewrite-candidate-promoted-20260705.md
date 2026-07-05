@@ -12,6 +12,7 @@ promote_target: global/domain_intel/capabilities/digital-engineering-capability.
 tags: [capability-rewrite, wave-w3, morning-queue, digital-engineering, pillar-hub, mbse]
 source: iris-rescout
 review_id: null
+archived_reason: "promoted 2026-07-05 W3 lighthouse #4 → global/domain_intel/capabilities/digital-engineering-capability.md"
 summary: "ENCOMPASS twin, RESAN, DEE, Expert M&S ecosystems bullet; bump proof where cited."
 ---
 

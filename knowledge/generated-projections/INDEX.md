@@ -6,14 +6,14 @@
 
 | Page | Concern |
 |------|---------|
-| [[kbr-digital-accelerators-portfolio-rewrite-candidate]] | W3 #1 portfolio hub |
-| [[cybersecurity-capability-rewrite-candidate]] | W3 #2 cyber pillar |
-| [[data-analytics-capability-rewrite-candidate]] | W3 #3 data analytics pillar |
-| [[digital-engineering-capability-rewrite-candidate]] | W3 #4 digital engineering pillar |
-| [[athena-data-management-suite-rewrite-candidate]] | W3 #5 Athena product |
-| [[encompass-digital-twin-platform-rewrite-candidate]] | W3 #6 ENCOMPASS product |
-| [[hal-adaptive-learning-framework-rewrite-candidate]] | W3 #7 HAL product |
-| [[dash-c3-decision-support-rewrite-candidate]] | W3 #8 Dash C3 product |
+| ~~[[kbr-digital-accelerators-portfolio-rewrite-candidate]]~~ | W3 #1 — **Promoted 2026-07-05** (lighthouse #1) → [[kbr-digital-accelerators-portfolio]] |
+| ~~[[cybersecurity-capability-rewrite-candidate]]~~ | W3 #2 — **Promoted 2026-07-05** (lighthouse #2) → [[cybersecurity-capability]] |
+| ~~[[data-analytics-capability-rewrite-candidate]]~~ | W3 #3 — **Promoted 2026-07-05** (lighthouse #3) → [[data-analytics-capability]] |
+| ~~[[digital-engineering-capability-rewrite-candidate]]~~ | W3 #4 — **Promoted 2026-07-05** (lighthouse #4) → [[digital-engineering-capability]] |
+|| ~~[[athena-data-management-suite-rewrite-candidate]]~~ | W3 #5 Athena product — **Promoted 2026-07-05** (lighthouse #5) → [[athena-data-management-suite]] |
+|| ~~[[encompass-digital-twin-platform-rewrite-candidate]]~~ | W3 #6 ENCOMPASS product — **Promoted 2026-07-05** (lighthouse #6) → [[encompass-digital-twin-platform]] |
+|| ~~[[hal-adaptive-learning-framework-rewrite-candidate]]~~ | W3 #7 HAL product — **Promoted 2026-07-05** (lighthouse #7) → [[hal-adaptive-learning-framework]] |
+|| ~~[[dash-c3-decision-support-rewrite-candidate]]~~ | W3 #8 Dash C3 product — **Promoted 2026-07-05** (lighthouse #8) → [[dash-c3-decision-support]] |
 | [[eden-edge-computing-candidate]] | EDEN edge computing — POC Jayson Gray; promote after follow-up |
 | ~~[[logcap-v-contract-rewrite-candidate]]~~ | W2 Wave A #2 — **Promoted 2026-07-04** (lighthouse #11) → [[logcap-v-contract]] |
 | ~~[[kbr-vaault-rewrite-candidate]]~~ | W2 Wave A #3 — **Promoted 2026-07-04** (lighthouse #10) → [[kbr-vaault]] |
@@ -40,10 +40,10 @@
 
 | Candidate | Promote target | W3 / Iris batch | Status |
 |-----------|----------------|-----------------|--------|
-| [[kbr-digital-accelerators-portfolio-rewrite-candidate]] | `global/domain_intel/capabilities/kbr-digital-accelerators-portfolio.md` | W3 #1 | **Candidate** |
-| [[cybersecurity-capability-rewrite-candidate]] | `global/domain_intel/capabilities/cybersecurity-capability.md` | W3 #2 | **Candidate** |
-| [[data-analytics-capability-rewrite-candidate]] | `global/domain_intel/capabilities/data-analytics-capability.md` | W3 #3 | **Candidate** |
-| [[digital-engineering-capability-rewrite-candidate]] | `global/domain_intel/capabilities/digital-engineering-capability.md` | W3 #4 | **Candidate** |
+| ~~[[kbr-digital-accelerators-portfolio-rewrite-candidate]]~~ | `global/domain_intel/capabilities/kbr-digital-accelerators-portfolio.md` | W3 #1 | **Promoted 2026-07-05** (lighthouse #1) → [[kbr-digital-accelerators-portfolio]] |
+| ~~[[cybersecurity-capability-rewrite-candidate]]~~ | `global/domain_intel/capabilities/cybersecurity-capability.md` | W3 #2 | **Promoted 2026-07-05** (lighthouse #2) → [[cybersecurity-capability]] |
+| ~~[[data-analytics-capability-rewrite-candidate]]~~ | `global/domain_intel/capabilities/data-analytics-capability.md` | W3 #3 | **Promoted 2026-07-05** (lighthouse #3) → [[data-analytics-capability]] |
+| ~~[[digital-engineering-capability-rewrite-candidate]]~~ | `global/domain_intel/capabilities/digital-engineering-capability.md` | W3 #4 | **Promoted 2026-07-05** (lighthouse #4) → [[digital-engineering-capability]] |
 | [[athena-data-management-suite-rewrite-candidate]] | `global/domain_intel/capabilities/athena-data-management-suite.md` | W3 #5 | **Candidate** |
 | [[encompass-digital-twin-platform-rewrite-candidate]] | `global/domain_intel/capabilities/encompass-digital-twin-platform.md` | W3 #6 | **Candidate** |
 | [[hal-adaptive-learning-framework-rewrite-candidate]] | `global/domain_intel/capabilities/hal-adaptive-learning-framework.md` | W3 #7 | **Candidate** |

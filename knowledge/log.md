@@ -232,3 +232,36 @@ Vault lint 2026-07-04 02:21 UTC
 ```
 
 ## [2026-07-04] cite-refresh | Vaault children (FedRAMP High, IL5, FedRAMP+IL5 discriminator) | by:axelrod2023 | W3 in-place; hub [[kbr-vaault]]
+
+```
+Vault lint 2026-07-05 01:40 UTC
+  markdown files: 246
+  zone counts: {'index.md': 1, 'log.md': 1, 'README.md': 1, 'entities': 3, 'foundation': 5, 'generated-projections': 23, 'global': 209, 'pursuits': 1, 'relationships': 2}
+  trust frontmatter hits: {'"candidate"': 2, 'candidate': 20, 'trusted': 206, '"trusted"': 2}
+  projection files (non-INDEX): 22
+  unresolved wikilinks (heuristic): 52
+  sample missing: acquisition_capture_progress, action_plan_items, army-logcap-funding-office, award_date, basis_of_evaluated_price, bookable_revenue, bp_funding_request_amount, bp_notes, business_case_rows, business_case_summary, business_unit, business_unit_division, capture_manager, consultants, contract_end_date
+```
+
+```
+Vault lint 2026-07-05 01:43 UTC
+  markdown files: 246
+  zone counts: {'index.md': 1, 'log.md': 1, 'README.md': 1, 'entities': 3, 'foundation': 5, 'generated-projections': 23, 'global': 209, 'pursuits': 1, 'relationships': 2}
+  trust frontmatter hits: {'"candidate"': 2, 'candidate': 20, 'trusted': 206, '"trusted"': 2}
+  projection files (non-INDEX): 22
+  unresolved wikilinks (heuristic): 52
+  sample missing: acquisition_capture_progress, action_plan_items, army-logcap-funding-office, award_date, basis_of_evaluated_price, bookable_revenue, bp_funding_request_amount, bp_notes, business_case_rows, business_case_summary, business_unit, business_unit_division, capture_manager, consultants, contract_end_date
+```
+## [2026-07-05] promote | Cybersecurity Capability | review:a8f3c2e1-4b5d-6a9c-8e7f-1d2c3b4a5e6f | from:generated-projections/cybersecurity-capability-rewrite-candidate.md → global/domain_intel/capabilities/cybersecurity-capability.md | by:axelrod2023 | W3 lighthouse #2
+## [2026-07-05] promote | Data Analytics Capability | review:b9e4d3f2-5c6e-7b0d-9f8a-2e3d4c5b6a7f | from:generated-projections/data-analytics-capability-rewrite-candidate.md → global/domain_intel/capabilities/data-analytics-capability.md | by:axelrod2023 | W3 lighthouse #3
+## [2026-07-05] promote | Digital Engineering Capability | review:c0f5e4a3-6d7f-8c1e-0a9b-3f4e5d6c7b8a | from:generated-projections/digital-engineering-capability-rewrite-candidate.md → global/domain_intel/capabilities/digital-engineering-capability.md | by:axelrod2023 | W3 lighthouse #4
+
+```
+Vault lint 2026-07-05 02:25 UTC
+  markdown files: 247
+  zone counts: {'index.md': 1, 'log.md': 1, 'README.md': 1, 'entities': 3, 'foundation': 5, 'generated-projections': 24, 'global': 209, 'pursuits': 1, 'relationships': 2}
+  trust frontmatter hits: {'"candidate"': 2, 'candidate': 21, 'trusted': 206, '"trusted"': 2}
+  projection files (non-INDEX): 23
+  unresolved wikilinks (heuristic): 55
+  sample missing: acquisition_capture_progress, action_plan_items, army-logcap-funding-office, award_date, basis_of_evaluated_price, bookable_revenue, bp_funding_request_amount, bp_notes, business_case_rows, business_case_summary, business_unit, business_unit_division, capture_manager, consultants, contract_end_date
+```

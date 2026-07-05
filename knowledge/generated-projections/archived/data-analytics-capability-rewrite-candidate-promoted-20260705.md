@@ -12,6 +12,7 @@ promote_target: global/domain_intel/capabilities/data-analytics-capability.md
 tags: [capability-rewrite, wave-w3, morning-queue, data-analytics, pillar-hub]
 source: iris-rescout
 review_id: null
+archived_reason: "promoted 2026-07-05 W3 lighthouse #3 → global/domain_intel/capabilities/data-analytics-capability.md"
 summary: "Full Tier-1 product inventory — INSITE, Iron Stallion, WRAITH + lifecycle narrative."
 ---
 

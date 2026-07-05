@@ -12,6 +12,7 @@ promote_target: global/domain_intel/capabilities/cybersecurity-capability.md
 tags: [capability-rewrite, wave-w3, morning-queue, cybersecurity, pillar-hub]
 source: iris-rescout
 review_id: null
+archived_reason: "promoted 2026-07-05 W3 lighthouse #2 → global/domain_intel/capabilities/cybersecurity-capability.md"
 summary: "Cyber pillar + Range, CRYSTALVISTA, Quantum Pantheon; fix spurious wraith/dash-c3 links."
 ---
 
