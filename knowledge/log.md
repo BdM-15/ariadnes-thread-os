@@ -230,3 +230,5 @@ Vault lint 2026-07-04 02:21 UTC
   unresolved wikilinks (heuristic): 52
   sample missing: acquisition_capture_progress, action_plan_items, army-logcap-funding-office, award_date, basis_of_evaluated_price, bookable_revenue, bp_funding_request_amount, bp_notes, business_case_rows, business_case_summary, business_unit, business_unit_division, capture_manager, consultants, contract_end_date
 ```
+
+## [2026-07-04] cite-refresh | Vaault children (FedRAMP High, IL5, FedRAMP+IL5 discriminator) | by:axelrod2023 | W3 in-place; hub [[kbr-vaault]]
