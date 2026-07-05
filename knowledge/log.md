@@ -354,3 +354,7 @@ Vault lint 2026-07-05 03:44 UTC
   unresolved wikilinks (heuristic): 60
   sample missing: acquisition_capture_progress, action_plan_items, army-logcap-funding-office, athena-data-management-suite-rewrite-candidate, award_date, basis_of_evaluated_price, bookable_revenue, bp_funding_request_amount, bp_notes, business_case_rows, business_case_summary, business_unit, business_unit_division, capture_manager, consultants
 ```
+
+## [2026-07-05] index | Karpathy catalog refresh (morning review)
+- Updated `index.md`: W2×11 + W3×8 + Vaault children summary, retrieve-first, zone table, `[[obsidian-desktop]]` in foundation/reference
+- by: hephaestus (delegated) | branch: feature/knowledge-vault-v1 (no merge main)
