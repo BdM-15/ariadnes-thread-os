@@ -44,10 +44,10 @@
 | ~~[[cybersecurity-capability-rewrite-candidate]]~~ | `global/domain_intel/capabilities/cybersecurity-capability.md` | W3 #2 | **Promoted 2026-07-05** (lighthouse #2) → [[cybersecurity-capability]] |
 | ~~[[data-analytics-capability-rewrite-candidate]]~~ | `global/domain_intel/capabilities/data-analytics-capability.md` | W3 #3 | **Promoted 2026-07-05** (lighthouse #3) → [[data-analytics-capability]] |
 | ~~[[digital-engineering-capability-rewrite-candidate]]~~ | `global/domain_intel/capabilities/digital-engineering-capability.md` | W3 #4 | **Promoted 2026-07-05** (lighthouse #4) → [[digital-engineering-capability]] |
-| [[athena-data-management-suite-rewrite-candidate]] | `global/domain_intel/capabilities/athena-data-management-suite.md` | W3 #5 | **Candidate** |
-| [[encompass-digital-twin-platform-rewrite-candidate]] | `global/domain_intel/capabilities/encompass-digital-twin-platform.md` | W3 #6 | **Candidate** |
-| [[hal-adaptive-learning-framework-rewrite-candidate]] | `global/domain_intel/capabilities/hal-adaptive-learning-framework.md` | W3 #7 | **Candidate** |
-| [[dash-c3-decision-support-rewrite-candidate]] | `global/domain_intel/capabilities/dash-c3-decision-support.md` | W3 #8 | **Candidate** |
+|| ~~[[athena-data-management-suite-rewrite-candidate]]~~ | `global/domain_intel/capabilities/athena-data-management-suite.md` | W3 #5 | **Promoted 2026-07-05** (lighthouse #5) → [[athena-data-management-suite]] |
+|| ~~[[encompass-digital-twin-platform-rewrite-candidate]]~~ | `global/domain_intel/capabilities/encompass-digital-twin-platform.md` | W3 #6 | **Promoted 2026-07-05** (lighthouse #6) → [[encompass-digital-twin-platform]] |
+|| ~~[[hal-adaptive-learning-framework-rewrite-candidate]]~~ | `global/domain_intel/capabilities/hal-adaptive-learning-framework.md` | W3 #7 | **Promoted 2026-07-05** (lighthouse #7) → [[hal-adaptive-learning-framework]] |
+|| ~~[[dash-c3-decision-support-rewrite-candidate]]~~ | `global/domain_intel/capabilities/dash-c3-decision-support.md` | W3 #8 | **Promoted 2026-07-05** (lighthouse #8) → [[dash-c3-decision-support]] |
 
 ## Subfolders
 - `archived/` — rejected or superseded candidates
