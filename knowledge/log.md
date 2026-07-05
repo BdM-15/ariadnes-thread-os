@@ -334,3 +334,23 @@ Vault lint 2026-07-05 03:11 UTC
   unresolved wikilinks (heuristic): 60
   sample missing: acquisition_capture_progress, action_plan_items, army-logcap-funding-office, athena-data-management-suite-rewrite-candidate, award_date, basis_of_evaluated_price, bookable_revenue, bp_funding_request_amount, bp_notes, business_case_rows, business_case_summary, business_unit, business_unit_division, capture_manager, consultants
 ```
+
+```
+Vault lint 2026-07-05 03:13 UTC
+  markdown files: 246
+  zone counts: {'index.md': 1, 'log.md': 1, 'README.md': 1, 'entities': 3, 'foundation': 5, 'generated-projections': 23, 'global': 209, 'pursuits': 1, 'relationships': 2}
+  trust frontmatter hits: {'"candidate"': 2, 'candidate': 20, 'trusted': 206, '"trusted"': 2}
+  projection files (non-INDEX): 22
+  unresolved wikilinks (heuristic): 60
+  sample missing: acquisition_capture_progress, action_plan_items, army-logcap-funding-office, athena-data-management-suite-rewrite-candidate, award_date, basis_of_evaluated_price, bookable_revenue, bp_funding_request_amount, bp_notes, business_case_rows, business_case_summary, business_unit, business_unit_division, capture_manager, consultants
+```
+
+```
+Vault lint 2026-07-05 03:44 UTC
+  markdown files: 246
+  zone counts: {'index.md': 1, 'log.md': 1, 'README.md': 1, 'entities': 3, 'foundation': 5, 'generated-projections': 23, 'global': 209, 'pursuits': 1, 'relationships': 2}
+  trust frontmatter hits: {'"candidate"': 2, 'candidate': 20, 'trusted': 206, '"trusted"': 2}
+  projection files (non-INDEX): 22
+  unresolved wikilinks (heuristic): 60
+  sample missing: acquisition_capture_progress, action_plan_items, army-logcap-funding-office, athena-data-management-suite-rewrite-candidate, award_date, basis_of_evaluated_price, bookable_revenue, bp_funding_request_amount, bp_notes, business_case_rows, business_case_summary, business_unit, business_unit_division, capture_manager, consultants
+```
