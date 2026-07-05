@@ -314,32 +314,9 @@ Vault lint 2026-07-05 01:43 UTC
 ## [2026-07-05] promote | ENCOMPASS Digital Twin Platform | review:f2b5c7d9-3e4f-5a6b-0c8d-9e0f1a2b3c4d | from:generated-projections/encompass-digital-twin-platform-rewrite-candidate.md → global/domain_intel/capabilities/encompass-digital-twin-platform.md | by:axelrod2023 | W3 lighthouse #6
 ## [2026-07-05] promote | HAL Adaptive Learning Framework | review:a3c6d8e0-4f5a-6b7c-1d9e-0f1a2b3c4d5e | from:generated-projections/hal-adaptive-learning-framework-rewrite-candidate.md → global/domain_intel/capabilities/hal-adaptive-learning-framework.md | by:axelrod2023 | W3 lighthouse #7
 ## [2026-07-05] promote | Dash C3 Decision Support | review:b4d7e9f1-5a6b-7c8d-2e0f-1a2b3c4d5e6f | from:generated-projections/dash-c3-decision-support-rewrite-candidate.md → global/domain_intel/capabilities/dash-c3-decision-support.md | by:axelrod2023 | W3 lighthouse #8
-  markdown files: 247
-  zone counts: {'index.md': 1, 'log.md': 1, 'README.md': 1, 'entities': 3, 'foundation': 5, 'generated-projections': 24, 'global': 209, 'pursuits': 1, 'relationships': 2}
-  trust frontmatter hits: {'"candidate"': 2, 'candidate': 21, 'trusted': 206, '"trusted"': 2}
-  projection files (non-INDEX): 23
-  unresolved wikilinks (heuristic): 55
-  sample missing: acquisition_capture_progress, action_plan_items, army-logcap-funding-office, award_date, basis_of_evaluated_price, bookable_revenue, bp_funding_request_amount, bp_notes, business_case_rows, business_case_summary, business_unit, business_unit_division, capture_manager, consultants, contract_end_date
-```
-
-
-
 
 ```
-Vault lint 2026-07-05 02:34 UTC
-  markdown files: 246
-  zone counts: {'index.md': 1, 'log.md': 1, 'README.md': 1, 'entities': 3, 'foundation': 5, 'generated-projections': 23, 'global': 209, 'pursuits': 1, 'relationships': 2}
-  trust frontmatter hits: {'"candidate"': 2, 'candidate': 20, 'trusted': 206, '"trusted"': 2}
-  projection files (non-INDEX): 22
-  unresolved wikilinks (heuristic): 56
-  sample missing: acquisition_capture_progress, action_plan_items, army-logcap-funding-office, award_date, basis_of_evaluated_price, bookable_revenue, bp_funding_request_amount, bp_notes, business_case_rows, business_case_summary, business_unit, business_unit_division, capture_manager, consultants, contract_end_date
-```
-
-
-
-
-```
-Vault lint 2026-07-05 02:38 UTC
+Vault lint 2026-07-05 02:59 UTC
   markdown files: 246
   zone counts: {'index.md': 1, 'log.md': 1, 'README.md': 1, 'entities': 3, 'foundation': 5, 'generated-projections': 23, 'global': 209, 'pursuits': 1, 'relationships': 2}
   trust frontmatter hits: {'"candidate"': 2, 'candidate': 20, 'trusted': 206, '"trusted"': 2}
@@ -348,16 +325,8 @@ Vault lint 2026-07-05 02:38 UTC
   sample missing: acquisition_capture_progress, action_plan_items, army-logcap-funding-office, athena-data-management-suite-rewrite-candidate, award_date, basis_of_evaluated_price, bookable_revenue, bp_funding_request_amount, bp_notes, business_case_rows, business_case_summary, business_unit, business_unit_division, capture_manager, consultants
 ```
 
-## [2026-07-05] promote | Athena Data Management Suite | review:e1a4b6c8-2d3f-4e5a-9b7c-8d0e1f2a3b4c | from:generated-projections/athena-data-management-suite-rewrite-candidate.md → global/domain_intel/capabilities/athena-data-management-suite.md | by:axelrod2023 | W3 lighthouse #5
-
-## [2026-07-05] promote | ENCOMPASS Digital Twin Platform | review:f2b5c7d9-3e4f-5a6b-0c8d-9e0f1a2b3c4d | from:generated-projections/encompass-digital-twin-platform-rewrite-candidate.md → global/domain_intel/capabilities/encompass-digital-twin-platform.md | by:axelrod2023 | W3 lighthouse #6
-
-## [2026-07-05] promote | HAL Adaptive Learning Framework | review:a3c6d8e0-4f5a-6b7c-1d9e-0f1a2b3c4d5e | from:generated-projections/hal-adaptive-learning-framework-rewrite-candidate.md → global/domain_intel/capabilities/hal-adaptive-learning-framework.md | by:axelrod2023 | W3 lighthouse #7
-
-## [2026-07-05] promote | Dash C3 Decision Support | review:b4d7e9f1-5a6b-7c8d-2e0f-1a2b3c4d5e6f | from:generated-projections/dash-c3-decision-support-rewrite-candidate.md → global/domain_intel/capabilities/dash-c3-decision-support.md | by:axelrod2023 | W3 lighthouse #8
-
 ```
-Vault lint 2026-07-05 02:48 UTC
+Vault lint 2026-07-05 03:11 UTC
   markdown files: 246
   zone counts: {'index.md': 1, 'log.md': 1, 'README.md': 1, 'entities': 3, 'foundation': 5, 'generated-projections': 23, 'global': 209, 'pursuits': 1, 'relationships': 2}
   trust frontmatter hits: {'"candidate"': 2, 'candidate': 20, 'trusted': 206, '"trusted"': 2}
