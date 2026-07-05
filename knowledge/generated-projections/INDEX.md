@@ -14,18 +14,18 @@
 | ~~[[encompass-digital-twin-platform-rewrite-candidate]]~~ | W3 #6 ENCOMPASS product — **Promoted 2026-07-05** (lighthouse #6) → [[encompass-digital-twin-platform]] |
 | ~~[[hal-adaptive-learning-framework-rewrite-candidate]]~~ | W3 #7 HAL product — **Promoted 2026-07-05** (lighthouse #7) → [[hal-adaptive-learning-framework]] |
 | ~~[[dash-c3-decision-support-rewrite-candidate]]~~ | W3 #8 Dash C3 product — **Promoted 2026-07-05** (lighthouse #8) → [[dash-c3-decision-support]] |
-| [[active-gwac-and-idiq-holdings-rewrite-candidate]] | W4 #1 — GWAC/IDIQ open inventory |
-| [[afcap-contract-heritage-rewrite-candidate]] | W4 #2 — AFCAP V heritage + press cites |
-| [[artemis-uas-rewrite-candidate]] | W4 #3 — Artemis UAS product |
-| [[artificial-intelligence-capability-rewrite-candidate]] | W4 #4 — AI pillar hub |
-| [[autonomous-systems-capability-rewrite-candidate]] | W4 #5 — Autonomous pillar hub |
-| [[cleanspend-carbon-analysis-rewrite-candidate]] | W4 #6 — CleanSpend / ENCOMPASS |
-| [[cleared-workforce-at-scale-discriminator-rewrite-candidate]] | W4 #7 — cleared workforce discriminator |
-| [[cleared-workforce-rewrite-candidate]] | W4 #8 — cleared workforce artifact |
-| [[cmmc-certification-status-rewrite-candidate]] | W4 #9 — CMMC status (PDF cite) |
-| [[csom-scheduling-optimization-module-rewrite-candidate]] | W4 #10 — CSOM product |
-| [[enterprise-technology-capability-rewrite-candidate]] | W4 #11 — Enterprise Technology pillar |
-| [[hundred-plus-digital-initiatives-proof-point-rewrite-candidate]] | W4 #12 — 100+ initiatives proof |
+| ~~[[active-gwac-and-idiq-holdings-rewrite-candidate]]~~ | W4 #1 — **Promoted 2026-07-05** (lighthouse #1) → [[active-gwac-and-idiq-holdings]] |
+| ~~[[afcap-contract-heritage-rewrite-candidate]]~~ | W4 #2 — **Promoted 2026-07-05** (lighthouse #2) → [[afcap-contract-heritage]] |
+| ~~[[artemis-uas-rewrite-candidate]]~~ | W4 #3 — **Promoted 2026-07-05** (lighthouse #3) → [[artemis-uas]] |
+| ~~[[artificial-intelligence-capability-rewrite-candidate]]~~ | W4 #4 — **Promoted 2026-07-05** (lighthouse #4) → [[artificial-intelligence-capability]] |
+| ~~[[autonomous-systems-capability-rewrite-candidate]]~~ | W4 #5 — **Promoted 2026-07-05** (lighthouse #5) → [[autonomous-systems-capability]] |
+| ~~[[cleanspend-carbon-analysis-rewrite-candidate]]~~ | W4 #6 — **Promoted 2026-07-05** (lighthouse #6) → [[cleanspend-carbon-analysis]] |
+| ~~[[cleared-workforce-at-scale-discriminator-rewrite-candidate]]~~ | W4 #7 — **Promoted 2026-07-05** (lighthouse batch B) → [[cleared-workforce-at-scale-discriminator]] |
+| ~~[[cleared-workforce-rewrite-candidate]]~~ | W4 #8 — **Promoted 2026-07-05** (lighthouse batch B) → [[cleared-workforce]] |
+| ~~[[cmmc-certification-status-rewrite-candidate]]~~ | W4 #9 — **Promoted 2026-07-05** (lighthouse batch B) → [[cmmc-certification-status]] |
+| ~~[[csom-scheduling-optimization-module-rewrite-candidate]]~~ | W4 #10 — **Promoted 2026-07-05** (lighthouse batch B) → [[csom-scheduling-optimization-module]] |
+| ~~[[enterprise-technology-capability-rewrite-candidate]]~~ | W4 #11 — **Promoted 2026-07-05** (lighthouse batch B) → [[enterprise-technology-capability]] |
+| ~~[[hundred-plus-digital-initiatives-proof-point-rewrite-candidate]]~~ | W4 #12 — **Promoted 2026-07-05** (lighthouse batch B) → [[hundred-plus-digital-initiatives-proof-point]] |
 | [[eden-edge-computing-candidate]] | EDEN edge computing — POC Jayson Gray; promote after follow-up |
 | ~~[[logcap-v-contract-rewrite-candidate]]~~ | W2 Wave A #2 — **Promoted 2026-07-04** (lighthouse #11) → [[logcap-v-contract]] |
 | ~~[[kbr-vaault-rewrite-candidate]]~~ | W2 Wave A #3 — **Promoted 2026-07-04** (lighthouse #10) → [[kbr-vaault]] |
@@ -65,18 +65,18 @@
 
 | Candidate | Promote target | W4 / Iris batch | Status |
 |-----------|----------------|-----------------|--------|
-| [[active-gwac-and-idiq-holdings-rewrite-candidate]] | `global/domain_intel/capabilities/active-gwac-and-idiq-holdings.md` | W4 #1 | **Candidate** — freeze |
-| [[afcap-contract-heritage-rewrite-candidate]] | `global/domain_intel/capabilities/afcap-contract-heritage.md` | W4 #2 | **Candidate** — freeze |
-| [[artemis-uas-rewrite-candidate]] | `global/domain_intel/capabilities/artemis-uas.md` | W4 #3 | **Candidate** — freeze |
-| [[artificial-intelligence-capability-rewrite-candidate]] | `global/domain_intel/capabilities/artificial-intelligence-capability.md` | W4 #4 | **Candidate** — freeze |
-| [[autonomous-systems-capability-rewrite-candidate]] | `global/domain_intel/capabilities/autonomous-systems-capability.md` | W4 #5 | **Candidate** — freeze |
-| [[cleanspend-carbon-analysis-rewrite-candidate]] | `global/domain_intel/capabilities/cleanspend-carbon-analysis.md` | W4 #6 | **Candidate** — freeze |
-| [[cleared-workforce-at-scale-discriminator-rewrite-candidate]] | `global/domain_intel/capabilities/cleared-workforce-at-scale-discriminator.md` | W4 #7 | **Candidate** — freeze |
-| [[cleared-workforce-rewrite-candidate]] | `global/domain_intel/capabilities/cleared-workforce.md` | W4 #8 | **Candidate** — freeze |
-| [[cmmc-certification-status-rewrite-candidate]] | `global/domain_intel/capabilities/cmmc-certification-status.md` | W4 #9 | **Candidate** — freeze |
-| [[csom-scheduling-optimization-module-rewrite-candidate]] | `global/domain_intel/capabilities/csom-scheduling-optimization-module.md` | W4 #10 | **Candidate** — freeze |
-| [[enterprise-technology-capability-rewrite-candidate]] | `global/domain_intel/capabilities/enterprise-technology-capability.md` | W4 #11 | **Candidate** — freeze |
-| [[hundred-plus-digital-initiatives-proof-point-rewrite-candidate]] | `global/domain_intel/capabilities/hundred-plus-digital-initiatives-proof-point.md` | W4 #12 | **Candidate** — freeze |
+| ~~[[active-gwac-and-idiq-holdings-rewrite-candidate]]~~ | `global/domain_intel/capabilities/active-gwac-and-idiq-holdings.md` | W4 #1 | **Promoted 2026-07-05** (lighthouse #1) → [[active-gwac-and-idiq-holdings]] |
+| ~~[[afcap-contract-heritage-rewrite-candidate]]~~ | `global/domain_intel/capabilities/afcap-contract-heritage.md` | W4 #2 | **Promoted 2026-07-05** (lighthouse #2) → [[afcap-contract-heritage]] |
+| ~~[[artemis-uas-rewrite-candidate]]~~ | `global/domain_intel/capabilities/artemis-uas.md` | W4 #3 | **Promoted 2026-07-05** (lighthouse #3) → [[artemis-uas]] |
+| ~~[[artificial-intelligence-capability-rewrite-candidate]]~~ | `global/domain_intel/capabilities/artificial-intelligence-capability.md` | W4 #4 | **Promoted 2026-07-05** (lighthouse #4) → [[artificial-intelligence-capability]] |
+| ~~[[autonomous-systems-capability-rewrite-candidate]]~~ | `global/domain_intel/capabilities/autonomous-systems-capability.md` | W4 #5 | **Promoted 2026-07-05** (lighthouse #5) → [[autonomous-systems-capability]] |
+| ~~[[cleanspend-carbon-analysis-rewrite-candidate]]~~ | `global/domain_intel/capabilities/cleanspend-carbon-analysis.md` | W4 #6 | **Promoted 2026-07-05** (lighthouse #6) → [[cleanspend-carbon-analysis]] |
+| ~~[[cleared-workforce-at-scale-discriminator-rewrite-candidate]]~~ | `global/domain_intel/capabilities/cleared-workforce-at-scale-discriminator.md` | W4 #7 | **Promoted 2026-07-05** (lighthouse batch B) → [[cleared-workforce-at-scale-discriminator]] |
+| ~~[[cleared-workforce-rewrite-candidate]]~~ | `global/domain_intel/capabilities/cleared-workforce.md` | W4 #8 | **Promoted 2026-07-05** (lighthouse batch B) → [[cleared-workforce]] |
+| ~~[[cmmc-certification-status-rewrite-candidate]]~~ | `global/domain_intel/capabilities/cmmc-certification-status.md` | W4 #9 | **Promoted 2026-07-05** (lighthouse batch B) → [[cmmc-certification-status]] |
+| ~~[[csom-scheduling-optimization-module-rewrite-candidate]]~~ | `global/domain_intel/capabilities/csom-scheduling-optimization-module.md` | W4 #10 | **Promoted 2026-07-05** (lighthouse batch B) → [[csom-scheduling-optimization-module]] |
+| ~~[[enterprise-technology-capability-rewrite-candidate]]~~ | `global/domain_intel/capabilities/enterprise-technology-capability.md` | W4 #11 | **Promoted 2026-07-05** (lighthouse batch B) → [[enterprise-technology-capability]] |
+| ~~[[hundred-plus-digital-initiatives-proof-point-rewrite-candidate]]~~ | `global/domain_intel/capabilities/hundred-plus-digital-initiatives-proof-point.md` | W4 #12 | **Promoted 2026-07-05** (lighthouse batch B) → [[hundred-plus-digital-initiatives-proof-point]] |
 
 ## Subfolders
 - `archived/` — rejected or superseded candidates

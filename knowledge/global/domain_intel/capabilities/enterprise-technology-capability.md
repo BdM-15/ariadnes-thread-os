@@ -1,33 +1,55 @@
 ---
-agencies: 
-auto_generated: true
-certifications: 
-domains: 
-entity_type: concept
+added: "2026-07-05T04:36:17Z"
+citations: "https://www.kbr.com/en/what-we-do/kbr-digital-accelerators • iris:agents/iris/content/2026-07-05_w4-capabilities-rescout-batch.md"
+retrieved: "2026-07-05"
 id: capability-enterprise-technology-capability
-last_updated: 2026-06-18
+last_updated: 2026-07-05
 name: "Enterprise Technology Capability"
-proof_strength: medium
-source_module: company_capabilities
-summary: "KBR provides federal cloud, large-scale data migration at petabyte scale,"
-title: "Enterprise Technology Capability"
 trust: trusted
-type: concept
-updated: "'2026-04-22T23:01:17'"
+type: capability
+entity_type: concept
+tags: [capability-rewrite, wave-w4, morning-queue]
+summary: "Enterprise pillar — Vaault + cloud migration; wikilink W2 kbr-vaault; no duplicate FedRAMP package IDs."
+reviewed_by: axelrod2023
+reviewed_at: "2026-07-05T04:36:17Z"
+review_id: "a1857ac7-9b43-4d62-bf0f-1f0df2044982"
+title: "Enterprise Technology Capability"
 ---
+
+# Enterprise Technology Capability
 
 > **Entity type:** `concept`
 
-Federal cloud, large-scale data migration, and SaaS mission platforms. Anchored by Vaault (FedRAMP High + DoD IL5 authorized SaaS mission platform). KBR publicly cites end-to-end cloud migration at petabyte scale including power/cooling and legacy data center exit. Applicable to RFPs requiring FedRAMP High or IL5 hosting, large-scale archive migration to GovCloud, or mission-specific SaaS development with stringent FISMA / DoD SRG controls.
+## Key signals + citations
+
+| Signal | Citation |
+|--------|----------|
+| **Vaault** SaaS — FedRAMP High + DoD SRG **IL5 alignment** (corporate positioning) | Digital Accelerators · Enterprise Technology § · retrieved 2026-07-05 |
+| **Petabyte-scale** cloud migration (power/cooling, data center exit) | Same § · child `[[petabyte-scale-cloud-migration-proof-point]]` |
+
+## Offering
+
+KBR's Enterprise Technology pillar covers secure cloud SaaS (Vaault) and large-scale migration/modernization programs for federal and enterprise customers.
+
+## Bid fit
+
+FedRAMP/IL5 cloud hosting, enterprise migration, DC exit — cite pillar § and `[[kbr-vaault]]` hub; authorization package IDs only from promoted Vaault children or Tier-4.
+
+## Evidence
+
+- Tier-1: Digital Accelerators Enterprise Technology subsection.
+- W2 promoted `[[kbr-vaault]]` — pillar wikilinks hub; do not duplicate full auth narrative.
+
+## Gaps / TODO
+
+- Do not duplicate FedRAMP package IDs without Tier-4.
+- Petabyte proof stays on `[[petabyte-scale-cloud-migration-proof-point]]` (future batch).
 
 ## Related
-- [[ariadne-vault-schema]]
-- [[petabyte-scale-cloud-migration-proof-point]]
-- [[kbr-vaault]]
-- [[dod-srg-impact-level-5-authorization-vaault]]
-- [[data-analytics-capability]]
-- [[fedramp-high-plus-il5-discriminator]]
-- [[crystalvista]]
-- [[kbr-digital-accelerators-portfolio]]
-- [[resan]]
-- [[kbr-inc]]
+
+- [[kbr-vaault]] · [[petabyte-scale-cloud-migration-proof-point]]
+- [[fedramp-high-authorization-vaault]] · [[dod-srg-impact-level-5-authorization-vaault]]
+
+## Added/Updated 2026-07-05
+
+- W4 lighthouse promote W4 #11: Clio distill from Iris W4 rescout + Tier-1 cites; Odysseus cite gate PASS; replaces auto-generated trusted stub.

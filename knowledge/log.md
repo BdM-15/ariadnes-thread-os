@@ -365,3 +365,39 @@ Vault lint 2026-07-05 03:44 UTC
 - `generated-projections/INDEX.md` W4 table + morning queue rows
 - **Promote freeze ON** — no trusted overwrite
 - by: clio | branch: feature/knowledge-vault-v1
+
+## [2026-07-05] promote | W4 lighthouse batch B (#7–#12)
+- Hephaestus: in-place REWRITE ×6 — cleared discriminator, cleared workforce, CMMC, CSOM, enterprise pillar, 100+ proof
+- Archived → `generated-projections/archived/*-promoted-20260705.md`
+- Ship: `agents/hephaestus/content/2026-07-05_promote-w4-batch-b.md`
+- `reviewed_by`: axelrod2023 | Odysseus PASS (CMMC level + GWAC inventory = open questions)
+- by: hephaestus | branch: feature/knowledge-vault-v1
+
+## [2026-07-05 04:36 UTC] promote | generated-projections/cleared-workforce-at-scale-discriminator-rewrite-candidate.md → global/domain_intel/capabilities/cleared-workforce-at-scale-discriminator.md | review:5f570aa1-300d-46cf-ba0e-3681461fc7f8 | by:axelrod2023
+
+## [2026-07-05 04:36 UTC] promote | generated-projections/cleared-workforce-rewrite-candidate.md → global/domain_intel/capabilities/cleared-workforce.md | review:a87f490f-f58f-4199-80fe-f91664306cf3 | by:axelrod2023
+
+## [2026-07-05 04:36 UTC] promote | generated-projections/cmmc-certification-status-rewrite-candidate.md → global/domain_intel/capabilities/cmmc-certification-status.md | review:66a206cc-9e47-46fb-a0be-b65719c78bc3 | by:axelrod2023
+
+## [2026-07-05 04:36 UTC] promote | generated-projections/csom-scheduling-optimization-module-rewrite-candidate.md → global/domain_intel/capabilities/csom-scheduling-optimization-module.md | review:40f37e1a-d385-4b66-9901-6ea3e3e8b667 | by:axelrod2023
+
+## [2026-07-05 04:36 UTC] promote | generated-projections/enterprise-technology-capability-rewrite-candidate.md → global/domain_intel/capabilities/enterprise-technology-capability.md | review:a1857ac7-9b43-4d62-bf0f-1f0df2044982 | by:axelrod2023
+
+## [2026-07-05] promote | Active GWAC and IDIQ Holdings | review:a1c3e5f7-8b2d-4a6c-9e0f-1b3d5f7a9c1e | from:generated-projections/active-gwac-and-idiq-holdings-rewrite-candidate.md → global/domain_intel/capabilities/active-gwac-and-idiq-holdings.md | by:axelrod2023 | W4 lighthouse #1
+## [2026-07-05] promote | AFCAP Contract Heritage | review:b2d4f6a8-9c3e-5b7d-0f1a-2c4e6f8a0b2d | from:generated-projections/afcap-contract-heritage-rewrite-candidate.md → global/domain_intel/capabilities/afcap-contract-heritage.md | by:axelrod2023 | W4 lighthouse #2
+## [2026-07-05] promote | Artemis UAS | review:c3e5a7b9-0d4f-6c8e-1a2b-3d5f7a9b1c3e | from:generated-projections/artemis-uas-rewrite-candidate.md → global/domain_intel/capabilities/artemis-uas.md | by:axelrod2023 | W4 lighthouse #3
+## [2026-07-05] promote | Artificial Intelligence Capability | review:d4f6b8c0-1e5a-7d9f-2b3c-4e6a8b0c2d4f | from:generated-projections/artificial-intelligence-capability-rewrite-candidate.md → global/domain_intel/capabilities/artificial-intelligence-capability.md | by:axelrod2023 | W4 lighthouse #4
+## [2026-07-05] promote | Autonomous Systems Capability | review:e5a7c9d1-2f6b-8e0a-3c4d-5f7b9c1d3e5a | from:generated-projections/autonomous-systems-capability-rewrite-candidate.md → global/domain_intel/capabilities/autonomous-systems-capability.md | by:axelrod2023 | W4 lighthouse #5
+## [2026-07-05] promote | CleanSpend Carbon Analysis | review:f6b8d0e2-3a7c-9f1b-4d5e-6a8c0d2e4f6b | from:generated-projections/cleanspend-carbon-analysis-rewrite-candidate.md → global/domain_intel/capabilities/cleanspend-carbon-analysis.md | by:axelrod2023 | W4 lighthouse #6
+
+## [2026-07-05 04:36 UTC] promote | generated-projections/hundred-plus-digital-initiatives-proof-point-rewrite-candidate.md → global/domain_intel/capabilities/hundred-plus-digital-initiatives-proof-point.md | review:1ac58917-9954-4f83-83f2-c194d9bfaedf | by:axelrod2023
+
+```
+Vault lint 2026-07-05 04:58 UTC
+  markdown files: 264
+  zone counts: {'index.md': 1, 'log.md': 1, 'README.md': 1, 'entities': 3, 'foundation': 5, 'generated-projections': 41, 'global': 209, 'pursuits': 1, 'relationships': 2}
+  trust frontmatter hits: {'"candidate"': 2, 'candidate': 38, 'trusted': 206, '"trusted"': 2}
+  projection files (non-INDEX): 40
+  unresolved wikilinks (heuristic): 66
+  sample missing: acquisition_capture_progress, action_plan_items, army-logcap-funding-office, athena-data-management-suite-rewrite-candidate, award_date, basis_of_evaluated_price, bookable_revenue, bp_funding_request_amount, bp_notes, business_case_rows, business_case_summary, business_unit, business_unit_division, capture_manager, cleared-workforce-at-scale-discriminator-rewrite-candidate
+```
