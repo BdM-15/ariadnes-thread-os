@@ -1,31 +1,51 @@
 ---
-auto_generated: true
-domains: 
-entity_type: technology
+added: "2026-07-05T12:00:00Z"
+citations: "https://www.kbr.com/en/what-we-do/kbr-digital-accelerators • iris:agents/iris/content/2026-07-05_w4-capabilities-rescout-batch.md"
+retrieved: "2026-07-05"
 id: capability-cleanspend-carbon-analysis
-last_updated: 2026-06-18
-name: "Cleanspend Carbon Analysis"
-proof_strength: low
-source_module: company_capabilities
-summary: "The company provides CleanSpend Carbon Analysis, a lifecycle carbon analysis"
-title: "CleanSpend Carbon Analysis"
+last_updated: 2026-07-05
+name: "CleanSpend Carbon Analysis"
 trust: trusted
-type: concept
-updated: "'2026-04-22T23:01:17'"
+type: capability
+entity_type: technology
+tags: [capability-rewrite, wave-w4, cleanspend, sustainability]
+summary: "ENCOMPASS-powered lifecycle carbon; scope 1/2/3; federal fit verification needed."
+reviewed_by: axelrod2023
+reviewed_at: "2026-07-05T12:00:00Z"
+review_id: "f6b8d0e2-3a7c-9f1b-4d5e-6a8c0d2e4f6b"
+title: "CleanSpend Carbon Analysis"
 ---
 
-> **Entity type:** `technology`
+# CleanSpend Carbon Analysis
 
-Lifecycle carbon analysis solution (powered by ENCOMPASS) calculating scope 1/2/3 emissions over project lifetime. Originally targeted at offshore oil and gas. Applicable to federal RFPs with FAR sustainability requirements, Federal Sustainability Plan reporting, or scope 3 supply chain emissions disclosure mandates. Honest applicability limit: federal references thinner than commercial — confirm fit before featuring.
+**CleanSpend powered by ENCOMPASS** delivers rapid lifecycle carbon footprint analysis — strongest public proof in energy transition and offshore platform O&G contexts.
+
+## Key signals + citations
+
+| Signal | Citation |
+|--------|----------|
+| **CleanSpend powered by ENCOMPASS** — lifecycle carbon analysis | KBR Digital Accelerators · CleanSpend § · retrieved 2026-07-05 |
+| **Scope 1, 2, 3** emissions; offshore platform O&G lead use case | Same § |
+| **Minutes-level** results (corporate positioning) | Iris rescout extract |
+
+## Offering
+
+Lifecycle carbon analysis over project lifetime, powered by [[encompass-digital-twin-platform]] digital twin stack.
+
+## Bid fit
+
+Sustainability reporting, scope 3 supply-chain carbon, offshore/industrial asset carbon — cite Tier-1. For **federal** solicitations (FAR sustainability, Federal Sustainability Plan, scope 3 disclosure): **verification needed** until contract or agency fit confirmed — do not overstate DoD/federal past performance without Tier-4.
+
+## Evidence
+
+- Tier-1: Digital Accelerators CleanSpend subsection.
 
 ## Related
+
+- [[encompass-digital-twin-platform]] · [[data-analytics-capability]]
+- [[kbr-digital-accelerators-portfolio]] · [[digital-engineering-capability]]
 - [[ariadne-vault-schema]]
-- [[data-analytics-capability]]
-- [[intelligent-asset-management-iam]]
-- [[encompass-digital-twin-platform]]
-- [[digital-engineering-capability]]
-- [[kbr-readiness-and-sustainment]]
-- [[crystalvista]]
-- [[csom-scheduling-optimization-module]]
-- [[viaverse-estates-intelligence-platform]]
-- [[kbrain]]
+
+## Added/Updated 2026-07-05
+
+- W4 lighthouse #6 promote (Odysseus PASS); Clio W4 Iris batch slug 6. Retained federal verification caveat; dropped `auto_generated`, `source_module`.

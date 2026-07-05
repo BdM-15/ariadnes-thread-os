@@ -12,6 +12,7 @@ promote_target: global/domain_intel/capabilities/afcap-contract-heritage.md
 tags: [capability-rewrite, wave-w4, morning-queue, afcap, contract-heritage]
 source: iris-rescout
 review_id: null
+archived_reason: "Promoted 2026-07-05 W4 lighthouse #2 → afcap-contract-heritage.md"
 summary: "AFCAP V IDIQ seat + 2026 task orders cited; separate contract facts from R&S marketing scope."
 ---
 

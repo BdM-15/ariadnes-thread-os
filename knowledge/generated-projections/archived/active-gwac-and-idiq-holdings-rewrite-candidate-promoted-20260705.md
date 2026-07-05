@@ -12,6 +12,7 @@ promote_target: global/domain_intel/capabilities/active-gwac-and-idiq-holdings.m
 tags: [capability-rewrite, wave-w4, morning-queue, contracts, open-inventory]
 source: iris-rescout
 review_id: null
+archived_reason: "Promoted 2026-07-05 W4 lighthouse #1 → active-gwac-and-idiq-holdings.md"
 summary: "Honest open-inventory page for GWAC/IDIQ holdings; no invented awards from careers JD alone."
 ---
 
