@@ -358,3 +358,10 @@ Vault lint 2026-07-05 03:44 UTC
 ## [2026-07-05] index | Karpathy catalog refresh (morning review)
 - Updated `index.md`: W2×11 + W3×8 + Vaault children summary, retrieve-first, zone table, `[[obsidian-desktop]]` in foundation/reference
 - by: hephaestus (delegated) | branch: feature/knowledge-vault-v1 (no merge main)
+
+## [2026-07-05] candidate | W4 manifest-tail capability rewrites (12)
+- Clio: `knowledge/generated-projections/*-rewrite-candidate.md` ×12 from `agents/iris/content/2026-07-05_w4-capabilities-rescout-batch.md`
+- Ship: `agents/clio/content/2026-07-05_w4-capabilities-candidates-ship.md`
+- `generated-projections/INDEX.md` W4 table + morning queue rows
+- **Promote freeze ON** — no trusted overwrite
+- by: clio | branch: feature/knowledge-vault-v1

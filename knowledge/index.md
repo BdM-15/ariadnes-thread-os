@@ -19,7 +19,7 @@ last_updated: 2026-07-05
 | **W2** | **11** | Readiness/Sustainment, Iron Stallion, Owned-IP discriminator, IAM, INSITE, KBRain, CRYSTALVISTA, Quantum Pantheon, EDEN edge node, **[[kbr-vaault]]** hub, LOGCAP V — see `log.md` lines tagged `W2 lighthouse` |
 | **W3** | **8** + **Vaault children** | Portfolio + Cyber/Data Analytics/Digital Engineering pillars; Athena, ENCOMPASS, HAL, Dash C3 products — see `log.md` `W3 lighthouse #1–#8`. **Vaault children** (hub [[kbr-vaault]]): [[fedramp-high-authorization-vaault]], [[dod-srg-impact-level-5-authorization-vaault]], [[fedramp-high-plus-il5-discriminator]] |
 
-**Morning queue (candidates):** [[generated-projections/INDEX]] — active: [[eden-edge-computing-candidate]]; W2/W3 rewrite candidates archived after promote.
+**Morning queue (candidates):** [[generated-projections/INDEX]] — active: **W4×12** manifest-tail rewrites + [[eden-edge-computing-candidate]]; W2/W3 archived after promote.
 
 **Capability hub:** [[capabilities-catalog]] — full bid-fit slug list under `global/domain_intel/capabilities/`.
 
