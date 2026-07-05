@@ -9,7 +9,7 @@ last_updated: 2026-07-05
 # Knowledge vault — Karpathy content catalog (morning review)
 
 > **Catalog role:** Read this file first (Karpathy `index.md` pattern). One-line pointers into zones; trusted detail lives on linked pages.
-> **Last refreshed:** 2026-07-05 | **~246** markdown files | **~206** `trust: trusted` (see latest `log.md` lint block)
+> **Last refreshed:** 2026-07-05 (overnight cron) | **~258** markdown files | **~206** `trust: trusted` (see latest `log.md` lint block)
 > **Doc:** `docs/inspiration/knowledge-vault-and-compounding-truth.md`
 
 ## Wave completion (KBR-first rebuild)
@@ -18,8 +18,9 @@ last_updated: 2026-07-05
 |------|---------------------|-------|
 | **W2** | **11** | Readiness/Sustainment, Iron Stallion, Owned-IP discriminator, IAM, INSITE, KBRain, CRYSTALVISTA, Quantum Pantheon, EDEN edge node, **[[kbr-vaault]]** hub, LOGCAP V — see `log.md` lines tagged `W2 lighthouse` |
 | **W3** | **8** + **Vaault children** | Portfolio + Cyber/Data Analytics/Digital Engineering pillars; Athena, ENCOMPASS, HAL, Dash C3 products — see `log.md` `W3 lighthouse #1–#8`. **Vaault children** (hub [[kbr-vaault]]): [[fedramp-high-authorization-vaault]], [[dod-srg-impact-level-5-authorization-vaault]], [[fedramp-high-plus-il5-discriminator]] |
+| **W4** | **12** | Manifest-tail capabilities (GWAC open inventory, AFCAP heritage, Artemis, AI/Autonomous/Enterprise pillars, CleanSpend, cleared workforce pair, CMMC, CSOM, 100+ proof) — `log.md` `W4 lighthouse #1–#12`; commits `3d1324e` + `279e926` |
 
-**Morning queue (candidates):** [[generated-projections/INDEX]] — active: **W4×12** manifest-tail rewrites + [[eden-edge-computing-candidate]]; W2/W3 archived after promote.
+**Morning queue (candidates):** [[generated-projections/INDEX]] — active: **[[eden-edge-computing-candidate]]** only; **W4×12 closed** (archived). **Next Iris batch:** 12 remaining `auto_generated` capability slugs (see Iris W4 rescout tail list).
 
 **Capability hub:** [[capabilities-catalog]] — full bid-fit slug list under `global/domain_intel/capabilities/`.
 
@@ -82,4 +83,4 @@ Full contract: `agents/_shared/VAULT_RETRIEVE.md` · schema: [[ariadne-vault-sch
 
 Hephaestus rebuilds trusted lists on promote; append lint lines to `log.md`. Agents update this catalog after bulk ingest or wave close — Overwatch does not hand-edit line items.
 
-Read [[ariadne-vault-schema]] before maintaining this vault.
+Read [[ariadne-vault-schema]] before maintaining this vault.[H[2J[3J[H[2J[3J

@@ -411,3 +411,13 @@ Vault lint 2026-07-05 04:59 UTC
   unresolved wikilinks (heuristic): 72
   sample missing: acquisition_capture_progress, action_plan_items, active-gwac-and-idiq-holdings-rewrite-candidate, afcap-contract-heritage-rewrite-candidate, army-logcap-funding-office, artemis-uas-rewrite-candidate, artificial-intelligence-capability-rewrite-candidate, athena-data-management-suite-rewrite-candidate, autonomous-systems-capability-rewrite-candidate, award_date, basis_of_evaluated_price, bookable_revenue, bp_funding_request_amount, bp_notes, business_case_rows
 ```
+
+```
+Vault lint 2026-07-05 07:47 UTC
+  markdown files: 258
+  zone counts: {'index.md': 1, 'log.md': 1, 'README.md': 1, 'entities': 3, 'foundation': 5, 'generated-projections': 35, 'global': 209, 'pursuits': 1, 'relationships': 2}
+  trust frontmatter hits: {'"candidate"': 2, 'candidate': 32, 'trusted': 206, '"trusted"': 2}
+  projection files (non-INDEX): 34
+  unresolved wikilinks (heuristic): 72
+  sample missing: acquisition_capture_progress, action_plan_items, active-gwac-and-idiq-holdings-rewrite-candidate, afcap-contract-heritage-rewrite-candidate, army-logcap-funding-office, artemis-uas-rewrite-candidate, artificial-intelligence-capability-rewrite-candidate, athena-data-management-suite-rewrite-candidate, autonomous-systems-capability-rewrite-candidate, award_date, basis_of_evaluated_price, bookable_revenue, bp_funding_request_amount, bp_notes, business_case_rows
+```
