@@ -593,3 +593,23 @@ Vault lint 2026-07-06 04:18 UTC
   projection files (non-INDEX): 46
   unresolved wikilinks (heuristic): 0
 ```
+
+```
+Vault lint 2026-07-06 04:48 UTC
+  markdown files: 326
+  zone counts: {'dhs.md': 1, 'index.md': 1, 'log.md': 1, 'README.md': 1, 'Welcome.md': 1, 'data-elements': 37, 'entities': 9, 'foundation': 8, 'generated-projections': 47, 'global': 217, 'pursuits': 1, 'relationships': 2}
+  trust frontmatter hits: {'trusted': 262, '"candidate"': 2, 'candidate': 42, 'raw': 1, 'archived': 2}
+  projection files (non-INDEX): 46
+  unresolved wikilinks (heuristic): 0
+```
+
+| 2026-07-06 | shipley | phase2 | hub + 6 concepts (Hermes in-session retry after deleg OAuth fail) |
+
+```
+Vault lint 2026-07-06 11:32 UTC
+  markdown files: 332
+  zone counts: {'dhs.md': 1, 'index.md': 1, 'log.md': 1, 'README.md': 1, 'Welcome.md': 1, 'data-elements': 37, 'entities': 9, 'foundation': 8, 'generated-projections': 47, 'global': 223, 'pursuits': 1, 'relationships': 2}
+  trust frontmatter hits: {'trusted': 268, '"candidate"': 2, 'candidate': 42, 'raw': 1, 'archived': 2}
+  projection files (non-INDEX): 46
+  unresolved wikilinks (heuristic): 0
+```

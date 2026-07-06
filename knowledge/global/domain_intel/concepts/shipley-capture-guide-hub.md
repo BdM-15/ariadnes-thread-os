@@ -43,6 +43,18 @@ Quick-reference capture doctrine from Larry Newman's Shipley Capture Guide (5th 
 | Win strategy development | [[shipley-win-strategy-development-capture]] |
 | Competitive intelligence | [[shipley-competitive-intelligence-capture]] |
 
+
+## Major topics (phase 2 concepts)
+
+| Topic | Vault page |
+|-------|------------|
+| Capture plan templates & checklists | [[shipley-capture-plan-templates-checklists]] |
+| Teaming & partnering | [[shipley-teaming-partnering-capture]] |
+| Pricing & cost | [[shipley-pricing-cost-capture]] |
+| Proposal handoff | [[shipley-proposal-handoff-capture]] |
+| Risk in capture | [[shipley-risk-capture]] |
+| Lessons learned | [[shipley-lessons-learned-capture]] |
+
 ## Ariadne capture loop
 
 Hermes supervises the nine-step capture loop (intake through ratify). Operational spec: `agents/CAPTURE_LOOP_SUPERVISOR.md` (triggers: Run capture loop on ..., `/capture-loop`).
@@ -60,3 +72,5 @@ Read [[ariadne-vault-schema]] before ingest or append.
 ## Added/Updated 2026-07-06
 
 Phase 1 hub from Capture Guide preface and TOC.
+
+Phase 2 concepts (templates, teaming, pricing, handoff, risk, lessons learned).
