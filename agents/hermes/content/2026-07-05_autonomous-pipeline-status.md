@@ -11,7 +11,7 @@
 | **Viaverse + Wraith** | Trusted; commit `1b47d9b` |
 | **Harmonize program** | `2026-07-05_vault-llm-wiki-harmonize-program.md` |
 | **Harmonize H1–H2** | lint + index/log refresh (`llm-wiki` ritual) |
-| **Shipley Capture Guide phase3** | commit `e783f50` — batch script + 6 concept pages + Clio log |
+| **Shipley Capture Guide phase3** | commit `f5b4e53` — batch script + 6 concept pages + Clio log |
 | **H3 gold templates** | `scripts/harmonize_h3_gold_templates.py` confirm — Hephaestus `2026-07-06_harmonize-h3.md` |
 | **Entities phase3b** | `scripts/entities_phase3b_migrate.py` + Odysseus gate |
 | **Phantom repair** | `deleg_45a91c1f` verified — no phantom tree; `vault_lint` exit 0 |
@@ -35,4 +35,4 @@
 ## Next after H3 ship
 
 - W1 company hub + W6 concepts (foundation)
-- Company templates W7 one-at-a-time per Clio order[H[2J[3J[H[2J[3J[H[2J[3J[H[2J[3J
+- Company templates W7 one-at-a-time per Clio order

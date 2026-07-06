@@ -28,3 +28,6 @@ Thumbs.db
 *.swo
 .idea/
 .vscode/
+
+# Obsidian workspace (local UI state)
+knowledge/.obsidian/
