@@ -2,7 +2,7 @@
 name: "Capabilities Catalog"
 type: "meta"
 id: "capabilities-catalog"
-trust: "trusted"
+trust: trusted
 added: "2026-06-18T20:26:07Z"
 last_updated: "2026-06-18"
 aliases: "capabilities, domain-intel-capabilities"

@@ -531,3 +531,65 @@ Vault lint 2026-07-05 23:55 UTC
   unresolved wikilinks (heuristic): 85
   sample missing: acquisition_capture_progress, action_plan_items, active-gwac-and-idiq-holdings-rewrite-candidate, afcap-contract-heritage-rewrite-candidate, army-logcap-funding-office, artemis-uas-rewrite-candidate, artificial-intelligence-capability-rewrite-candidate, athena-data-management-suite-rewrite-candidate, autonomous-systems-capability-rewrite-candidate, award_date, basis_of_evaluated_price, bookable_revenue, bp_funding_request_amount, bp_notes, business_case_rows
 ```
+
+```
+Vault lint 2026-07-06 01:51 UTC
+  markdown files: 271
+  zone counts: {'index.md': 1, 'log.md': 1, 'README.md': 1, 'Welcome.md': 1, 'entities': 3, 'foundation': 5, 'generated-projections': 47, 'global': 209, 'pursuits': 1, 'relationships': 2}
+  trust frontmatter hits: {'"candidate"': 2, 'candidate': 42, 'trusted': 206, 'archived': 2, '"trusted"': 2}
+  projection files (non-INDEX): 46
+  unresolved wikilinks (heuristic): 85
+  sample missing: acquisition_capture_progress, action_plan_items, active-gwac-and-idiq-holdings-rewrite-candidate, afcap-contract-heritage-rewrite-candidate, army-logcap-funding-office, artemis-uas-rewrite-candidate, artificial-intelligence-capability-rewrite-candidate, athena-data-management-suite-rewrite-candidate, autonomous-systems-capability-rewrite-candidate, award_date, basis_of_evaluated_price, bookable_revenue, bp_funding_request_amount, bp_notes, business_case_rows
+```
+
+## [2026-07-06] harmonize | H1–H2 capabilities + index
+- files_patched: 4
+- link_retargets: 77
+- markdown_files: 317
+- missing_wikilinks: 2
+- stubs_created: 45
+- trust_fixes: 2
+- trusted_hits: 253
+
+
+```
+Vault lint 2026-07-06 03:09 UTC
+  markdown files: 317
+  zone counts: {'dhs.md': 1, 'index.md': 1, 'log.md': 1, 'README.md': 1, 'Welcome.md': 1, 'data-elements': 37, 'entities': 8, 'foundation': 7, 'generated-projections': 47, 'global': 210, 'pursuits': 1, 'relationships': 2}
+  trust frontmatter hits: {'trusted': 253, '"candidate"': 2, 'candidate': 42, 'raw': 1, 'archived': 2}
+  projection files (non-INDEX): 46
+  unresolved wikilinks (heuristic): 2
+  sample missing: department-of-the-army, slug
+```
+
+## [2026-07-06] harmonize | H1-H2 capabilities + index
+- markdown_files: 318
+- missing_wikilinks: 0
+- trusted_hits: 254
+
+
+```
+Vault lint 2026-07-06 04:15 UTC
+  markdown files: 318
+  zone counts: {'dhs.md': 1, 'index.md': 1, 'log.md': 1, 'README.md': 1, 'Welcome.md': 1, 'data-elements': 37, 'entities': 9, 'foundation': 7, 'generated-projections': 47, 'global': 210, 'pursuits': 1, 'relationships': 2}
+  trust frontmatter hits: {'trusted': 254, '"candidate"': 2, 'candidate': 42, 'raw': 1, 'archived': 2}
+  projection files (non-INDEX): 46
+  unresolved wikilinks (heuristic): 0
+```
+
+## [2026-07-06] ingest | Shipley Capture Guide phase 1
+
+- Cite: knowledge/foundation/reference/shipley-capture-guide-source.md
+- Hub + 5 concepts: knowledge/global/domain_intel/concepts/shipley-*
+- Script: scripts/shipley_capture_guide_phase1_batch.py
+- Clio: agents/clio/content/2026-07-06_shipley-capture-guide-phase1.md
+- reviewed_by: axelrod2023
+
+```
+Vault lint 2026-07-06 04:18 UTC
+  markdown files: 326
+  zone counts: {'dhs.md': 1, 'index.md': 1, 'log.md': 1, 'README.md': 1, 'Welcome.md': 1, 'data-elements': 37, 'entities': 9, 'foundation': 8, 'generated-projections': 47, 'global': 217, 'pursuits': 1, 'relationships': 2}
+  trust frontmatter hits: {'trusted': 262, '"candidate"': 2, 'candidate': 42, 'raw': 1, 'archived': 2}
+  projection files (non-INDEX): 46
+  unresolved wikilinks (heuristic): 0
+```

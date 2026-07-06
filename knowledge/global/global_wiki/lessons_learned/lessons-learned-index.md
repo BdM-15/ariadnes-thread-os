@@ -2,7 +2,7 @@
 name: "Lessons Learned Index"
 type: "meta"
 id: "lessons-learned-index"
-trust: "trusted"
+trust: trusted
 added: "2026-06-18T20:26:07Z"
 last_updated: "2026-06-18"
 aliases: "lessons-learned, lessons learned"

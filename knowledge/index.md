@@ -3,13 +3,13 @@ name: "Ariadne Thread OS Knowledge Vault"
 type: meta
 id: vault-index
 tags: [index, karpathy-wiki, thread-os, morning-catalog]
-last_updated: 2026-07-05
+last_updated: 2026-07-06
 ---
 
 # Knowledge vault — Karpathy content catalog (morning review)
 
 > **Catalog role:** Read this file first (Karpathy `index.md` pattern). One-line pointers into zones; trusted detail lives on linked pages.
-> **Last refreshed:** 2026-07-05 (overnight cron) | **~258** markdown files | **~206** `trust: trusted` (see latest `log.md` lint block)
+> **Last refreshed:** 2026-07-06 (H1-H2 harmonize) | **~318** markdown files | **~254** `trust: trusted` (see latest `log.md` lint block)
 > **Doc:** `docs/inspiration/knowledge-vault-and-compounding-truth.md`
 
 ## Wave completion (KBR-first rebuild)
@@ -77,6 +77,9 @@ Full contract: `agents/_shared/VAULT_RETRIEVE.md` · schema: [[ariadne-vault-sch
 | [[obsidian-desktop]] | Optional Obsidian vault path + human review; agents compound without desktop |
 | [[briefing-packet-model]] | Living packet field mirror (read-mostly) |
 | [[briefing-packet-data-dictionary]] | Packet key explanations |
+| [[shipley-capture-guide-source]] | Locked PDF + extract citation (Shipley Capture Guide 5th ed.) |
+| [[shipley-capture-guide-hub]] | Hub: objectives, five principles, phase-1 capture concepts |
+
 
 ---
 

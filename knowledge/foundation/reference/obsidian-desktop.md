@@ -19,6 +19,24 @@ You do **not** need Obsidian for agents to compound the vault. Use it when you w
 3. Enable **Properties** (YAML frontmatter) in settings if not default.
 4. Recommended: **Graph view**, **Outgoing links**, **Backlinks**.
 
+**Overwatch (2026-07-05):** Vault opened in Obsidian at this path — same SSOT as agents.
+
+## Hermes skills (same vault)
+
+| Skill | Use |
+|-------|-----|
+| **`llm-wiki`** | Karpathy compile loop: orient (`ariadne-vault-schema` + `index.md` + `log.md` tail) → ingest/update → index + log append → lint |
+| **`obsidian`** | Read/search/edit notes at resolved vault path (filesystem = Obsidian) |
+
+**Env (recommended in `~/.hermes/.env`):**
+
+```bash
+WIKI_PATH=C:/Users/benma/ariadnes-thread-os/knowledge
+OBSIDIAN_VAULT_PATH=C:/Users/benma/ariadnes-thread-os/knowledge
+```
+
+Ariadne maps Karpathy **Layer 3** to `[[ariadne-vault-schema]]` (not generic `SCHEMA.md`). **Layer 1 raw** for capture = Postgres/intel + cited URLs on pages, not necessarily `raw/` subtree yet.
+
 ## Wikilinks
 
 Same as agent OS: `[[kbr-vaault]]`, `[[ariadne-vault-schema]]`, `[[global/INDEX]]`.
@@ -36,4 +54,4 @@ Branch `feature/knowledge-vault-v1` until Overwatch approves merge to `main`.
 ## Related
 
 - [[ariadne-vault-schema]]
-- `docs/inspiration/knowledge-vault-and-compounding-truth.md`
+- `docs/inspiration/knowledge-vault-and-compounding-truth.md`[H[2J[3J
