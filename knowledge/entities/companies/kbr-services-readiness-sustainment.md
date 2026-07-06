@@ -1,16 +1,16 @@
 ---
-added: "2026-07-02T12:00:00Z"
-citations: "https://solutions.kbr.com/readiness-and-sustainment/ • company SSOT hub"
-id: entity-company-kbr-services-readiness-sustainment
-last_updated: 2026-07-02
 name: "KBR Services, LLC — Readiness & Sustainment Business Unit"
-trust: trusted
 type: company
-org_role: self
-roles: [prime, offeror]
+id: entity-company-kbr-services-readiness-sustainment
+trust: trusted
+added: "2026-07-02T12:00:00Z"
+last_updated: 2026-07-06
+citations: "https://solutions.kbr.com/readiness-and-sustainment/ • company SSOT hub"
+tags: "[company, capability-matrix, domain-intel-hub]"
 business_unit: "Readiness and Sustainment"
+org_role: self
 parent: "KBR Services, LLC"
-tags: [company, capability-matrix, domain-intel-hub]
+roles: "[prime, offeror]"
 ---
 
 # KBR Services, LLC — Readiness & Sustainment (RS BU)
@@ -46,6 +46,13 @@ tags: [company, capability-matrix, domain-intel-hub]
 | Bid/no-bid fit | This page + [[domain-intel]] + pursuit folder |
 | Competitor gap | This page + `entities/companies/<slug>` |
 | Customer call | `entities/customers/<slug>` — not this page |
+
+## Evidence
+- Trusted page; cite Layer 1 sources in `citations` and bullets below.
+- Harmonize H3 gold template — append dated evidence; do not erase prior trusted history.
+
+## Gaps
+- Open questions and unverified claims belong here until Iris/Overwatch closes them.
 
 ## Related
 

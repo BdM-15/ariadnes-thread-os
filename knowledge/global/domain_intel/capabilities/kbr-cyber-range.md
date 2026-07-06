@@ -1,19 +1,19 @@
 ---
-added: "2026-07-05T23:52:29Z"
-citations: "https://www.kbr.com/en/what-we-do/kbr-digital-accelerators • iris:agents/iris/content/2026-07-05_w5-capabilities-rescout-batch.md"
-retrieved: "2026-07-05"
-id: capability-kbr-cyber-range
-last_updated: 2026-07-05
 name: "KBR Cyber Range"
-trust: trusted
 type: capability
-entity_type: technology
-tags: [capability-rewrite, wave-w5, morning-queue]
-summary: "Secure virtual cyber range for incident response, tactic development, and tool testing without impacting mission systems."
+id: capability-kbr-cyber-range
+trust: trusted
+review_id: ce3bcdf1-bd1b-5a9f-b89c-4e4779ff32c0
 reviewed_by: axelrod2023
 reviewed_at: "2026-07-05T23:52:29Z"
-review_id: "ce3bcdf1-bd1b-5a9f-b89c-4e4779ff32c0"
+added: "2026-07-05T23:52:29Z"
+last_updated: 2026-07-06
+citations: "https://www.kbr.com/en/what-we-do/kbr-digital-accelerators • iris:agents/iris/content/2026-07-05_w5-capabilities-rescout-batch.md"
+tags: "[capability-rewrite, wave-w5, morning-queue]"
+entity_type: technology
 title: "KBR Cyber Range"
+retrieved: 2026-07-05
+summary: "Secure virtual cyber range for incident response, tactic development, and tool testing without impacting mission systems."
 ---
 
 # KBR Cyber Range
@@ -45,7 +45,11 @@ Cyber training, blue/red team exercises, certification ranges, DoD/IC cyber work
 - Parent `[[cybersecurity-capability]]` on promote.
 - Named customer programs—open until Tier-4.
 
+## Gaps
+- Open questions and unverified claims belong here until Iris/Overwatch closes them.
+
 ## Related
+- [[domain-intel]]
 
 - [[ariadne-vault-schema]]
 

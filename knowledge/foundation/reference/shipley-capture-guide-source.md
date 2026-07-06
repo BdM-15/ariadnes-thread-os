@@ -1,14 +1,14 @@
 ---
-name: Shipley Capture Guide - source citation
+name: "Shipley Capture Guide - source citation"
 type: reference
 id: foundation-shipley-capture-guide-source
 trust: trusted
 reviewed_by: axelrod2023
-reviewed_at: 2026-07-06T04:18:06Z
-added: 2026-07-06T04:18:06Z
+reviewed_at: "2026-07-06T04:18:06Z"
+added: "2026-07-06T04:18:06Z"
 last_updated: 2026-07-06
-citations: source:docs/shipley guides/Shipley Capture Guide.pdf | extract:knowledge/foundation/raw/shipley/Shipley-Capture-Guide-extract.md | edition:Fifth Edition | author:Larry Newman | publisher:Shipley Associates | isbn:978-0-9990168-7-9
-tags: [shipley, capture, reference, foundation]
+citations: "source:docs/shipley guides/Shipley Capture Guide.pdf | extract:knowledge/foundation/raw/shipley/Shipley-Capture-Guide-extract.md | edition:Fifth Edition | author:Larry Newman | publisher:Shipley Associates | isbn:978-0-9990168-7-9"
+tags: "[shipley, capture, reference, foundation]"
 ---
 
 # Shipley Capture Guide - locked source citation
@@ -36,6 +36,13 @@ No part of this publication may be reproduced, stored in a retrieval system, or 
 
 - Hub: [[shipley-capture-guide-hub]]
 - Schema: [[ariadne-vault-schema]]
+
+## Evidence
+- Trusted page; cite Layer 1 sources in `citations` and bullets below.
+- Harmonize H3 gold template — append dated evidence; do not erase prior trusted history.
+
+## Gaps
+- Open questions and unverified claims belong here until Iris/Overwatch closes them.
 
 ## Related
 

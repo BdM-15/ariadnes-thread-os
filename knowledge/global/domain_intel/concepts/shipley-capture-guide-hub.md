@@ -1,15 +1,15 @@
 ---
-name: Shipley Capture Guide - hub
+name: "Shipley Capture Guide - hub"
 type: synthesis
 id: global-shipley-capture-guide-hub
 trust: trusted
 reviewed_by: axelrod2023
-reviewed_at: 2026-07-06T04:18:06Z
-added: 2026-07-06T04:18:06Z
+reviewed_at: "2026-07-06T04:18:06Z"
+added: "2026-07-06T04:18:06Z"
 last_updated: 2026-07-06
-citations: source:docs/shipley guides/Shipley Capture Guide.pdf | extract:Shipley-Capture-Guide-extract.md | pages:preface-iv,contents-vii
-tags: [shipley, capture, hub, doctrine]
-aliases: [Shipley Capture Guide hub]
+citations: "source:docs/shipley guides/Shipley Capture Guide.pdf | extract:Shipley-Capture-Guide-extract.md | pages:preface-iv,contents-vii"
+tags: "[shipley, capture, hub, doctrine]"
+aliases: "[Shipley Capture Guide hub]"
 ---
 
 # Shipley Capture Guide - hub (Fifth Edition)
@@ -55,6 +55,18 @@ Quick-reference capture doctrine from Larry Newman's Shipley Capture Guide (5th 
 | Risk in capture | [[shipley-risk-capture]] |
 | Lessons learned | [[shipley-lessons-learned-capture]] |
 
+
+## Major topics (phase 3 concepts)
+
+| Topic | Vault page |
+|-------|------------|
+| Capture manager role | [[shipley-capture-manager-role-capture]] |
+| Executive summaries in capture | [[shipley-executive-summary-capture]] |
+| Oral presentations & briefings | [[shipley-oral-presentations-capture]] |
+| Past performance in capture | [[shipley-past-performance-capture]] |
+| Solution / technology development | [[shipley-solution-development-capture]] |
+| Metrics & KPIs | [[shipley-metrics-kpis-capture]] |
+
 ## Ariadne capture loop
 
 Hermes supervises the nine-step capture loop (intake through ratify). Operational spec: `agents/CAPTURE_LOOP_SUPERVISOR.md` (triggers: Run capture loop on ..., `/capture-loop`).
@@ -65,6 +77,13 @@ Doctrine alignment: [[capture-planning-phase]] | [[pursuit-decision-phase]] | [[
 
 Read [[ariadne-vault-schema]] before ingest or append.
 
+## Evidence
+- Trusted page; cite Layer 1 sources in `citations` and bullets below.
+- Harmonize H3 gold template — append dated evidence; do not erase prior trusted history.
+
+## Gaps
+- Open questions and unverified claims belong here until Iris/Overwatch closes them.
+
 ## Related
 
 [[ariadne-vault-schema]] [[shipley-capture-guide-source]] [[capture-planning-phase]] [[color-team-reviews]] [[black-hat-review]] [[win-theme-development]]
@@ -74,3 +93,5 @@ Read [[ariadne-vault-schema]] before ingest or append.
 Phase 1 hub from Capture Guide preface and TOC.
 
 Phase 2 concepts (templates, teaming, pricing, handoff, risk, lessons learned).
+
+Phase 3 concepts (capture manager, executive summary, oral presentations, past performance, solution development, metrics/KPIs).

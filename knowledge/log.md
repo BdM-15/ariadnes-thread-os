@@ -499,6 +499,11 @@ Vault lint 2026-07-05 23:31 UTC
 
 ## [2026-07-05 23:52:29 UTC] promote | generated-projections/kbr-inc-rewrite-candidate.md → global/domain_intel/capabilities/kbr-inc.md | review:ab4fd771-37ac-547c-a376-2c9070f86ff4 | by:axelrod2023 | W5 lighthouse #2
 
+## [2026-07-06] entities Phase 3b | Hephaestus
+- `scripts/entities_phase3b_migrate.py --apply`; removed `entities/agencies/`; INDEX refreshed
+- vault_lint unresolved wikilinks: 0 (331 md files)
+- Ship: `agents/hephaestus/content/2026-07-06_entities-phase3b.md`
+
 ## [2026-07-05 23:52:29 UTC] promote | generated-projections/petabyte-scale-cloud-migration-proof-point-rewrite-candidate.md → global/domain_intel/capabilities/petabyte-scale-cloud-migration-proof-point.md | review:13340c1c-8c05-516c-be4f-f7a6b3ff3f07 | by:axelrod2023 | W5 lighthouse #3
 
 ## [2026-07-05 23:52:29 UTC] promote | generated-projections/proven-sustainment-scale-discriminator-rewrite-candidate.md → global/domain_intel/capabilities/proven-sustainment-scale-discriminator.md | review:ab36862a-e155-53fc-a76c-9a96a6b8ebf5 | by:axelrod2023 | W5 lighthouse #4
@@ -610,6 +615,44 @@ Vault lint 2026-07-06 11:32 UTC
   markdown files: 332
   zone counts: {'dhs.md': 1, 'index.md': 1, 'log.md': 1, 'README.md': 1, 'Welcome.md': 1, 'data-elements': 37, 'entities': 9, 'foundation': 8, 'generated-projections': 47, 'global': 223, 'pursuits': 1, 'relationships': 2}
   trust frontmatter hits: {'trusted': 268, '"candidate"': 2, 'candidate': 42, 'raw': 1, 'archived': 2}
+  projection files (non-INDEX): 46
+  unresolved wikilinks (heuristic): 0
+```
+[H[2J[3J
+```
+Vault lint 2026-07-06 14:42 UTC
+  markdown files: 331
+  zone counts: {'dhs.md': 1, 'index.md': 1, 'log.md': 1, 'README.md': 1, 'Welcome.md': 1, 'data-elements': 37, 'entities': 8, 'foundation': 8, 'generated-projections': 47, 'global': 223, 'pursuits': 1, 'relationships': 2}
+  trust frontmatter hits: {'trusted': 268, '"candidate"': 2, 'candidate': 42, 'raw': 1, 'archived': 2}
+  projection files (non-INDEX): 46
+  unresolved wikilinks (heuristic): 0
+```
+
+| 2026-07-06 | shipley | phase3 | hub + 6 concepts (capture manager, exec summary, oral, PP, solution dev, metrics) |
+
+```
+Vault lint 2026-07-06 14:46 UTC
+  markdown files: 337
+  zone counts: {'dhs.md': 1, 'index.md': 1, 'log.md': 1, 'README.md': 1, 'Welcome.md': 1, 'data-elements': 37, 'entities': 8, 'foundation': 8, 'generated-projections': 47, 'global': 229, 'pursuits': 1, 'relationships': 2}
+  trust frontmatter hits: {'trusted': 274, '"candidate"': 2, 'candidate': 42, 'raw': 1, 'archived': 2}
+  projection files (non-INDEX): 46
+  unresolved wikilinks (heuristic): 0
+```
+
+```
+H3 harmonize gold templates 2026-07-06 15:10 UTC
+  OK updated: global/domain_intel/capabilities/kbr-cyber-range.md
+  OK updated: global/domain_intel/concepts/shipley-capture-guide-hub.md
+  OK updated: foundation/reference/shipley-capture-guide-source.md
+  OK noop: entities/companies/kbr-services-readiness-sustainment.md
+  OK updated: global/domain_intel/concepts/shipley-decision-gate-reviews.md
+```
+
+```
+Vault lint 2026-07-06 15:10 UTC
+  markdown files: 337
+  zone counts: {'dhs.md': 1, 'index.md': 1, 'log.md': 1, 'README.md': 1, 'Welcome.md': 1, 'data-elements': 37, 'entities': 8, 'foundation': 8, 'generated-projections': 47, 'global': 229, 'pursuits': 1, 'relationships': 2}
+  trust frontmatter hits: {'trusted': 274, '"candidate"': 2, 'candidate': 42, 'raw': 1, 'archived': 2}
   projection files (non-INDEX): 46
   unresolved wikilinks (heuristic): 0
 ```

@@ -1,3 +1,5 @@
+**Last updated:** 2026-07-06 (H3 gold templates harmonize)
+
 ---
 name: "Ariadne Thread OS Knowledge Vault"
 type: meta
