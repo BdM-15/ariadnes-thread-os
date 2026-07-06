@@ -89,4 +89,4 @@ Full contract: `agents/_shared/VAULT_RETRIEVE.md` · schema: [[ariadne-vault-sch
 
 Hephaestus rebuilds trusted lists on promote; append lint lines to `log.md`. Agents update this catalog after bulk ingest or wave close — Overwatch does not hand-edit line items.
 
-Read [[ariadne-vault-schema]] before maintaining this vault.[H[2J[3J[H[2J[3J[H[2J[3J
+Read [[ariadne-vault-schema]] before maintaining this vault.

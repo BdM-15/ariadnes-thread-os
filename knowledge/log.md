@@ -618,7 +618,7 @@ Vault lint 2026-07-06 11:32 UTC
   projection files (non-INDEX): 46
   unresolved wikilinks (heuristic): 0
 ```
-[H[2J[3J
+
 ```
 Vault lint 2026-07-06 14:42 UTC
   markdown files: 331
@@ -800,3 +800,50 @@ Vault lint 2026-07-06 17:48 UTC
   projection files (non-INDEX): 46
   unresolved wikilinks (heuristic): 0
 ```
+
+```
+Vault lint 2026-07-06 17:54 UTC
+  markdown files: 337
+  zone counts: {'dhs.md': 1, 'index.md': 1, 'log.md': 1, 'README.md': 1, 'Welcome.md': 1, 'data-elements': 37, 'entities': 8, 'foundation': 8, 'generated-projections': 47, 'global': 229, 'pursuits': 1, 'relationships': 2}
+  trust frontmatter hits: {'trusted': 274, '"candidate"': 2, 'candidate': 42, 'raw': 1, 'archived': 2}
+  projection files (non-INDEX): 46
+  unresolved wikilinks (heuristic): 0
+```
+
+```
+Vault lint 2026-07-06 18:29 UTC
+  markdown files: 337
+  zone counts: {'dhs.md': 1, 'index.md': 1, 'log.md': 1, 'README.md': 1, 'Welcome.md': 1, 'data-elements': 37, 'entities': 8, 'foundation': 8, 'generated-projections': 47, 'global': 229, 'pursuits': 1, 'relationships': 2}
+  trust frontmatter hits: {'trusted': 274, '"candidate"': 2, 'candidate': 42, 'raw': 1, 'archived': 2}
+  projection files (non-INDEX): 46
+  unresolved wikilinks (heuristic): 0
+```
+
+```
+Vault lint 2026-07-06 18:40 UTC
+  markdown files: 337
+  zone counts: {'dhs.md': 1, 'index.md': 1, 'log.md': 1, 'README.md': 1, 'Welcome.md': 1, 'data-elements': 37, 'entities': 8, 'foundation': 8, 'generated-projections': 47, 'global': 229, 'pursuits': 1, 'relationships': 2}
+  trust frontmatter hits: {'trusted': 274, '"candidate"': 2, 'candidate': 42, 'raw': 1, 'archived': 2}
+  projection files (non-INDEX): 46
+  unresolved wikilinks (heuristic): 0
+```
+
+```
+Vault lint 2026-07-06 22:38 UTC
+  markdown files: 338
+  zone counts: {'dhs.md': 1, 'index.md': 1, 'log.md': 1, 'README.md': 1, 'SCHEMA.md': 1, 'Welcome.md': 1, 'data-elements': 37, 'entities': 8, 'foundation': 8, 'generated-projections': 47, 'global': 229, 'pursuits': 1, 'relationships': 2}
+  trust frontmatter hits: {'trusted': 273, 'candidate': 43, '"candidate"': 2, 'raw': 1, 'archived': 2}
+  projection files (non-INDEX): 46
+  unresolved wikilinks (heuristic): 0
+```
+
+## 2026-07-06 llm-wiki + Obsidian structure polish phase (Foundational Vault v1)
+- Created root `SCHEMA.md` (llm-wiki orientation + Obsidian compatibility alias to [[ariadne-vault-schema]])
+- Cleaned stray ANSI escape artifacts from `index.md` and `log.md` end
+- Updated `index.md` last_updated and catalog maintenance section
+- Ran `vault_lint.py` (WIKI_PATH set): 338 md files, unresolved wikilinks=0, SCHEMA.md recognized
+- Verified Obsidian .obsidian/ present; zone structure compliant; no non-v1 scope changes
+- All actions within Shipley post-incorporation polish only; branch feature/knowledge-vault-v1
+- Artifacts verified on disk: SCHEMA.md, index.md, log.md, foundation/ariadne-vault-schema.md, .obsidian/
+
+Vault lint status: PASS (0 unresolved links)
