@@ -1,4 +1,5 @@
 ---
+archived_reason: "promoted to global/domain_intel/capabilities/quality-management-system-certification.md (W5 lighthouse #5)"
 added: "2026-07-05T18:00:00Z"
 citations: "https://www.kbr.com/sites/default/files/documents/2024-10/KBR-Sustainability-and-Corporate-Responsibility-Report-2023.pdf • iris:agents/iris/content/2026-07-05_w5-capabilities-rescout-batch.md"
 retrieved: "2026-07-05"

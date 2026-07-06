@@ -1,30 +1,56 @@
 ---
-agencies: 
-auto_generated: true
-domains: 
-entity_type: past_performance_reference
-geographic_scope: 
+added: "2026-07-05T23:52:29Z"
+citations: "https://www.kbr.com/en/what-we-do/kbr-digital-accelerators • iris:agents/iris/content/2026-07-05_w5-capabilities-rescout-batch.md"
+retrieved: "2026-07-05"
 id: capability-u-s-space-force-ssa-performance-iron-stallion
-last_updated: 2026-06-18
-name: "U S Space Force Ssa Performance Iron Stallion"
-proof_strength: medium
-source_module: company_capabilities
-summary: "KBR has deployed its Iron Stallion platform for the U.S. Space Force to provide"
-title: "U.S. Space Force SSA Performance (Iron Stallion)"
+last_updated: 2026-07-05
+name: "U.S. Space Force SSA performance (Iron Stallion)"
 trust: trusted
-type: concept
-updated: "'2026-04-22T23:01:17'"
+type: capability
+entity_type: past_performance_reference
+tags: [capability-rewrite, wave-w5, morning-queue]
+summary: "Past-performance reference for USSF SSA C2—public Iron Stallion deployment cite."
+reviewed_by: axelrod2023
+reviewed_at: "2026-07-05T23:52:29Z"
+review_id: "9577d343-183a-5200-92b9-a110202938db"
+title: "U.S. Space Force SSA performance (Iron Stallion)"
 ---
 
-> **Entity type:** `past_performance_reference`
+# U.S. Space Force SSA performance (Iron Stallion)
 
-KBR's [[iron-stallion]] platform is publicly cited as deployed for the U.S. Space Force for space situational awareness command-and-control. Most credible past performance reference for USSF, Space Systems Command, Space Operations Command, and Space Development Agency proposals involving SSA, SDA, or C2 software. TODO: Insert specific contract numbers, dollar values, and performance period for proposal citation.
+## Key signals + citations
+
+| Signal | Citation |
+|--------|----------|
+| **Iron Stallion®** enterprise SSA C2 for **U.S. Space Force** | Data Analytics § Iron Stallion · retrieved 2026-07-05 |
+| Data integration, workflow-aiding, analytics, visualization | Same § |
+| Coalition/commercial SSA users (corporate wording) | Same § |
+
+## Offering
+
+Past-performance reference page for USSF/SDA/SSC SSA software bids—capability detail on `[[iron-stallion]]`.
+
+## Bid fit
+
+Space situational awareness, SDA, space C2 software—**do not duplicate** `[[iron-stallion]]` product body; link only.
+
+## Evidence
+
+- Tier-1: Iron Stallion subsection (USSF).
+- Old vault: `entity_type: past_performance_reference`, TODO contract #.
+
+## Open questions
+
+- Contract numbers, $, performance period—**open questions** (Tier-4/SAM).
 
 ## Related
+
 - [[ariadne-vault-schema]]
-- [[afcap-contract-heritage]]
-- [[logcap-v-contract]]
-- [[hundred-plus-digital-initiatives-proof-point]]
-- [[petabyte-scale-cloud-migration-proof-point]]
-- [[autonomous-systems-capability]]
-- [[kbr-digital-accelerators-portfolio]]
+
+- [[iron-stallion]] · [[data-analytics-capability]]
+
+## Added/Updated 2026-07-05
+
+- Clio W5: slug 10 — USSF Iron Stallion PP REWRITE.
+
+- W5 lighthouse #10 in-place promote; reviewed_by axelrod2023.

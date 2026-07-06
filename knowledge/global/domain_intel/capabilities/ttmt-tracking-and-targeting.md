@@ -1,30 +1,56 @@
 ---
-auto_generated: true
-domains: 
-entity_type: technology
+added: "2026-07-05T23:52:29Z"
+citations: "https://www.kbr.com/en/what-we-do/kbr-digital-accelerators • iris:agents/iris/content/2026-07-05_w5-capabilities-rescout-batch.md"
+retrieved: "2026-07-05"
 id: capability-ttmt-tracking-and-targeting
-last_updated: 2026-06-18
-name: "Ttmt Tracking And Targeting"
-proof_strength: aspirational
-source_module: company_capabilities
-summary: "The company has developed TTMT proprietary closed-loop offboard UAS control"
-title: "TTMT Tracking and Targeting"
+last_updated: 2026-07-05
+name: "TTMT tracking and targeting"
 trust: trusted
-type: concept
-updated: "'2026-04-22T23:01:17'"
+type: capability
+entity_type: technology
+tags: [capability-rewrite, wave-w5, morning-queue]
+summary: "Closed-loop offboard UAS control; CNN + classical CV; GNSS-denied edge tracking."
+reviewed_by: axelrod2023
+reviewed_at: "2026-07-05T23:52:29Z"
+review_id: "afa6d7b8-7180-5613-bdee-cd4acb431c05"
+title: "TTMT tracking and targeting"
 ---
 
-> **Entity type:** `technology`
+# TTMT tracking and targeting
 
-Tracking and Targeting Moving Things — proprietary closed-loop offboard UAS control algorithms operating in 8DOF (including gimbal). Combines CNN-based and classical CV tracking for multi-target identification at high frame rate. Enables GNSS-denied object-of-interest tracking on land and sea. Applicable to RFPs for autonomous ISR, manned-unmanned teaming, and edge-AI tracking payloads.
+## Key signals + citations
+
+| Signal | Citation |
+|--------|----------|
+| **TTMT** — heart of autonomous systems; **8DOF** closed-loop offboard UAS control | Autonomous Systems § TTMT · retrieved 2026-07-05 |
+| **CNN + classical CV** multitarget tracking at the edge | Same § |
+| **GNSS-denied** object ID; fast movers land/sea | Same § |
+
+## Offering
+
+Proprietary tracking and targeting stack for autonomous ISR and manned-unmanned teaming payloads.
+
+## Bid fit
+
+Edge-AI tracking, autonomous ISR, offboard control—cite Tier-1 product copy.
+
+## Evidence
+
+- Tier-1: TTMT subsection.
+- Old vault: detailed stub, no cites.
+
+## Open questions
+
+- Deployment program names—Tier-4.
 
 ## Related
+
 - [[ariadne-vault-schema]]
-- [[autonomous-systems-capability]]
-- [[artemis-uas]]
-- [[crystalvista]]
-- [[dash-c3-decision-support]]
-- [[quantum-pantheon]]
-- [[resan]]
-- [[skypath-assured-containment]]
-- [[cybersecurity-capability]]
+
+- [[autonomous-systems-capability]] · [[artemis-uas]] · [[dash-c3-decision-support]]
+
+## Added/Updated 2026-07-05
+
+- Clio W5: slug 9 — TTMT REWRITE.
+
+- W5 lighthouse #9 in-place promote; reviewed_by axelrod2023.

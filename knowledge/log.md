@@ -521,3 +521,13 @@ Vault lint 2026-07-05 23:31 UTC
 - Ship: `agents/hephaestus/content/2026-07-05_promote-w5.md`
 - `reviewed_by`: axelrod2023 | Odysseus PASS (QMS levels, sustainment $, Iron Stallion PP open questions)
 - by: hephaestus | branch: feature/knowledge-vault-v1
+
+```
+Vault lint 2026-07-05 23:55 UTC
+  markdown files: 271
+  zone counts: {'index.md': 1, 'log.md': 1, 'README.md': 1, 'Welcome.md': 1, 'entities': 3, 'foundation': 5, 'generated-projections': 47, 'global': 209, 'pursuits': 1, 'relationships': 2}
+  trust frontmatter hits: {'"candidate"': 2, 'candidate': 42, 'trusted': 206, 'archived': 2, '"trusted"': 2}
+  projection files (non-INDEX): 46
+  unresolved wikilinks (heuristic): 85
+  sample missing: acquisition_capture_progress, action_plan_items, active-gwac-and-idiq-holdings-rewrite-candidate, afcap-contract-heritage-rewrite-candidate, army-logcap-funding-office, artemis-uas-rewrite-candidate, artificial-intelligence-capability-rewrite-candidate, athena-data-management-suite-rewrite-candidate, autonomous-systems-capability-rewrite-candidate, award_date, basis_of_evaluated_price, bookable_revenue, bp_funding_request_amount, bp_notes, business_case_rows
+```

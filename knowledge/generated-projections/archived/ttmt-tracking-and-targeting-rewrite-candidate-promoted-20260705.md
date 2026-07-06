@@ -1,4 +1,5 @@
 ---
+archived_reason: "promoted to global/domain_intel/capabilities/ttmt-tracking-and-targeting.md (W5 lighthouse #9)"
 added: "2026-07-05T18:00:00Z"
 citations: "https://www.kbr.com/en/what-we-do/kbr-digital-accelerators • iris:agents/iris/content/2026-07-05_w5-capabilities-rescout-batch.md"
 retrieved: "2026-07-05"

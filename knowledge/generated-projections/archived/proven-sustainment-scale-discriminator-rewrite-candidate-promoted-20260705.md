@@ -1,4 +1,5 @@
 ---
+archived_reason: "promoted to global/domain_intel/capabilities/proven-sustainment-scale-discriminator.md (W5 lighthouse #4)"
 added: "2026-07-05T18:00:00Z"
 citations: "https://solutions.kbr.com/readiness-and-sustainment/ • iris:agents/iris/content/2026-07-05_w4-capabilities-rescout-batch.md • iris:agents/iris/content/2026-07-05_w5-capabilities-rescout-batch.md"
 retrieved: "2026-07-05"

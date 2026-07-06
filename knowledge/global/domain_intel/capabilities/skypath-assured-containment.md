@@ -1,30 +1,56 @@
 ---
-auto_generated: true
-domains: 
-entity_type: technology
+added: "2026-07-05T23:52:29Z"
+citations: "https://www.kbr.com/en/what-we-do/kbr-digital-accelerators • iris:agents/iris/content/2026-07-05_w5-capabilities-rescout-batch.md"
+retrieved: "2026-07-05"
 id: capability-skypath-assured-containment
-last_updated: 2026-06-18
-name: "Skypath Assured Containment"
-proof_strength: aspirational
-source_module: company_capabilities
-summary: "The company offers Skypath Assured Containment, an onboard autonomy assurance"
-title: "Skypath Assured Containment"
+last_updated: 2026-07-05
+name: "Skypath assured containment"
 trust: trusted
-type: concept
-updated: "'2026-04-22T23:01:17'"
+type: capability
+entity_type: technology
+tags: [capability-rewrite, wave-w5, morning-queue]
+summary: "Onboard autonomy assurance for UAS/maritime—geofencing, heartbeat, propulsion interrupt, KERS."
+reviewed_by: axelrod2023
+reviewed_at: "2026-07-05T23:52:29Z"
+review_id: "39ed63f9-8694-565b-b5e0-64834d9c6f11"
+title: "Skypath assured containment"
 ---
 
-> **Entity type:** `technology`
+# Skypath assured containment
 
-Onboard autonomy assurance system for UAS and maritime platforms providing encrypted heartbeat, assurable geofencing (static and dynamic), propulsion interruption, and kinetic energy recovery. Platform and bearer agnostic. Applicable to RFPs requiring safety-of-flight assurance for autonomous operations, BVLOS waivers, or hazardous-environment UAS deployments.
+## Key signals + citations
+
+| Signal | Citation |
+|--------|----------|
+| **Assured containment** for UAS and maritime platforms | Autonomous Systems § Skypath · retrieved 2026-07-05 |
+| **Encrypted heartbeat**, assurable/dynamic **geofencing** | Same § |
+| Propulsion interruption, **KERS**; platform/bearer agnostic | Same § |
+
+## Offering
+
+Skypath onboard enabler for safe BVLOS and hazardous-environment autonomous operations.
+
+## Bid fit
+
+UAS safety assurance, BVLOS waivers, maritime autonomy—cite Tier-1; flight test PP Tier-4.
+
+## Evidence
+
+- Tier-1: Skypath subsection.
+- Old vault: strong thematic match, no cites.
+
+## Open questions
+
+- Specific platform certifications—open.
 
 ## Related
+
 - [[ariadne-vault-schema]]
-- [[autonomous-systems-capability]]
-- [[dash-c3-decision-support]]
-- [[quantum-pantheon]]
-- [[cybersecurity-capability]]
-- [[crystalvista]]
-- [[digital-engineering-capability]]
-- [[artemis-uas]]
-- [[ttmt-tracking-and-targeting]]
+
+- [[autonomous-systems-capability]] · [[artemis-uas]] · [[ttmt-tracking-and-targeting]]
+
+## Added/Updated 2026-07-05
+
+- Clio W5: slug 8 — Skypath REWRITE.
+
+- W5 lighthouse #8 in-place promote; reviewed_by axelrod2023.

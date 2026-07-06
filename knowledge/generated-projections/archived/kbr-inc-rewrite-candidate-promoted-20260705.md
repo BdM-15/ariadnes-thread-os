@@ -1,4 +1,5 @@
 ---
+archived_reason: "promoted to global/domain_intel/capabilities/kbr-inc.md (W5 lighthouse #2)"
 added: "2026-07-05T18:00:00Z"
 citations: "https://www.kbr.com/en • https://investors.kbr.com/news-and-events/spin-off-information • iris:agents/iris/content/2026-07-05_w5-capabilities-rescout-batch.md"
 retrieved: "2026-07-05"
