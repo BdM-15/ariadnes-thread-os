@@ -1,3 +1,13 @@
+---
+name: "Obsidian Desktop"
+type: reference
+id: foundation-reference-obsidian-desktop
+trust: trusted
+added: "2026-07-06T12:00:00Z"
+last_updated: 2026-07-06
+citations: "harmonize:H3-gold-template • path:foundation/reference/obsidian-desktop.md"
+---
+
 # Obsidian desktop (optional complement)
 
 **SSOT:** `knowledge/` at repo root — same files Hermes party and Mission Control browse.
@@ -50,6 +60,13 @@ Same as agent OS: `[[kbr-vaault]]`, `[[ariadne-vault-schema]]`, `[[global/INDEX]
 ## Git
 
 Branch `feature/knowledge-vault-v1` until Overwatch approves merge to `main`.
+
+## Evidence
+- Trusted page; cite Layer 1 sources in `citations` and bullets below.
+- Harmonize H3 gold template — append dated evidence; do not erase prior trusted history.
+
+## Gaps
+- Open questions and unverified claims belong here until Iris/Overwatch closes them.
 
 ## Related
 

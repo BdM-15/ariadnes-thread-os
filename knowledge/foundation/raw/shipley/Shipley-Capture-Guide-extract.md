@@ -6563,10 +6563,12 @@ GATE 5
 
 
 
-
+
+
 
 
-	
+	
+
 
 
 
@@ -6734,21 +6736,27 @@ ORGANIZATION,
 Proposal Guide.
 
 
-
+
+
 	
 	
 		
 
 
-
+
+
 	
-	
-	
+
+	
+
+	
 	
 
 
 
-
+
+
+
 Figure 1. Use the Same Organization for Your Customer Presentation and Executive Summary. If you organize your customer presentations 
 as shown, you will save time preparing the executive summary and maintain a consistent message. If your executive summary is prepared first, 
 simply add slides as needed, following sound slide preparation guidelines.

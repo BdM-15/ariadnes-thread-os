@@ -118,7 +118,7 @@ Append-only section per ingest pass
 - **Signals** (always cite Layer 1): intensity, money flows, recompete/expiring, vehicles/pricing, geo concentration
 - **Capture concepts:** win themes, discriminators, PP, teaming, pricing, risk, customer intimacy
 - **Provenance:** Every claim needs citation. Never invent award data.
-- **Wikilinks:** `[[entities/agencies/dhs]]` or `[[dhs]]` if alias set — graph must stay connected
+- **Wikilinks:** `[[entities/customers/dhs]]` or `[[dhs]]` if alias set — graph must stay connected
 
 ## 6. Workflows
 

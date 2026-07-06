@@ -1,19 +1,19 @@
 ---
-added: "2026-07-04T12:00:00Z"
-citations: "https://www.kbr.com/en/what-we-do/kbr-digital-accelerators • iris:agents/iris/content/2026-07-04_w3-accelerators-rescout-batch.md"
-retrieved: "2026-07-04"
-id: capability-dash-c3-decision-support
-last_updated: 2026-07-05
 name: "Dash C3 Decision Support"
-trust: trusted
 type: capability
-entity_type: technology
-tags: [capability-rewrite, wave-w3, dash-c3, autonomous-systems]
-summary: "Autonomous Systems § product — multi-sensor SA GUI for uncooperative object suites."
+id: capability-dash-c3-decision-support
+trust: trusted
+review_id: b4d7e9f1-5a6b-7c8d-2e0f-1a2b3c4d5e6f
 reviewed_by: axelrod2023
 reviewed_at: "2026-07-05T12:00:00Z"
-review_id: "b4d7e9f1-5a6b-7c8d-2e0f-1a2b3c4d5e6f"
+added: "2026-07-04T12:00:00Z"
+last_updated: 2026-07-06
+citations: "https://www.kbr.com/en/what-we-do/kbr-digital-accelerators • iris:agents/iris/content/2026-07-04_w3-accelerators-rescout-batch.md"
+tags: "[capability-rewrite, wave-w3, dash-c3, autonomous-systems]"
+entity_type: technology
 title: "Dash C3 Decision Support"
+retrieved: 2026-07-04
+summary: "Autonomous Systems § product — multi-sensor SA GUI for uncooperative object suites."
 ---
 
 # Dash C3 Decision Support
@@ -44,7 +44,11 @@ Sensor fusion C2, range safety operations, operator decision-support interface d
 - Tier-1 Autonomous Systems § Dash C3 (primary).
 - Tier-4 PP — not asserted.
 
+## Gaps
+- Open questions and unverified claims belong here until Iris/Overwatch closes them.
+
 ## Related
+- [[domain-intel]]
 
 - [[autonomous-systems-capability]] — pillar parent (Tier-1)
 - [[skypath-assured-containment]]

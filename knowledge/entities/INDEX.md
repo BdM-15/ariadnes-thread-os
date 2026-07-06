@@ -1,5 +1,7 @@
 # Entities zone (v2)
 
+**Last updated:** 2026-07-06 (Phase 3b) | **Pages:** 6 under `customers/` + `companies/`
+
 **Layout:** Two flat folders — `customers/` (federal buying side) and `companies/` (KBR, primes, subs, JVs). Hierarchy lives in **frontmatter** (`parent_customer`, `parent_company`), not nested directories.
 
 ## Subfolders
@@ -11,13 +13,22 @@
 
 **Retired (Phase 3b):** `agencies/` → `customers/`; `competitors/` + `company/` → `companies/`.
 
+## Customer pages
+
+- `customers/army-logcap-funding-office.md`
+- `customers/department-of-the-army.md`
+- `customers/dhs.md`
+- `customers/logcap.md`
+- `customers/us-federal-customer-hub.md`
+
+## Company pages
+
+- `companies/kbr-services-readiness-sustainment.md`
+
 ## Canonical files (trusted)
 
 - `companies/kbr-services-readiness-sustainment.md` — **Overwatch company SSOT** (`org_role: self`)
 - `customers/us-federal-customer-hub.md` — federal customer outline (incremental population)
-- `customers/` — agency/office/program pages as Iris promotes
-
-Smoke templates (`test-agency-xyz`, `example-competitor-llc`) archived Phase 2 → `generated-projections/archived/rebuild-2026/entities/`.
 
 ## Frontmatter patterns
 

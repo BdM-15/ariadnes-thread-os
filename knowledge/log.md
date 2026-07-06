@@ -656,3 +656,147 @@ Vault lint 2026-07-06 15:10 UTC
   projection files (non-INDEX): 46
   unresolved wikilinks (heuristic): 0
 ```
+
+```
+Vault lint 2026-07-06 15:41 UTC
+  markdown files: 337
+  zone counts: {'dhs.md': 1, 'index.md': 1, 'log.md': 1, 'README.md': 1, 'Welcome.md': 1, 'data-elements': 37, 'entities': 8, 'foundation': 8, 'generated-projections': 47, 'global': 229, 'pursuits': 1, 'relationships': 2}
+  trust frontmatter hits: {'trusted': 274, '"candidate"': 2, 'candidate': 42, 'raw': 1, 'archived': 2}
+  projection files (non-INDEX): 46
+  unresolved wikilinks (heuristic): 0
+```
+
+```
+Vault lint 2026-07-06 15:56 UTC
+  markdown files: 337
+  zone counts: {'dhs.md': 1, 'index.md': 1, 'log.md': 1, 'README.md': 1, 'Welcome.md': 1, 'data-elements': 37, 'entities': 8, 'foundation': 8, 'generated-projections': 47, 'global': 229, 'pursuits': 1, 'relationships': 2}
+  trust frontmatter hits: {'trusted': 274, '"candidate"': 2, 'candidate': 42, 'raw': 1, 'archived': 2}
+  projection files (non-INDEX): 46
+  unresolved wikilinks (heuristic): 0
+```
+
+```
+H3 harmonize gold templates 2026-07-06 15:58 UTC
+  OK noop: global/domain_intel/capabilities/kbr-cyber-range.md
+  OK noop: global/domain_intel/concepts/shipley-capture-guide-hub.md
+  OK noop: foundation/reference/shipley-capture-guide-source.md
+  OK noop: entities/companies/kbr-services-readiness-sustainment.md
+  OK noop: global/domain_intel/concepts/shipley-decision-gate-reviews.md
+```
+
+```
+Vault lint 2026-07-06 16:02 UTC
+  markdown files: 337
+  zone counts: {'dhs.md': 1, 'index.md': 1, 'log.md': 1, 'README.md': 1, 'Welcome.md': 1, 'data-elements': 37, 'entities': 8, 'foundation': 8, 'generated-projections': 47, 'global': 229, 'pursuits': 1, 'relationships': 2}
+  trust frontmatter hits: {'trusted': 274, '"candidate"': 2, 'candidate': 42, 'raw': 1, 'archived': 2}
+  projection files (non-INDEX): 46
+  unresolved wikilinks (heuristic): 0
+```
+
+```
+Vault lint 2026-07-06 16:04 UTC
+  markdown files: 337
+  zone counts: {'dhs.md': 1, 'index.md': 1, 'log.md': 1, 'README.md': 1, 'Welcome.md': 1, 'data-elements': 37, 'entities': 8, 'foundation': 8, 'generated-projections': 47, 'global': 229, 'pursuits': 1, 'relationships': 2}
+  trust frontmatter hits: {'trusted': 274, '"candidate"': 2, 'candidate': 42, 'raw': 1, 'archived': 2}
+  projection files (non-INDEX): 46
+  unresolved wikilinks (heuristic): 0
+```
+
+```
+Vault lint 2026-07-06 16:36 UTC
+  markdown files: 337
+  zone counts: {'dhs.md': 1, 'index.md': 1, 'log.md': 1, 'README.md': 1, 'Welcome.md': 1, 'data-elements': 37, 'entities': 8, 'foundation': 8, 'generated-projections': 47, 'global': 229, 'pursuits': 1, 'relationships': 2}
+  trust frontmatter hits: {'trusted': 274, '"candidate"': 2, 'candidate': 42, 'raw': 1, 'archived': 2}
+  projection files (non-INDEX): 46
+  unresolved wikilinks (heuristic): 0
+```
+
+```
+Vault lint 2026-07-06 16:48 UTC
+  markdown files: 337
+  zone counts: {'dhs.md': 1, 'index.md': 1, 'log.md': 1, 'README.md': 1, 'Welcome.md': 1, 'data-elements': 37, 'entities': 8, 'foundation': 8, 'generated-projections': 47, 'global': 229, 'pursuits': 1, 'relationships': 2}
+  trust frontmatter hits: {'trusted': 274, '"candidate"': 2, 'candidate': 42, 'raw': 1, 'archived': 2}
+  projection files (non-INDEX): 46
+  unresolved wikilinks (heuristic): 0
+```
+
+```
+Vault lint 2026-07-06 16:50 UTC
+  markdown files: 337
+  zone counts: {'dhs.md': 1, 'index.md': 1, 'log.md': 1, 'README.md': 1, 'Welcome.md': 1, 'data-elements': 37, 'entities': 8, 'foundation': 8, 'generated-projections': 47, 'global': 229, 'pursuits': 1, 'relationships': 2}
+  trust frontmatter hits: {'trusted': 274, '"candidate"': 2, 'candidate': 42, 'raw': 1, 'archived': 2}
+  projection files (non-INDEX): 46
+  unresolved wikilinks (heuristic): 0
+```
+
+```
+Vault lint 2026-07-06 16:53 UTC
+  markdown files: 337
+  zone counts: {'dhs.md': 1, 'index.md': 1, 'log.md': 1, 'README.md': 1, 'Welcome.md': 1, 'data-elements': 37, 'entities': 8, 'foundation': 8, 'generated-projections': 47, 'global': 229, 'pursuits': 1, 'relationships': 2}
+  trust frontmatter hits: {'trusted': 274, '"candidate"': 2, 'candidate': 42, 'raw': 1, 'archived': 2}
+  projection files (non-INDEX): 46
+  unresolved wikilinks (heuristic): 0
+```
+
+```
+Vault lint 2026-07-06 16:57 UTC
+  markdown files: 337
+  zone counts: {'dhs.md': 1, 'index.md': 1, 'log.md': 1, 'README.md': 1, 'Welcome.md': 1, 'data-elements': 37, 'entities': 8, 'foundation': 8, 'generated-projections': 47, 'global': 229, 'pursuits': 1, 'relationships': 2}
+  trust frontmatter hits: {'trusted': 274, '"candidate"': 2, 'candidate': 42, 'raw': 1, 'archived': 2}
+  projection files (non-INDEX): 46
+  unresolved wikilinks (heuristic): 0
+```
+
+```
+Vault lint 2026-07-06 17:12 UTC
+  markdown files: 337
+  zone counts: {'dhs.md': 1, 'index.md': 1, 'log.md': 1, 'README.md': 1, 'Welcome.md': 1, 'data-elements': 37, 'entities': 8, 'foundation': 8, 'generated-projections': 47, 'global': 229, 'pursuits': 1, 'relationships': 2}
+  trust frontmatter hits: {'trusted': 274, '"candidate"': 2, 'candidate': 42, 'raw': 1, 'archived': 2}
+  projection files (non-INDEX): 46
+  unresolved wikilinks (heuristic): 0
+```
+
+```
+Vault lint 2026-07-06 17:12 UTC
+  markdown files: 337
+  zone counts: {'dhs.md': 1, 'index.md': 1, 'log.md': 1, 'README.md': 1, 'Welcome.md': 1, 'data-elements': 37, 'entities': 8, 'foundation': 8, 'generated-projections': 47, 'global': 229, 'pursuits': 1, 'relationships': 2}
+  trust frontmatter hits: {'trusted': 274, '"candidate"': 2, 'candidate': 42, 'raw': 1, 'archived': 2}
+  projection files (non-INDEX): 46
+  unresolved wikilinks (heuristic): 0
+```
+
+```
+Vault lint 2026-07-06 17:14 UTC
+  markdown files: 337
+  zone counts: {'dhs.md': 1, 'index.md': 1, 'log.md': 1, 'README.md': 1, 'Welcome.md': 1, 'data-elements': 37, 'entities': 8, 'foundation': 8, 'generated-projections': 47, 'global': 229, 'pursuits': 1, 'relationships': 2}
+  trust frontmatter hits: {'trusted': 274, '"candidate"': 2, 'candidate': 42, 'raw': 1, 'archived': 2}
+  projection files (non-INDEX): 46
+  unresolved wikilinks (heuristic): 0
+```
+
+```
+Vault lint 2026-07-06 17:17 UTC
+  markdown files: 337
+  zone counts: {'dhs.md': 1, 'index.md': 1, 'log.md': 1, 'README.md': 1, 'Welcome.md': 1, 'data-elements': 37, 'entities': 8, 'foundation': 8, 'generated-projections': 47, 'global': 229, 'pursuits': 1, 'relationships': 2}
+  trust frontmatter hits: {'trusted': 274, '"candidate"': 2, 'candidate': 42, 'raw': 1, 'archived': 2}
+  projection files (non-INDEX): 46
+  unresolved wikilinks (heuristic): 0
+```
+
+```
+Vault lint 2026-07-06 17:40 UTC
+  markdown files: 337
+  zone counts: {'dhs.md': 1, 'index.md': 1, 'log.md': 1, 'README.md': 1, 'Welcome.md': 1, 'data-elements': 37, 'entities': 8, 'foundation': 8, 'generated-projections': 47, 'global': 229, 'pursuits': 1, 'relationships': 2}
+  trust frontmatter hits: {'trusted': 274, '"candidate"': 2, 'candidate': 42, 'raw': 1, 'archived': 2}
+  projection files (non-INDEX): 46
+  unresolved wikilinks (heuristic): 0
+```
+
+```
+Vault lint 2026-07-06 17:48 UTC
+  markdown files: 337
+  zone counts: {'dhs.md': 1, 'index.md': 1, 'log.md': 1, 'README.md': 1, 'Welcome.md': 1, 'data-elements': 37, 'entities': 8, 'foundation': 8, 'generated-projections': 47, 'global': 229, 'pursuits': 1, 'relationships': 2}
+  trust frontmatter hits: {'trusted': 274, '"candidate"': 2, 'candidate': 42, 'raw': 1, 'archived': 2}
+  projection files (non-INDEX): 46
+  unresolved wikilinks (heuristic): 0
+```
