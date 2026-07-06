@@ -1,6 +1,6 @@
-# Autonomous pipeline status (2026-07-05)
+# Autonomous pipeline status (2026-07-05, pivot 2026-07-06)
 
-**Overwatch:** Proceed without per-step approval until Shipley/templates upload.
+**Overwatch:** Proceed without per-step approval on **Foundational v1** scope until Shipley/templates need new uploads. See [Foundational vault v1 scope](2026-07-06_foundational-vault-v1-scope.md).
 
 ## Done (verified on disk)
 
@@ -12,27 +12,40 @@
 | **Harmonize program** | `2026-07-05_vault-llm-wiki-harmonize-program.md` |
 | **Harmonize H1–H2** | lint + index/log refresh (`llm-wiki` ritual) |
 | **Shipley Capture Guide phase3** | commit `f5b4e53` — batch script + 6 concept pages + Clio log |
+| **Shipley hub phases 1–3** | `shipley-capture-guide-hub.md` topic tables complete (2026-07-06 verify) |
 | **H3 gold templates** | `scripts/harmonize_h3_gold_templates.py` confirm — Hephaestus `2026-07-06_harmonize-h3.md` |
 | **Entities phase3b** | `scripts/entities_phase3b_migrate.py` + Odysseus gate |
 | **Phantom repair** | `deleg_45a91c1f` verified — no phantom tree; `vault_lint` exit 0 |
+| **Scope pivot doc** | `2026-07-06_foundational-vault-v1-scope.md` |
 
-## In flight
+## In flight — Foundational v1 track
 
-- **Harmonize H4+** — per program after H3 ship
-- **EDEN candidate** — Overwatch gate
+Active program per [scope doc](2026-07-06_foundational-vault-v1-scope.md):
 
-## Parked until you upload
+- **Shipley incorporation** — close any remaining Capture Guide TOC gaps (batches only if needed); maintain source lock + log + index links
+- **Structure polish** — `capture-llm-wiki.md` ritual, retrieve contract, Obsidian desktop doc, party `llm-wiki` + `obsidian` skills, entities v2, lint 0
 
-- **Shipley Capture Guide (remaining)** — further batches after phase3 ingest
-- **Company templates** — same; we will ingest W7 one-at-a-time per Clio order
+**Not in flight:** Harmonize H4+ (moved to backlog).
+
+## Backlog (parked until Overwatch directs)
+
+| Item | Notes |
+|------|--------|
+| **Harmonize H4+** | Obsidian human pass + slug feedback (was “in flight”; parked at pivot) |
+| **EDEN candidate** | Overwatch/Odysseus gate |
+| **Shipley (remaining batches)** | Only if TOC major topics still uncovered after incorporation pass |
+| **Company templates W7** | Needs Overwatch uploads; one-at-a-time per Clio order |
+| **Arbitrary promotes** | No ad-hoc capability waves outside foundational v1 |
 
 ## Rules
 
 - **No merge to `main`**
 - All vault delegations: **llm-wiki** orient + batch Python from repo root
 - **Obsidian:** `C:\Users\benma\ariadnes-thread-os\knowledge`
+- **Harmonize:** H1–H3 complete; H4+ backlog
 
-## Next after H3 ship
+## Next (foundational v1)
 
-- W1 company hub + W6 concepts (foundation)
-- Company templates W7 one-at-a-time per Clio order
+1. Finish Shipley TOC coverage check + any final batch
+2. Structure polish verification (retrieve, entities v2, party paths)
+3. Overwatch foundational v1 sign-off → then W1 hub / templates when directed
