@@ -1,0 +1,49 @@
+from pathlib import Path
+
+Path("agents/odysseus/content/2026-07-06_entities-phase3b-gate.md").write_text(
+    """# Entities Phase 3b — mini-gate (E1–E3)
+
+**Date:** 2026-07-06  
+**Owner:** Odysseus  
+**Executor:** scripts/entities_phase3b_migrate.py (confirm-only this pass)
+
+| Gate | Rule | Status |
+|------|------|--------|
+| E1 | Only customers/, companies/, INDEX.md (+ entities.md) under entities/ | **PASS** — no agencies/ on disk |
+| E2 | Customer pages: type + parent_customer (hub customer_root exempt) | **PASS** (5 customer stubs; no invented orgs) |
+| E3 | Company pages: type company; roles in frontmatter | **PASS** (1 company SSOT) |
+
+**On-disk counts:** 6 pages per knowledge/entities/INDEX.md (5 + 1).  
+**Migrate:** not re-run (layout already v2).  
+**vault_lint:** 0 unresolved wikilinks after Hephaestus confirm pass.  
+**Verdict:** **GREEN**
+""",
+    encoding="utf-8",
+)
+
+Path("agents/hephaestus/content/2026-07-06_entities-phase3b.md").write_text(
+    """# Phase 3b entities + H3 confirm (2026-07-06)
+
+Hephaestus · feature/knowledge-vault-v1 · no commit (sibling owns phantom tree)
+
+## Entities v2 (confirm on disk)
+
+- Migrate: skipped — knowledge/entities/agencies/ absent; layout customers/ + companies/.
+- Counts: 6 entity pages (5 customers/, 1 companies/) — matches knowledge/entities/INDEX.md.
+- Script if needed later: python scripts/entities_phase3b_migrate.py --dry-run / --apply.
+- Gate: agents/odysseus/content/2026-07-06_entities-phase3b-gate.md (E1–E3).
+
+## H3 gold templates
+
+- Script: python scripts/harmonize_h3_gold_templates.py (repo root).
+- Run 2026-07-06: all five zones noop (already rubric-compliant).
+- Ship note: agents/hephaestus/content/2026-07-06_harmonize-h3.md.
+
+## vault_lint
+
+- Post-edit: python scripts/vault_lint.py — 0 unresolved wikilinks (2026-07-06 UTC).
+""",
+    encoding="utf-8",
+)
+
+print("fixed")

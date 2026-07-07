@@ -47,7 +47,7 @@ MODEL_OVERRIDE = os.environ.get("MODEL_OVERRIDE", "").strip()
 PROJECT_ROOT = Path(os.environ["PROJECT_ROOT"])
 
 PROFILE_BY_AGENT = {
-    "hermes": "ariadne-guildmaster",
+    "hermes": "minos",
     "iris": "iris",
     "clio": "clio",
     "odysseus": "odysseus",

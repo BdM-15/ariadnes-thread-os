@@ -1,0 +1,42 @@
+# Quest: eagle-ft-benning-w519tc26ra041
+title: "EAGLE Ft. Benning, GA (W519TC26RA041)"
+created: "2026-07-03T02:04:00Z"
+status: ms1
+target_gate: MS1
+ms1:
+  kicked_at: "2026-07-03"
+  compliance_lead: "TJ Dillingham"
+  complete_target: "2026-07-11"
+pwin: "15-30% (upside ~35% with KP + MS1)"
+phase0_ratified: "2026-07-03"
+eagle_boa:
+  confirmed_by: Overwatch
+  confirmed_at: "2026-07-03"
+  note: "EAGLE BOA holder — G3 closed; document BOA number in MS1 compliance matrix"
+brief: |
+  Overwatch Phase 0 research and bid qualification.
+  SAM: https://sam.gov/workspace/contract/opp/6050f052c730490194f134a88545c0f4/view
+  Active solicitation — Maintenance, Supply, Transportation at Fort Benning, GA (EAGLE).
+sam_notice_id: W519TC26RA041
+sam_uuid: 6050f052c730490194f134a88545c0f4
+prior_quest: powidz-msa-poland-w912gb25r0011
+prime_bidder:
+  legal_name: "KBR SERVICES, LLC"
+  division: "Readiness & Sustainment"
+  uei: YSQMHRS4HSC5
+  cage: 3GJU9
+  hq: "Houston, TX"
+  sam_primary_naics: "541611"
+capture_roles:
+  compliance_lead: "TJ Dillingham"
+  compliance_lead_assigned: "2026-07-03"
+artifacts:
+  hermes_intake: agents/hermes/content/eagle-ft-benning-w519tc26ra041-phase0-intake.md
+  hermes_ms1_roster: agents/hermes/content/eagle-ft-benning-w519tc26ra041-ms1-roster.md
+  iris_intel: agents/iris/content/eagle-ft-benning-w519tc26ra041-intel.md
+  iris_handoff_clio: agents/iris/content/eagle-ft-benning-w519tc26ra041-handoff-clio.md
+  odysseus_phase0: agents/odysseus/content/eagle-ft-benning-w519tc26ra041-phase0-qualification.md
+  clio_packet: agents/clio/content/eagle-ft-benning-w519tc26ra041-packet.md
+  ms1_kickoff: agents/hermes/content/eagle-ft-benning-w519tc26ra041-ms1-kickoff.md
+  compliance_matrix_shell: agents/hermes/content/eagle-ft-benning-w519tc26ra041-compliance-matrix-shell.md
+handoffs: []

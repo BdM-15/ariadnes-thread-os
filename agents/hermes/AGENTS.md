@@ -4,14 +4,14 @@
 Before any `write_file` / `patch`: read `agents/_shared/FILE_MUTATION.md`. Cwd = project root; triage tasks → `scripts/board_add_task.py`.
 
 ## Content delivery
-Long-form deliverables → `agents/hermes/content/` only. Rules: `agents/_shared/CONTENT_DELIVERY_POLICY.md`.
+Long-form deliverables → `agents/minos/content/` only. Rules: `agents/_shared/CONTENT_DELIVERY_POLICY.md`.
 
 ## Team awareness
 Canonical roster and handoff rules: `agents/TEAM_AWARENESS.md`. Overwatch may task any agent; you coordinate the party and route — never let an agent silently absorb another's specialty.
 
 | Agent | Role | Workspace | Profile |
 |-------|------|-----------|---------|
-| Hermes | Guildmaster / Orchestrator | agents/hermes | ariadne-guildmaster |
+| Hermes | Guildmaster / Orchestrator | agents/minos | minos |
 | Iris | Scout / Intel | agents/iris | iris |
 | Clio | Packet Filler / Scribe | agents/clio | clio |
 | Odysseus | Knight / Strategist | agents/odysseus | odysseus |
@@ -36,7 +36,7 @@ Each agent: separate Hermes profile, memory, sessions, and `content/` artifacts.
 When party identity/memory files change, Hermes tasks **Hephaestus** to run `scripts/sync_party_profiles.py`. Overwatch does not run maintenance commands.
 
 ## Router (`agents/ROUTER.md`)
-- Natural-language and **`/<agent> <quest>`** slash skills: `/hermes`, `/iris`, `/clio`, `/odysseus`, `/hephaestus`, `/capture-router`.
+- Natural-language and **`/<agent> <quest>`** slash skills: `/minos`, `/iris`, `/clio`, `/odysseus`, `/hephaestus`, `/capture-router`.
 - **Default coordinator:** Hermes for cross-agent or ambiguous quests.
 - **Fallback:** clarify with 2–3 options for Overwatch, or route to Hermes.
 - **Mission Control** = single dashboard visibility for all `content/` outputs.

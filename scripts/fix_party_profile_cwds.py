@@ -7,7 +7,7 @@ import sys
 from pathlib import Path
 
 ROOT = "C:/Users/benma/ariadnes-thread-os"
-PROFILES = ("ariadne-guildmaster", "iris", "clio", "odysseus", "hephaestus")
+PROFILES = ("minos", "iris", "clio", "odysseus", "hephaestus")
 HERMES = Path.home() / "AppData/Local/hermes/profiles"
 
 

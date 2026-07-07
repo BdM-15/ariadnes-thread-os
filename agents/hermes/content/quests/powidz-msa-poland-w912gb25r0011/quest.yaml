@@ -1,0 +1,16 @@
+# Quest: powidz-msa-poland-w912gb25r0011
+title: "Munitions Storage Area, Powidz, Poland (W912GB25R0011)"
+created: "2026-07-03T01:56:00Z"
+status: ratified
+target_gate: Phase0
+pwin: null
+decision: no_bid_live_notice
+brief: |
+  Overwatch Phase 0: initial research and bid qualification on SAM opp
+  https://sam.gov/workspace/contract/opp/3a72f719bb35430989439d1c6f0da439/view
+  Notice W912GB25R0011 — USACE NAU DBB FFP MSA at Powidz Air Base, Poland.
+sam_notice_id: W912GB25R0011
+sam_uuid: 3a72f719bb35430989439d1c6f0da439
+artifacts:
+  hermes_intake: agents/hermes/content/powidz-msa-poland-w912gb25r0011-phase0-intake.md
+handoffs: []

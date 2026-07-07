@@ -8,8 +8,8 @@ agents:
   - name: Hermes
     role: Guildmaster / Orchestrator
     workspace: agents/hermes
-    hermes_profile: ariadne-guildmaster
-    cli_alias: ariadne-guildmaster
+    hermes_profile: minos
+    cli_alias: minos
   - name: Iris
     role: Scout / Intel Researcher
     workspace: agents/iris
@@ -60,4 +60,4 @@ persistence:
     - "Process new opp:"
     - "Advance packet to MS3 gate for"
   slash_commands: [/hermes, /iris, /clio, /odysseus, /hephaestus, /capture-router, /capture-loop]
-  write_path_rule: use relative paths or C:/Users/benma/ariadnes-thread-os/... — never /c/Users/... in write tools
+  write_path_rule: use relative paths or C:/Users/benma/ariadnes-thread-os/... — never /c/Users/... in write tools[H[2J[3J

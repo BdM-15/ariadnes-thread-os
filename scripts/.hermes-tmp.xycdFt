@@ -1,0 +1,101 @@
+#!/usr/bin/env python3
+"""One-off: phantom doc + pipeline status for deleg wave close."""
+from __future__ import annotations
+
+import subprocess
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+
+
+def safe_write(rel: str, body: str) -> None:
+    p = subprocess.run(
+        [str(ROOT / "scripts/safe_repo_write.py"), rel],
+        input=body.encode("utf-8"),
+        cwd=ROOT,
+    )
+    if p.returncode != 0:
+        raise SystemExit(p.returncode)
+
+
+def main() -> int:
+    phantom = """# Phantom repair retry (deleg wave close)
+
+**Date:** 2026-07-06
+**Agent:** Hephaestus
+**Delegation:** verify deleg_45a91c1f — close vault wave
+**Branch:** feature/knowledge-vault-v1 (no merge main)
+
+## Actions
+
+1. Ran scripts/backup_phantom_tree.py — SKIP (C:/c/Users/benma absent)
+2. Ran scripts/vault_lint.py — exit 0; no phantom FAIL
+3. Ran scripts/verify_party_paths.py — OK
+
+## Note
+
+Prior backup: agents/_shared/backups/phantom-c-users-20260705.zip
+
+*Logged:* phantom-repair-retry wave close
+"""
+    safe_write("agents/hephaestus/content/2026-07-06_phantom-repair-retry.md", phantom)
+
+    status_path = ROOT / "agents/hermes/content/2026-07-05_autonomous-pipeline-status.md"
+    text = status_path.read_text(encoding="utf-8")
+
+    old_done = """| **Harmonize program** | `2026-07-05_vault-llm-wiki-harmonize-program.md` |
+
+## In flight
+
+- **Harmonize H1–H2** — lint + index/log refresh (`llm-wiki` ritual)
+"""
+
+    new_done = """| **Harmonize program** | `2026-07-05_vault-llm-wiki-harmonize-program.md` |
+| **Harmonize H1–H2** | lint + index/log refresh (`llm-wiki` ritual) |
+| **Shipley Capture Guide phase3** | `scripts/shipley_capture_guide_phase3_batch.py` + Clio log |
+| **H3 gold templates** | `scripts/harmonize_h3_gold_templates.py` confirm — Hephaestus `2026-07-06_harmonize-h3.md` |
+| **Entities phase3b** | `scripts/entities_phase3b_migrate.py` + Odysseus gate |
+| **Phantom repair** | `deleg_45a91c1f` verified — no phantom tree; `vault_lint` exit 0 |
+
+## In flight
+
+- **Harmonize H4+** — per program after H3 ship
+- **EDEN candidate** — Overwatch gate
+"""
+
+    if old_done not in text:
+        raise SystemExit("pipeline status pattern not found")
+    text = text.replace(old_done, new_done)
+
+    old_parked = """## Parked until you upload
+
+- **Shipley Capture Guide** — drop path TBD under repo (suggest `docs/reference/shipley/` or `knowledge/foundation/raw/shipley/`)
+"""
+    new_parked = """## Parked until you upload
+
+- **Shipley Capture Guide (remaining)** — further batches after phase3 ingest
+"""
+    if old_parked in text:
+        text = text.replace(old_parked, new_parked)
+
+    old_next = """## Next after H1–H2
+
+- H3 gold templates (5 pages)
+- EDEN candidate (your gate)
+- W1 company hub + W6 concepts when Shipley unblocks foundation
+"""
+    new_next = """## Next after H3 ship
+
+- W1 company hub + W6 concepts (foundation)
+- Company templates W7 one-at-a-time per Clio order
+"""
+    if old_next in text:
+        text = text.replace(old_next, new_next)
+
+    safe_write("agents/hermes/content/2026-07-05_autonomous-pipeline-status.md", text)
+    print("OK pipeline + phantom")
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

@@ -9,7 +9,7 @@ ROOT = Path(__file__).resolve().parents[1]
 EXPECTED = Path("C:/Users/benma/ariadnes-thread-os")
 HERMES_PROFILES = Path.home() / "AppData/Local/hermes/profiles"
 BINDINGS = {
-    "ariadne-guildmaster": "hermes",
+    "minos": "hermes",
     "iris": "iris",
     "clio": "clio",
     "odysseus": "odysseus",

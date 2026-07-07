@@ -6,7 +6,7 @@ Hermes **supervises** this pipeline. Specialists execute their step, write artif
 
 | Step | Owner | Action | Output path |
 |------|--------|--------|-------------|
-| 1 | **Hermes** | Receive/initiate quest; create quest folder + `quest.yaml` | `agents/hermes/content/quests/<slug>/` |
+| 1 | **Hermes** | Receive/initiate quest; create quest folder + `quest.yaml` | `agents/minos/content/quests/<slug>/` |
 | 2 | **Hermes** | Route research to Iris (`delegate_task`, profile mindset Iris) | Update `quest.yaml` status |
 | 3 | **Iris** | Research intel; structured findings + citations | `agents/iris/content/<slug>-intel.md` (+ optional JSON) |
 | 4 | **Iris → Clio** | Handoff via Hermes: point Clio at intel path | `agents/iris/content/<slug>-handoff-clio.md` |
@@ -15,7 +15,7 @@ Hermes **supervises** this pipeline. Specialists execute their step, write artif
 | 7 | **Odysseus** | Gaps, risks, compliance, gate readiness; strategy | `agents/odysseus/content/<slug>-gate-review.md` |
 | 7b | **Odysseus → Hephaestus** | If tools/MCP/dashboard needed | Note in gate review + Hermes delegates |
 | 8 | **Hephaestus** | Build MCP/tools/dashboard deltas | `agents/hephaestus/content/<slug>-build.md` |
-| 9 | **Hermes** | Ratify; update pWin; coordinate gate review; surface for Overwatch / Mission Control | `agents/hermes/content/quests/<slug>/ratification.md` |
+| 9 | **Hermes** | Ratify; update pWin; coordinate gate review; surface for Overwatch / Mission Control | `agents/minos/content/quests/<slug>/ratification.md` |
 
 ## Handoff manifest (minimal)
 

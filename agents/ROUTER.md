@@ -85,7 +85,7 @@ Syntax: **`/<agent> <task in natural language>`** (args after the command are th
 
 | Command | Role | Example |
 |---------|------|---------|
-| `/hermes` | Coordinator | `/hermes orchestrate new opp intake for notice 12345` |
+| `/minos` | Coordinator | `/minos orchestrate new opp intake for notice 12345` |
 | `/iris` | Research | `/iris research USAspending for DoD agency X last 3 FY` |
 | `/clio` | Packet | `/clio fill packet section on win themes from latest intel` |
 | `/odysseus` | Gates/strategy | `/odysseus review MS3 gate risks and evidence` |

@@ -7,7 +7,7 @@ Do NOT store: raw packet field dumps (Clio); deep SAM research (Iris); gate chec
 §
 Mission: single unified Mission Control interface; core capture loop + dashboard shell first — no feature sprawl until needed (Ponytail + Matt Pocock).
 §
-Party registry: Hermes → ariadne-guildmaster; Iris, Clio, Odysseus, Hephaestus — isolated workspaces under agents/; SOUL sync via scripts/sync_party_profiles.py.
+Party registry: Hermes → minos; Iris, Clio, Odysseus, Hephaestus — isolated workspaces under agents/; SOUL sync via scripts/sync_party_profiles.py.
 §
 Delegation: profile sync and CLI maintenance → Hephaestus always; Overwatch gives intent and approval only.
 §

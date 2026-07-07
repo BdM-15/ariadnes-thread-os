@@ -1,0 +1,44 @@
+# Item 4 — hybrid ground-up vault rebuild (party brainstorm)
+
+**Date:** 2026-07-02  
+**Party batch:** `deleg_481f8c63` (Odysseus · Clio · Iris addenda when land)
+
+## Hermes recommendation
+
+**Hybrid, party-led rebuild** — primary sources as spine; current vault = salvage inventory; agents re-author, not bulk migrate.
+
+| Approach | Risk |
+|----------|------|
+| Keep all seeding | Smoke entities, weak cites, agent false confidence |
+| Full wipe | Lose ~42 capture/concepts + ~46 capabilities with USAspending logic |
+| **Hybrid** | Rebuild from Shipley + KBR URLs + templates; KEEP only manifest-approved pages |
+
+Scale today: ~23 Shipley, ~46 capabilities, ~42 concepts under `global/`.
+
+## Source spine
+
+| Source | Target zone | Owners |
+|--------|-------------|--------|
+| Shipley Capture Guide | `global/global_wiki/shipley/` (+ linked) | Clio · Odysseus |
+| [KBR RS](https://solutions.kbr.com/readiness-and-sustainment/) | `entities/company/` + capabilities | Iris · Clio |
+| [Digital Accelerators](https://www.kbr.com/en/what-we-do/kbr-digital-accelerators) | `domain_intel/capabilities/` | Iris · Clio |
+| Call plan / risk / MS1–4 slides | `global_wiki/capture/` or `foundation/reference/` | Clio · Odysseus — **one template per wave** |
+| USAspending `capture/concepts/` | subset KEEP | Iris verifies cite · Odysseus gate |
+
+## Party “remember and create clean”
+
+Each specialist re-reads **sources + manifest**, writes new trusted pages (or candidates). Hermes orchestrates waves; Hephaestus schema/lint/archive moves; no Hermes vault body edits.
+
+## Phases
+
+0. Freeze promotes · 1. Manifest (party parallel) · 2. Archive smoke to `generated-projections/archived/rebuild-2026/` · 3. `ariadne-vault-schema.md` · 4. Wave A KBR capabilities · 5. Wave B Shipley · 6. Wave C concept salvage · 7. Templates one-at-a-time · 8. Lint green → then item 3 edit
+
+## Salvage rule (per page)
+
+Primary source still true? Cited & non-duplicate? Used in retrieve/INDEX? **3/3 KEEP** · **2/3 REWRITE** · **≤1 ARCHIVE**. Concepts: bias KEEP review if term is in capture OS vocabulary.
+
+## Overwatch picks
+
+1. Hybrid yes/no · 2. Archive path OK · 3. First wave A/B/C · 4. Minimal vs full cleanse
+
+Refs: `2026-07-02_vault-cleanse-program.md` · `2026-07-02_vault-item3-deferred.md` · commit `23eb023`
