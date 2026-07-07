@@ -31,3 +31,15 @@ Thumbs.db
 
 # Obsidian workspace (local UI state)
 knowledge/.obsidian/
+
+# Vault ephemeral test content (local build material — do not commit)
+knowledge/ephemeral/
+**/ephemeral/**
+
+# Shipley Capture Guide (local test content — do not commit)
+knowledge/foundation/raw/shipley/
+knowledge/foundation/reference/shipley-capture-guide-source.md
+knowledge/global/domain_intel/concepts/shipley-*
+knowledge/global/global_wiki/shipley/
+agents/**/shipley*
+[H[2J[3J
